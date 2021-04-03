@@ -1,5 +1,22 @@
 "use strict";
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
 exports.__esModule = true;
+
 var Field = (function () {
     function Field(field) {
         if (field === void 0) { field = {}; }
@@ -7,6 +24,9 @@ var Field = (function () {
         this.terrain = field.terrain;
         this.weather = field.weather;
         this.isGravity = !!field.isGravity;
+        this.isAuraBreak = field.isAuraBreak || false;
+        this.isFairyAura = field.isFairyAura || false;
+        this.isDarkAura = field.isDarkAura || false;
         this.attackerSide = new Side(field.attackerSide || {});
         this.defenderSide = new Side(field.defenderSide || {});
     }
@@ -26,7 +46,7 @@ var Field = (function () {
     };
     Field.prototype.swap = function () {
         var _a;
-        _a = [this.defenderSide, this.attackerSide], this.attackerSide = _a[0], this.defenderSide = _a[1];
+        _a = __read([this.defenderSide, this.attackerSide], 2), this.attackerSide = _a[0], this.defenderSide = _a[1];
         return this;
     };
     Field.prototype.clone = function () {
@@ -36,7 +56,10 @@ var Field = (function () {
             terrain: this.terrain,
             isGravity: this.isGravity,
             attackerSide: this.attackerSide,
-            defenderSide: this.defenderSide
+            defenderSide: this.defenderSide,
+            isAuraBreak: this.isAuraBreak,
+            isDarkAura: this.isDarkAura,
+            isFairyAura: this.isFairyAura
         });
     };
     return Field;
@@ -47,6 +70,10 @@ var Side = (function () {
         if (side === void 0) { side = {}; }
         this.spikes = side.spikes || 0;
         this.steelsurge = !!side.steelsurge;
+        this.vinelash = !!side.vinelash;
+        this.wildfire = !!side.wildfire;
+        this.cannonade = !!side.cannonade;
+        this.volcalith = !!side.volcalith;
         this.isSR = !!side.isSR;
         this.isReflect = !!side.isReflect;
         this.isLightScreen = !!side.isLightScreen;

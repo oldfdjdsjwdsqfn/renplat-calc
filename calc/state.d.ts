@@ -33,12 +33,19 @@ export declare namespace State {
         weather?: I.Weather;
         terrain?: I.Terrain;
         isGravity?: boolean;
+        isAuraBreak?: boolean;
+        isFairyAura?: boolean;
+        isDarkAura?: boolean;
         attackerSide: Side;
         defenderSide: Side;
     }
     interface Side {
         spikes?: number;
         steelsurge?: boolean;
+        vinelash?: boolean;
+        wildfire?: boolean;
+        cannonade?: boolean;
+        volcalith?: boolean;
         isSR?: boolean;
         isReflect?: boolean;
         isLightScreen?: boolean;

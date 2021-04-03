@@ -1,5 +1,27 @@
 "use strict";
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 exports.__esModule = true;
+
 var desc_1 = require("./desc");
 var Result = (function () {
     function Result(gen, attacker, defender, move, field, damage, rawDesc) {
@@ -51,7 +73,7 @@ function damageRange(damage) {
     if (damage.length > 2) {
         var d_1 = damage;
         if (d_1[0] > d_1[d_1.length - 1])
-            return [Math.min.apply(Math, d_1), Math.max.apply(Math, d_1)];
+            return [Math.min.apply(Math, __spreadArray([], __read(d_1))), Math.max.apply(Math, __spreadArray([], __read(d_1)))];
         return [d_1[0], d_1[d_1.length - 1]];
     }
     if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {

@@ -1,5 +1,27 @@
 "use strict";
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 exports.__esModule = true;
+
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -32,6 +54,7 @@ function calculateADV(gen, attacker, defender, move, field) {
                     : field.hasWeather('Sand') ? 'Rock'
                         : field.hasWeather('Hail') ? 'Ice'
                             : 'Normal';
+        move.category = move.type === 'Rock' ? 'Physical' : 'Special';
         desc.weather = field.weather;
         desc.moveType = move.type;
         desc.moveBP = move.bp;
@@ -182,7 +205,7 @@ function calculateADV(gen, attacker, defender, move, field) {
         baseDamage = Math.floor(baseDamage * 2);
         desc.isSwitching = 'out';
     }
-    if (field.gameType !== 'Singles' && ['allAdjacentFoes', 'adjacentFoe'].includes(move.target)) {
+    if (field.gameType !== 'Singles' && move.target === 'allAdjacentFoes') {
         baseDamage = Math.floor(baseDamage / 2);
     }
     if ((field.hasWeather('Sun') && move.hasType('Fire')) ||
@@ -213,7 +236,7 @@ function calculateADV(gen, attacker, defender, move, field) {
         baseDamage = Math.floor(baseDamage * 1.5);
         desc.isHelpingHand = true;
     }
-    if (move.hasType.apply(move, attacker.types)) {
+    if (move.hasType.apply(move, __spreadArray([], __read(attacker.types)))) {
         baseDamage = Math.floor(baseDamage * 1.5);
     }
     baseDamage = Math.floor(baseDamage * typeEffectiveness);

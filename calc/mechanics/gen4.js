@@ -1,5 +1,27 @@
 "use strict";
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 exports.__esModule = true;
+
 var items_1 = require("../items");
 var result_1 = require("../result");
 var util_1 = require("./util");
@@ -149,11 +171,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
             }
             break;
         case 'Punishment':
-            var boostCount = util_1.countBoosts(gen, defender.boosts);
-            if (boostCount > 0) {
-                basePower = Math.min(200, basePower + 20 * boostCount);
-                desc.moveBP = basePower;
-            }
+            basePower = Math.min(200, 60 + 20 * util_1.countBoosts(gen, defender.boosts));
+            desc.moveBP = basePower;
             break;
         case 'Wake-Up Slap':
             if (defender.hasStatus('slp')) {
@@ -336,7 +355,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
     }
     if (field.gameType !== 'Singles' &&
-        ['allAdjacent', 'allAdjacentFoes', 'adjacentFoe'].includes(move.target)) {
+        ['allAdjacent', 'allAdjacentFoes'].includes(move.target)) {
         baseDamage = Math.floor((baseDamage * 3) / 4);
     }
     if ((field.hasWeather('Sun') && move.hasType('Fire')) ||
@@ -379,7 +398,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         }
     }
     var stabMod = 1;
-    if (move.hasType.apply(move, attacker.types)) {
+    if (move.hasType.apply(move, __spreadArray([], __read(attacker.types)))) {
         if (attacker.hasAbility('Adaptability')) {
             stabMod = 2;
             desc.attackerAbility = attacker.ability;

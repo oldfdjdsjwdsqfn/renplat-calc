@@ -10,6 +10,33 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
+var __values = (this && this.__values) || function(o) {
+    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    if (m) return m.call(o);
+    if (o && typeof o.length === "number") return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+};
+var __read = (this && this.__read) || function (o, n) {
+    var m = typeof Symbol === "function" && o[Symbol.iterator];
+    if (!m) return o;
+    var i = m.call(o), r, ar = [], e;
+    try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+    }
+    catch (error) { e = { error: error }; }
+    finally {
+        try {
+            if (r && !r.done && (m = i["return"])) m.call(i);
+        }
+        finally { if (e) throw e.error; }
+    }
+    return ar;
+};
 exports.__esModule = true;
 var helper_1 = require("./helper");
 describe('calc', function () {
@@ -32,34 +59,34 @@ describe('calc', function () {
         helper_1.inGens(1, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
             test("Night Shade / Seismic Toss (gen " + gen + ")", function () {
+                var e_1, _a;
                 var mew = Pokemon('Mew', { level: 50 });
                 var vulpix = Pokemon('Vulpix');
-                for (var _i = 0, _a = [Move('Seismic Toss'), Move('Night Shade')]; _i < _a.length; _i++) {
-                    var move = _a[_i];
-                    var result = calculate(mew, vulpix, move);
-                    expect(result.damage).toBe(50);
-                    expect(result.desc()).toBe(gen < 3
-                        ? "Lvl 50 Mew " + move.name + " vs. Vulpix: 50-50 (17.9 - 17.9%) -- guaranteed 6HKO"
-                        : "Lvl 50 Mew " + move.name + " vs. 0 HP Vulpix: 50-50 (23 - 23%) -- guaranteed 5HKO");
+                try {
+                    for (var _b = __values([Move('Seismic Toss'), Move('Night Shade')]), _c = _b.next(); !_c.done; _c = _b.next()) {
+                        var move = _c.value;
+                        var result = calculate(mew, vulpix, move);
+                        expect(result.damage).toBe(50);
+                        expect(result.desc()).toBe(gen < 3
+                            ? "Lvl 50 Mew " + move.name + " vs. Vulpix: 50-50 (17.9 - 17.9%) -- guaranteed 6HKO"
+                            : "Lvl 50 Mew " + move.name + " vs. 0 HP Vulpix: 50-50 (23 - 23%) -- guaranteed 5HKO");
+                    }
+                }
+                catch (e_1_1) { e_1 = { error: e_1_1 }; }
+                finally {
+                    try {
+                        if (_c && !_c.done && (_a = _b["return"])) _a.call(_b);
+                    }
+                    finally { if (e_1) throw e_1.error; }
                 }
             });
         });
-        helper_1.inGens(1, 8, function (_a) {
+        helper_1.tests('Comet Punch', function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
-            test("Mulihit (gen " + gen + ")", function () {
-                var result = calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Comet Punch'));
-                if (gen < 3) {
-                    expect(result.range()).toEqual([36, 43]);
-                    expect(result.desc()).toBe('Snorlax Comet Punch (3 hits) vs. Vulpix: 108-129 (38.7 - 46.2%) -- approx. 3HKO');
-                }
-                else if (gen === 3) {
-                    expect(result.range()).toEqual([44, 52]);
-                    expect(result.desc()).toBe('0 Atk Snorlax Comet Punch (3 hits) vs. 0 HP / 0 Def Vulpix: 132-156 (60.8 - 71.8%) -- approx. 2HKO');
-                }
-                else {
-                    expect(result.range()).toEqual([43, 52]);
-                    expect(result.desc()).toBe('0 Atk Snorlax Comet Punch (3 hits) vs. 0 HP / 0 Def Vulpix: 129-156 (59.4 - 71.8%) -- approx. 2HKO');
-                }
+            expect(calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Comet Punch'))).toMatch(gen, {
+                1: { range: [36, 43], desc: 'Snorlax Comet Punch (3 hits) vs. Vulpix', result: '(38.7 - 46.2%) -- approx. 3HKO' },
+                3: { range: [44, 52], desc: '0 Atk Snorlax Comet Punch (3 hits) vs. 0 HP / 0 Def Vulpix', result: '(60.8 - 71.8%) -- approx. 2HKO' },
+                4: { range: [43, 52], result: '(59.4 - 71.8%) -- approx. 2HKO' }
             });
         });
         helper_1.inGens(1, 8, function (_a) {
@@ -74,6 +101,15 @@ describe('calc', function () {
                 var result = calculate(Pokemon('Snorlax'), Pokemon('Vulpix'), Move('Barrier'));
                 expect(result.damage).toBe(0);
                 expect(result.desc()).toBe('Snorlax Barrier vs. Vulpix: 0-0 (0 - 0%)');
+            });
+        });
+        helper_1.inGens(1, 8, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
+            test("Protect (gen " + gen + ")", function () {
+                var field = Field({ defenderSide: { isProtected: true } });
+                var snorlax = Pokemon('Snorlax');
+                var chansey = Pokemon('Chansey');
+                expect(calculate(snorlax, chansey, Move('Hyper Beam'), field).damage).toBe(0);
             });
         });
         helper_1.inGens(1, 8, function (_a) {
@@ -118,21 +154,124 @@ describe('calc', function () {
                 }
             });
         });
+        helper_1.inGens(1, 8, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Struggle vs. Ghost (gen " + gen + ")", function () {
+                var result = calculate(Pokemon('Mew'), Pokemon('Gengar'), Move('Struggle'));
+                if (gen < 2) {
+                    expect(result.range()[1]).toEqual(0);
+                }
+                else {
+                    expect(result.range()[1]).toBeGreaterThan(0);
+                }
+            });
+        });
+        helper_1.inGens(3, 8, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
+            test("Weather Ball should change type depending on the weather (gen " + gen + ")", function () {
+                var e_2, _a;
+                var weathers = [
+                    {
+                        weather: 'Sun', type: 'Fire', damage: {
+                            adv: { range: [346, 408], desc: '(149.7 - 176.6%) -- guaranteed OHKO' },
+                            dpp: { range: [170, 204], desc: '(73.5 - 88.3%) -- guaranteed 2HKO' },
+                            modern: { range: [344, 408], desc: '(148.9 - 176.6%) -- guaranteed OHKO' }
+                        }
+                    },
+                    {
+                        weather: 'Rain', type: 'Water', damage: {
+                            adv: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' },
+                            dpp: { range: [42, 51], desc: '(18.1 - 22%) -- possible 5HKO' },
+                            modern: { range: [86, 102], desc: '(37.2 - 44.1%) -- guaranteed 3HKO' }
+                        }
+                    },
+                    {
+                        weather: 'Sand', type: 'Rock', damage: {
+                            adv: {
+                                range: [96, 114],
+                                desc: '(41.5 - 49.3%) -- 20.7% chance to 2HKO after sandstorm damage'
+                            },
+                            dpp: {
+                                range: [39, 46],
+                                desc: '(16.8 - 19.9%) -- guaranteed 5HKO after sandstorm damage'
+                            },
+                            modern: {
+                                range: [77, 91],
+                                desc: '(33.3 - 39.3%) -- guaranteed 3HKO after sandstorm damage'
+                            }
+                        }
+                    },
+                    {
+                        weather: 'Hail', type: 'Ice', damage: {
+                            adv: {
+                                range: [234, 276],
+                                desc: '(101.2 - 119.4%) -- guaranteed OHKO'
+                            },
+                            dpp: {
+                                range: [116, 138],
+                                desc: '(50.2 - 59.7%) -- guaranteed 2HKO after hail damage'
+                            },
+                            modern: {
+                                range: [230, 272],
+                                desc: '(99.5 - 117.7%) -- 93.8% chance to OHKO'
+                            }
+                        }
+                    },
+                ];
+                try {
+                    for (var weathers_1 = __values(weathers), weathers_1_1 = weathers_1.next(); !weathers_1_1.done; weathers_1_1 = weathers_1.next()) {
+                        var _b = weathers_1_1.value, weather = _b.weather, type = _b.type, damage = _b.damage;
+                        var dmg = gen === 3 ? damage.adv : gen === 4 ? damage.dpp : damage.modern;
+                        var _c = __read(gen === 3 && type === 'Rock' ? ['Atk', 'Def'] : ['SpA', 'SpD'], 2), atk = _c[0], def = _c[1];
+                        var result = calculate(Pokemon('Castform'), Pokemon('Bulbasaur'), Move('Weather Ball'), Field({ weather: weather }));
+                        expect(result.range()).toEqual(dmg.range);
+                        expect(result.desc()).toBe("0 " + atk + " Castform Weather Ball (100 BP " + type + ") vs. 0 HP / 0 " + def + " Bulbasaur in " + weather + ": " + dmg.range[0] + "-" + dmg.range[1] + " " + dmg.desc);
+                    }
+                }
+                catch (e_2_1) { e_2 = { error: e_2_1 }; }
+                finally {
+                    try {
+                        if (weathers_1_1 && !weathers_1_1.done && (_a = weathers_1["return"])) _a.call(weathers_1);
+                    }
+                    finally { if (e_2) throw e_2.error; }
+                }
+            });
+        });
+        helper_1.inGens(6, 8, function (_a) {
+            var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            test("Thousand Arrows and Ring Target Should negate damage nullfiers (gen " + gen + ")", function () {
+                var result = calculate(Pokemon('Zygarde'), Pokemon('Swellow'), Move('Thousand Arrows'));
+                expect(result.range()).toEqual([147, 174]);
+                expect(result.desc()).toBe('0 Atk Zygarde Thousand Arrows vs. 0 HP / 0 Def Swellow: 147-174 (56.3 - 66.6%) -- guaranteed 2HKO');
+            });
+        });
+        helper_1.inGen(8, function (_a) {
+            var gen = _a.gen, Pokemon = _a.Pokemon;
+            test("Pokemon should double their HP stat when dynamaxing (gen " + gen + ")", function () {
+                var munchlax = Pokemon('Munchlax', { isDynamaxed: true });
+                expect(munchlax.curHP()).toBe(822);
+            });
+        });
         helper_1.inGens(7, 8, function (_a) {
             var gen = _a.gen, calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test("Psychic Terrain (gen " + gen + ")", function () {
-                var result = calculate(Pokemon('Mewtwo', {
+                var field = Field({ terrain: 'Psychic' });
+                var Mewtwo = Pokemon('Mewtwo', {
                     nature: 'Timid',
                     evs: { spa: 252 },
                     boosts: { spa: 2 }
-                }), Pokemon('Milotic', {
+                });
+                var Milotic = Pokemon('Milotic', {
                     item: 'Flame Orb',
                     nature: 'Bold',
                     ability: 'Marvel Scale',
                     evs: { hp: 248, def: 184 },
                     status: 'brn',
                     boosts: { spd: 1 }
-                }), Move('Psystrike'), Field({ terrain: 'Psychic' }));
+                });
+                var Psystrike = Move('Psystrike');
+                var sPunch = Move('Sucker Punch');
+                var result = calculate(Mewtwo, Milotic, Psystrike, field);
                 if (gen < 8) {
                     expect(result.range()).toEqual([331, 391]);
                     expect(result.desc()).toBe('+2 252 SpA Mewtwo Psystrike vs. 248 HP / 184+ Def Marvel Scale Milotic in Psychic Terrain: 331-391 (84.2 - 99.4%) -- guaranteed 2HKO after burn damage');
@@ -141,6 +280,8 @@ describe('calc', function () {
                     expect(result.range()).toEqual([288, 339]);
                     expect(result.desc()).toBe('+2 252 SpA Mewtwo Psystrike vs. 248 HP / 184+ Def Marvel Scale Milotic in Psychic Terrain: 288-339 (73.2 - 86.2%) -- guaranteed 2HKO after burn damage');
                 }
+                result = calculate(Mewtwo, Milotic, sPunch, field);
+                expect(result.range()).toEqual([0, 0]);
             });
         });
         helper_1.inGens(6, 8, function (_a) {
@@ -225,7 +366,7 @@ describe('calc', function () {
             test('DVs', function () {
                 var aerodactyl = Pokemon('Aerodactyl');
                 var zapdos = Pokemon('Zapdos', { ivs: { atk: 29, def: 27 }, item: 'Leftovers' });
-                expect(zapdos.ivs.hp).toBe(15);
+                expect(zapdos.ivs.hp).toBe(14);
                 var move = Move('Ancient Power');
                 var result = calculate(aerodactyl, zapdos, move);
                 expect(result.range()).toEqual([153, 180]);
@@ -441,7 +582,7 @@ describe('calc', function () {
                 });
                 var result = calculate(abomasnow, hoopa, Move('Blizzard'), field);
                 expect(result.range()).toEqual([50, 59]);
-                expect(result.desc()).toBe("0 SpA Abomasnow Helping Hand Blizzard vs. 32 HP / 0 SpD Hoopa-Unbound through Light Screen with an ally's Friend Guard: 50-59 (16.1 - 19%)" +
+                expect(result.desc()).toBe('0 SpA Abomasnow Helping Hand Blizzard vs. 32 HP / 0 SpD Hoopa-Unbound through Light Screen with an ally\'s Friend Guard: 50-59 (16.1 - 19%)' +
                     ' -- 91.4% chance to 3HKO after Stealth Rock, 1 layer of Spikes, hail damage, Leech Seed damage, and Grassy Terrain recovery');
             });
             test('Wring Out', function () {
@@ -505,7 +646,7 @@ describe('calc', function () {
     });
     describe('Gen 8', function () {
         helper_1.inGen(8, function (_a) {
-            var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move;
+            var calculate = _a.calculate, Pokemon = _a.Pokemon, Move = _a.Move, Field = _a.Field;
             test('Basic: Gengar vs. Chansey', function () {
                 var result = calculate(Pokemon('Gengar', {
                     item: 'Life Orb',
@@ -520,6 +661,36 @@ describe('calc', function () {
                 }), Move('Sludge Bomb'));
                 expect(result.range()).toEqual([204, 242]);
                 expect(result.desc()).toBe('+3 252+ SpA Life Orb Gengar Sludge Bomb vs. +1 100 HP / 100 SpD Eviolite Chansey: 204-242 (30.6 - 36.3%) -- 52.9% chance to 3HKO');
+            });
+            test('Knock Off vs. Silvally', function () {
+                var sawk = Pokemon('Sawk', { ability: 'Mold Breaker', evs: { atk: 252 } });
+                var silvally = Pokemon('Silvally-Dark', { item: 'Dark Memory' });
+                var knockoff = Move('Knock Off');
+                var result = calculate(sawk, silvally, knockoff);
+                expect(result.desc()).toBe('252 Atk Mold Breaker Sawk Knock Off vs. 0 HP / 0 Def Silvally-Dark: 36-43 (10.8 - 12.9%) -- possible 8HKO');
+            });
+            test('% chance to OHKO', function () {
+                var abomasnow = Pokemon('Abomasnow', {
+                    level: 55,
+                    item: 'Choice Specs',
+                    evs: { spa: 252 }
+                });
+                var deerling = Pokemon('Deerling', { evs: { hp: 36 } });
+                var blizzard = Move('Blizzard');
+                var hail = Field({ weather: 'Hail' });
+                var result = calculate(abomasnow, deerling, blizzard, hail);
+                expect(result.desc()).toBe('Lvl 55 252 SpA Choice Specs Abomasnow Blizzard vs. 36 HP / 0 SpD Deerling: 236-278 (87.4 - 102.9%) -- 25% chance to OHKO');
+            });
+            test('% chance to OHKO with Leftovers', function () {
+                var kyurem = Pokemon('Kyurem', {
+                    level: 100,
+                    item: 'Choice Specs',
+                    evs: { spa: 252 }
+                });
+                var jirachi = Pokemon('Jirachi', { item: 'Leftovers' });
+                var earthpower = Move('Earth Power');
+                var result = calculate(kyurem, jirachi, earthpower);
+                expect(result.desc()).toBe('252 SpA Choice Specs Kyurem Earth Power vs. 0 HP / 0 SpD Jirachi: 294-348 (86.2 - 102%) -- 12.5% chance to OHKO');
             });
         });
     });

@@ -26,7 +26,20 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __values = (this && this.__values) || function(o) {
+    var s = typeof Symbol === "function" && Symbol.iterator, m = s && o[s], i = 0;
+    if (m) return m.call(o);
+    if (o && typeof o.length === "number") return {
+        next: function () {
+            if (o && i >= o.length) o = void 0;
+            return { value: o && o[i++], done: !o };
+        }
+    };
+    throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+};
+var e_1, _a, e_2, _b;
 exports.__esModule = true;
+
 var util_1 = require("../util");
 var RBY = {
     '(No Move)': { bp: 0, category: 'Status', type: 'Normal' },
@@ -46,7 +59,7 @@ var RBY = {
     'Comet Punch': { bp: 18, type: 'Normal', multihit: [2, 5] },
     Constrict: { bp: 10, type: 'Normal' },
     Conversion: { bp: 0, category: 'Status', type: 'Normal' },
-    Counter: { bp: 0, type: 'Fighting' },
+    Counter: { bp: 1, type: 'Fighting' },
     Crabhammer: { bp: 90, type: 'Water' },
     'Defense Curl': { bp: 0, category: 'Status', type: 'Normal' },
     Dig: { bp: 100, type: 'Ground' },
@@ -200,6 +213,7 @@ var RBY = {
 };
 var GSC_PATCH = {
     Bide: { type: 'Normal' },
+    Counter: { bp: 0 },
     Dig: { bp: 60 },
     'Double-Edge': { bp: 120 },
     Explosion: { bp: 250 },
@@ -876,7 +890,7 @@ var DPP_PATCH = {
     'Lunar Dance': { bp: 0, type: 'Psychic' },
     'Magma Storm': { bp: 120, type: 'Fire', category: 'Special' },
     'Magnet Rise': { bp: 0, type: 'Electric' },
-    'Me First': { bp: 0, type: 'Normal', target: 'adjacentFoe' },
+    'Me First': { bp: 0, type: 'Normal' },
     'Metal Burst': { bp: 0, type: 'Steel', category: 'Physical' },
     'Miracle Eye': { bp: 0, type: 'Psychic' },
     'Natural Gift': { bp: 0, type: 'Normal', category: 'Physical' },
@@ -1148,7 +1162,92 @@ var DPP_PATCH = {
         category: 'Physical'
     }
 };
-var DPP = util_1.extend(true, {}, ADV, DPP_PATCH);
+var RENPLAT_PATCH = {
+    'Draining Kiss': {
+        bp: 75,
+        type: 'Fairy',
+        drain: [2, 3],
+        makesContact: true,
+        category: 'Special'
+    },
+    Scald: {
+        bp: 80,
+        type: 'Water',
+        category: 'Special',
+        secondaries: true
+    },
+    'Icicle Crash': {
+        bp: 85,
+        type: 'Ice',
+        category: 'Physical',
+        secondaries: true
+    },
+    'Drill Run': {
+        bp: 80,
+        type: 'Ground',
+        makesContact: true,
+        category: 'Physical'
+    },
+    Moonblast: {
+        bp: 95,
+        type: 'Fairy',
+        category: 'Special',
+        secondaries: true
+    },
+    'Dazzling Gleam': { bp: 80, type: 'Fairy', target: 'allAdjacentFoes', category: 'Special' },
+    'Disarming Voice': {
+        bp: 50,
+        type: 'Fairy',
+        isSound: true,
+        target: 'allAdjacentFoes',
+        category: 'Special'
+    },
+    Bulldoze: {
+        bp: 60,
+        type: 'Ground',
+        target: 'allAdjacent',
+        category: 'Physical',
+        secondaries: true
+    },
+    'Play Rough': {
+        bp: 90,
+        type: 'Fairy',
+        makesContact: true,
+        category: 'Physical',
+        secondaries: true
+    },
+    Hurricane: {
+        bp: 120,
+        type: 'Flying',
+        category: 'Special',
+        secondaries: true
+    },
+    'Wild Charge': {
+        bp: 100,
+        type: 'Electric',
+        recoil: [1, 4],
+        makesContact: true,
+        category: 'Physical'
+    },
+    'Aurora Beam': { bp: 75 },
+    'Blaze Kick': { bp: 90 },
+    'Bubble Beam': { bp: 75 },
+    Chatter: { bp: 90 },
+    'Cross Poison': { bp: 90 },
+    Cut: { bp: 60, type: 'Grass' },
+    'Flame Wheel': { bp: 75 },
+    Fly: { bp: 100 },
+    'Needle Arm': { bp: 90 },
+    'Poison Fang': { bp: 65 },
+    'Poison Tail': { bp: 90 },
+    'Rock Climb': { bp: 80, type: 'Rock' },
+    'Rock Smash': { bp: 60 },
+    'Shadow Claw': { bp: 80 },
+    'Shadow Puch': { bp: 80 },
+    Sludge: { bp: 75 },
+    Strength: { bp: 100 }
+};
+var DPP = util_1.extend(true, {}, ADV, DPP_PATCH, RENPLAT_PATCH);
 var BW_PATCH = {
     'Air Slash': { secondaries: true },
     Blizzard: { secondaries: true },
@@ -1778,7 +1877,7 @@ var XY_PATCH = {
         breaksProtect: true,
         category: 'Special'
     },
-    "King's Shield": { bp: 0, type: 'Steel', priority: 4 },
+    'King\'s Shield': { bp: 0, type: 'Steel', priority: 4 },
     'Misty Terrain': { bp: 0, type: 'Fairy' },
     'Mystical Fire': {
         bp: 65,
@@ -1822,7 +1921,7 @@ var XY_PATCH = {
     Geomancy: { bp: 0, type: 'Fairy' },
     'Grassy Terrain': { bp: 0, type: 'Grass' },
     'Ion Deluge': { bp: 0, type: 'Electric', priority: 1 },
-    "Land's Wrath": { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
+    'Land\'s Wrath': { bp: 90, type: 'Ground', target: 'allAdjacentFoes', category: 'Physical' },
     'Light of Ruin': { bp: 140, type: 'Fairy', recoil: [1, 2], category: 'Special' },
     'Oblivion Wing': {
         bp: 80,
@@ -1883,7 +1982,7 @@ var XY_PATCH = {
     'Fairy Lock': { bp: 0, type: 'Fairy' },
     'Fairy Wind': { bp: 40, type: 'Fairy', category: 'Special' },
     'Flower Shield': { bp: 0, type: 'Fairy' },
-    "Forest's Curse": { bp: 0, type: 'Grass' },
+    'Forest\'s Curse': { bp: 0, type: 'Grass' },
     'Freeze-Dry': {
         bp: 70,
         type: 'Ice',
@@ -1998,7 +2097,7 @@ var SM_PATCH = {
     'Jump Kick': { zp: 180 },
     'Karate Chop': { zp: 100 },
     'Knock Off': { zp: 120 },
-    "Land's Wrath": { zp: 185 },
+    'Land\'s Wrath': { zp: 185 },
     'Light of Ruin': { zp: 200 },
     'Low Kick': { zp: 160 },
     'Luster Purge': { zp: 140 },
@@ -2461,7 +2560,7 @@ var SM_PATCH = {
     },
     'Inferno Overdrive': { bp: 1, type: 'Fire', category: 'Physical', isZ: true },
     Instruct: { bp: 0, type: 'Psychic' },
-    "Let's Snuggle Forever": {
+    'Let\'s Snuggle Forever': {
         bp: 190,
         type: 'Fairy',
         makesContact: true,
@@ -2497,7 +2596,7 @@ var SM_PATCH = {
         category: 'Physical',
         zp: 185
     },
-    "Nature's Madness": { bp: 0, type: 'Fairy', category: 'Special', zp: 100 },
+    'Nature\'s Madness': { bp: 0, type: 'Fairy', category: 'Special', zp: 100 },
     'Never-Ending Nightmare': { bp: 1, type: 'Ghost', category: 'Physical', isZ: true },
     'Oceanic Operetta': { bp: 195, type: 'Water', category: 'Special', isZ: true },
     'Psychic Terrain': { bp: 0, type: 'Psychic' },
@@ -2810,6 +2909,14 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+    'Astral Barrage': {
+        bp: 120,
+        type: 'Ghost',
+        category: 'Special',
+        target: 'allAdjacentFoes',
+        zp: 190,
+        maxPower: 140
+    },
     'Aura Wheel': {
         bp: 110,
         type: 'Electric',
@@ -2868,7 +2975,27 @@ var SS_PATCH = {
         zp: 120,
         maxPower: 110
     },
+    'Burning Jealousy': {
+        bp: 70,
+        type: 'Fire',
+        target: 'allAdjacentFoes',
+        category: 'Special',
+        secondaries: true,
+        zp: 140,
+        maxPower: 120
+    },
     'Clangorous Soul': { bp: 0, type: 'Dragon', isSound: true },
+    'Coaching': {
+        bp: 0,
+        type: 'Fighting',
+        category: 'Status'
+    },
+    'Corrosive Gas': {
+        bp: 0,
+        type: 'Poison',
+        category: 'Status',
+        target: 'allAdjacent'
+    },
     'Court Change': { bp: 0, type: 'Normal' },
     Decorate: { bp: 0, type: 'Fairy' },
     'Dragon Darts': {
@@ -2879,12 +3006,29 @@ var SS_PATCH = {
         zp: 100,
         maxPower: 130
     },
+    'Dragon Energy': {
+        bp: 150,
+        type: 'Dragon',
+        category: 'Special',
+        target: 'allAdjacentFoes',
+        zp: 200,
+        maxPower: 150
+    },
     'Drum Beating': {
         bp: 80,
         type: 'Grass',
         category: 'Physical',
         secondaries: true,
         zp: 160,
+        maxPower: 130
+    },
+    'Dual Wingbeat': {
+        bp: 40,
+        type: 'Flying',
+        category: 'Physical',
+        makesContact: true,
+        multihit: 2,
+        zp: 100,
         maxPower: 130
     },
     'Dynamax Cannon': {
@@ -2894,6 +3038,15 @@ var SS_PATCH = {
         zp: 180,
         maxPower: 130
     },
+    'Eerie Spell': {
+        bp: 80,
+        type: 'Psychic',
+        category: 'Special',
+        isSound: true,
+        secondaries: true,
+        zp: 160,
+        maxPower: 130
+    },
     Eternabeam: {
         bp: 160,
         type: 'Dragon',
@@ -2901,12 +3054,28 @@ var SS_PATCH = {
         zp: 200,
         maxPower: 150
     },
+    'Expanding Force': {
+        bp: 80,
+        type: 'Psychic',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130
+    },
     'False Surrender': {
         bp: 80,
         type: 'Dark',
         makesContact: true,
         category: 'Physical',
         zp: 160,
+        maxPower: 130
+    },
+    'Fiery Wrath': {
+        bp: 90,
+        type: 'Dark',
+        category: 'Special',
+        target: 'allAdjacentFoes',
+        secondaries: true,
+        zp: 175,
         maxPower: 130
     },
     'Fishious Rend': {
@@ -2918,10 +3087,33 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+    'Flip Turn': {
+        bp: 60,
+        type: 'Water',
+        category: 'Physical',
+        makesContact: true,
+        zp: 120,
+        maxPower: 110
+    },
+    'Freezing Glare': {
+        bp: 90,
+        type: 'Psychic',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 130
+    },
+    'Glacial Lance': {
+        bp: 130,
+        type: 'Ice',
+        category: 'Physical',
+        target: 'allAdjacentFoes',
+        zp: 195,
+        maxPower: 140
+    },
     'G-Max Befuddle': {
         bp: 10,
         type: 'Bug',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2929,7 +3121,13 @@ var SS_PATCH = {
     'G-Max Centiferno': {
         bp: 10,
         type: 'Fire',
-        target: 'adjacentFoe',
+        category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Cannonade': {
+        bp: 10,
+        type: 'Water',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2937,7 +3135,6 @@ var SS_PATCH = {
     'G-Max Chi Strike': {
         bp: 10,
         type: 'Fighting',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2945,7 +3142,6 @@ var SS_PATCH = {
     'G-Max Cuddle': {
         bp: 10,
         type: 'Normal',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2953,7 +3149,20 @@ var SS_PATCH = {
     'G-Max Depletion': {
         bp: 10,
         type: 'Dragon',
-        target: 'adjacentFoe',
+        category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Drum Solo': {
+        bp: 160,
+        type: 'Grass',
+        category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Fireball': {
+        bp: 160,
+        type: 'Fire',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2961,7 +3170,6 @@ var SS_PATCH = {
     'G-Max Finale': {
         bp: 10,
         type: 'Fairy',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2969,7 +3177,6 @@ var SS_PATCH = {
     'G-Max Foam Burst': {
         bp: 10,
         type: 'Water',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2977,7 +3184,6 @@ var SS_PATCH = {
     'G-Max Gold Rush': {
         bp: 10,
         type: 'Normal',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2985,7 +3191,13 @@ var SS_PATCH = {
     'G-Max Gravitas': {
         bp: 10,
         type: 'Psychic',
-        target: 'adjacentFoe',
+        category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Hydrosnipe': {
+        bp: 160,
+        type: 'Water',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -2993,7 +3205,6 @@ var SS_PATCH = {
     'G-Max Malodor': {
         bp: 10,
         type: 'Poison',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3001,15 +3212,29 @@ var SS_PATCH = {
     'G-Max Meltdown': {
         bp: 10,
         type: 'Steel',
-        target: 'adjacentFoe',
         category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max One Blow': {
+        bp: 10,
+        type: 'Dark',
+        category: 'Physical',
+        breaksProtect: true,
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Rapid Flow': {
+        bp: 10,
+        type: 'Water',
+        category: 'Physical',
+        breaksProtect: true,
         isMax: true,
         maxPower: 1
     },
     'G-Max Replenish': {
         bp: 10,
         type: 'Normal',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3017,7 +3242,6 @@ var SS_PATCH = {
     'G-Max Resonance': {
         bp: 10,
         type: 'Ice',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3025,7 +3249,6 @@ var SS_PATCH = {
     'G-Max Sandblast': {
         bp: 10,
         type: 'Ground',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3033,7 +3256,6 @@ var SS_PATCH = {
     'G-Max Smite': {
         bp: 10,
         type: 'Fairy',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3041,7 +3263,6 @@ var SS_PATCH = {
     'G-Max Snooze': {
         bp: 10,
         type: 'Dark',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3049,7 +3270,6 @@ var SS_PATCH = {
     'G-Max Steelsurge': {
         bp: 10,
         type: 'Steel',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3057,7 +3277,6 @@ var SS_PATCH = {
     'G-Max Stonesurge': {
         bp: 10,
         type: 'Water',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3065,7 +3284,6 @@ var SS_PATCH = {
     'G-Max Stun Shock': {
         bp: 10,
         type: 'Electric',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3073,7 +3291,6 @@ var SS_PATCH = {
     'G-Max Sweetness': {
         bp: 10,
         type: 'Grass',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3081,7 +3298,6 @@ var SS_PATCH = {
     'G-Max Tartness': {
         bp: 10,
         type: 'Grass',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3089,7 +3305,13 @@ var SS_PATCH = {
     'G-Max Terror': {
         bp: 10,
         type: 'Ghost',
-        target: 'adjacentFoe',
+        category: 'Physical',
+        isMax: true,
+        maxPower: 1
+    },
+    'G-Max Vine Lash': {
+        bp: 10,
+        type: 'Grass',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3097,7 +3319,6 @@ var SS_PATCH = {
     'G-Max Volcalith': {
         bp: 10,
         type: 'Rock',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3105,7 +3326,6 @@ var SS_PATCH = {
     'G-Max Volt Crash': {
         bp: 10,
         type: 'Electric',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3113,7 +3333,6 @@ var SS_PATCH = {
     'G-Max Wildfire': {
         bp: 10,
         type: 'Fire',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3121,10 +3340,17 @@ var SS_PATCH = {
     'G-Max Wind Rage': {
         bp: 10,
         type: 'Flying',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
+    },
+    'Grassy Glide': {
+        bp: 70,
+        type: 'Grass',
+        category: 'Physical',
+        makesContact: true,
+        zp: 140,
+        maxPower: 120
     },
     'Grav Apple': {
         bp: 80,
@@ -3143,12 +3369,24 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+    'Jungle Healing': {
+        bp: 0,
+        type: 'Grass',
+        category: 'Status'
+    },
+    'Lash Out': {
+        bp: 75,
+        type: 'Dark',
+        makesContact: true,
+        category: 'Physical',
+        zp: 140,
+        maxPower: 130
+    },
     'Life Dew': { bp: 0, type: 'Water' },
     'Magic Powder': { bp: 0, type: 'Psychic' },
     'Max Airstream': {
         bp: 10,
         type: 'Flying',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3156,7 +3394,6 @@ var SS_PATCH = {
     'Max Darkness': {
         bp: 10,
         type: 'Dark',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3164,7 +3401,6 @@ var SS_PATCH = {
     'Max Flare': {
         bp: 100,
         type: 'Fire',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3172,7 +3408,6 @@ var SS_PATCH = {
     'Max Flutterby': {
         bp: 10,
         type: 'Bug',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3180,7 +3415,6 @@ var SS_PATCH = {
     'Max Geyser': {
         bp: 10,
         type: 'Water',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3189,7 +3423,6 @@ var SS_PATCH = {
     'Max Hailstorm': {
         bp: 10,
         type: 'Ice',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3197,7 +3430,6 @@ var SS_PATCH = {
     'Max Knuckle': {
         bp: 10,
         type: 'Fighting',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3205,7 +3437,6 @@ var SS_PATCH = {
     'Max Lightning': {
         bp: 10,
         type: 'Electric',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3213,7 +3444,6 @@ var SS_PATCH = {
     'Max Mindstorm': {
         bp: 10,
         type: 'Psychic',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3221,7 +3451,6 @@ var SS_PATCH = {
     'Max Ooze': {
         bp: 10,
         type: 'Poison',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3229,7 +3458,6 @@ var SS_PATCH = {
     'Max Overgrowth': {
         bp: 10,
         type: 'Grass',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3237,7 +3465,6 @@ var SS_PATCH = {
     'Max Phantasm': {
         bp: 10,
         type: 'Ghost',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3245,7 +3472,6 @@ var SS_PATCH = {
     'Max Quake': {
         bp: 10,
         type: 'Ground',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3253,7 +3479,6 @@ var SS_PATCH = {
     'Max Rockfall': {
         bp: 10,
         type: 'Rock',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3261,7 +3486,6 @@ var SS_PATCH = {
     'Max Starfall': {
         bp: 10,
         type: 'Fairy',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3269,7 +3493,6 @@ var SS_PATCH = {
     'Max Steelspike': {
         bp: 10,
         type: 'Steel',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3277,7 +3500,6 @@ var SS_PATCH = {
     'Max Strike': {
         bp: 10,
         type: 'Normal',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3285,7 +3507,6 @@ var SS_PATCH = {
     'Max Wyrmwind': {
         bp: 10,
         type: 'Dragon',
-        target: 'adjacentFoe',
         category: 'Physical',
         isMax: true,
         maxPower: 1
@@ -3296,6 +3517,21 @@ var SS_PATCH = {
         category: 'Physical',
         zp: 200,
         maxPower: 100
+    },
+    'Meteor Beam': {
+        bp: 120,
+        type: 'Rock',
+        category: 'Special',
+        zp: 190,
+        maxPower: 140
+    },
+    'Misty Explosion': {
+        bp: 100,
+        type: 'Fairy',
+        category: 'Special',
+        target: 'allAdjacent',
+        zp: 180,
+        maxPower: 130
     },
     'No Retreat': { bp: 0, type: 'Fighting' },
     Obstruct: { bp: 0, type: 'Dark', priority: 4 },
@@ -3309,6 +3545,13 @@ var SS_PATCH = {
         zp: 160,
         maxPower: 130
     },
+    Poltergeist: {
+        bp: 110,
+        type: 'Ghost',
+        category: 'Physical',
+        zp: 185,
+        maxPower: 140
+    },
     'Pyro Ball': {
         bp: 120,
         type: 'Fire',
@@ -3317,6 +3560,29 @@ var SS_PATCH = {
         isBullet: true,
         zp: 190,
         maxPower: 140
+    },
+    'Rising Voltage': {
+        bp: 70,
+        type: 'Electric',
+        category: 'Special',
+        zp: 140,
+        maxPower: 140
+    },
+    'Scale Shot': {
+        bp: 25,
+        type: 'Dragon',
+        category: 'Physical',
+        multihit: [2, 5],
+        zp: 140,
+        maxPower: 130
+    },
+    'Shell Side Arm': {
+        bp: 90,
+        type: 'Poison',
+        category: 'Special',
+        secondaries: true,
+        zp: 175,
+        maxPower: 90
     },
     'Snap Trap': {
         bp: 35,
@@ -3332,6 +3598,23 @@ var SS_PATCH = {
         category: 'Special',
         zp: 160,
         maxPower: 130
+    },
+    'Scorching Sands': {
+        bp: 70,
+        type: 'Ground',
+        category: 'Special',
+        secondaries: true,
+        zp: 140,
+        maxPower: 120
+    },
+    'Skitter Smack': {
+        bp: 70,
+        type: 'Bug',
+        category: 'Physical',
+        makesContact: true,
+        secondaries: true,
+        zp: 140,
+        maxPower: 120
     },
     'Spirit Break': {
         bp: 75,
@@ -3350,6 +3633,14 @@ var SS_PATCH = {
         zp: 200,
         maxPower: 140
     },
+    'Steel Roller': {
+        bp: 130,
+        type: 'Steel',
+        category: 'Physical',
+        makesContact: true,
+        zp: 195,
+        maxPower: 140
+    },
     'Strange Steam': {
         bp: 90,
         type: 'Fairy',
@@ -3358,9 +3649,63 @@ var SS_PATCH = {
         zp: 175,
         maxPower: 130
     },
+    'Surging Strikes': {
+        bp: 25,
+        type: 'Water',
+        category: 'Physical',
+        makesContact: true,
+        willCrit: true,
+        isPunch: true,
+        multihit: 3,
+        zp: 140,
+        maxPower: 130
+    },
+    'Terrain Pulse': {
+        bp: 50,
+        type: 'Normal',
+        category: 'Special',
+        isPulse: true,
+        zp: 160,
+        maxPower: 130
+    },
+    'Triple Axel': {
+        bp: 20,
+        type: 'Ice',
+        category: 'Physical',
+        makesContact: true,
+        multihit: 3,
+        zp: 120,
+        maxPower: 140
+    },
+    'Wicked Blow': {
+        bp: 80,
+        type: 'Dark',
+        category: 'Physical',
+        makesContact: true,
+        willCrit: true,
+        isPunch: true,
+        zp: 160,
+        maxPower: 130
+    },
     'Stuff Cheeks': { bp: 0, type: 'Normal' },
     'Tar Shot': { bp: 0, type: 'Rock' },
     Teatime: { bp: 0, type: 'Normal' },
+    'Thunder Cage': {
+        bp: 80,
+        type: 'Electric',
+        category: 'Special',
+        zp: 160,
+        maxPower: 130
+    },
+    'Thunderous Kick': {
+        bp: 90,
+        type: 'Fighting',
+        category: 'Physical',
+        secondaries: true,
+        makesContact: true,
+        zp: 175,
+        maxPower: 90
+    },
     '10,000,000 Volt Thunderbolt': { maxPower: 1 },
     Absorb: { maxPower: 90 },
     Accelerock: { maxPower: 90 },
@@ -3575,6 +3920,7 @@ var SS_PATCH = {
     'Horn Attack': { maxPower: 120 },
     'Horn Drill': { maxPower: 130 },
     'Horn Leech': { maxPower: 130 },
+    Howl: { isSound: true },
     Hurricane: { maxPower: 140 },
     'Hydro Cannon': { maxPower: 150 },
     'Hydro Pump': { maxPower: 140 },
@@ -3604,7 +3950,7 @@ var SS_PATCH = {
     'Jump Kick': { maxPower: 90 },
     'Karate Chop': { maxPower: 75 },
     'Knock Off': { maxPower: 120 },
-    "Land's Wrath": { maxPower: 130 },
+    'Land\'s Wrath': { maxPower: 130 },
     'Last Resort': { maxPower: 140 },
     'Lava Plume': { maxPower: 130 },
     Leafage: { maxPower: 90 },
@@ -3612,7 +3958,7 @@ var SS_PATCH = {
     'Leaf Storm': { maxPower: 140 },
     'Leaf Tornado': { maxPower: 120 },
     'Leech Life': { maxPower: 130 },
-    "Let's Snuggle Forever": { maxPower: 1 },
+    'Let\'s Snuggle Forever': { maxPower: 1 },
     Lick: { maxPower: 90 },
     'Light of Ruin': { maxPower: 140 },
     'Light That Burns the Sky': { maxPower: 1 },
@@ -3645,10 +3991,10 @@ var SS_PATCH = {
     'Mud Shot': { maxPower: 110 },
     'Mud-Slap': { maxPower: 90 },
     'Muddy Water': { maxPower: 130 },
-    'Multi-Attack': { bp: 120, maxPower: 140 },
+    'Multi-Attack': { bp: 120, maxPower: 95 },
     'Mystical Fire': { maxPower: 130 },
     'Natural Gift': { maxPower: 130 },
-    "Nature's Madness": { maxPower: 100 },
+    'Nature\'s Madness': { maxPower: 100 },
     'Needle Arm': { maxPower: 110 },
     'Never-Ending Nightmare': { maxPower: 1 },
     'Night Daze': { maxPower: 130 },
@@ -3866,9 +4212,18 @@ var LGPE_MOVES = [
     'Splishy Splash',
     'Veevee Volley',
 ];
-for (var _i = 0, LGPE_MOVES_1 = LGPE_MOVES; _i < LGPE_MOVES_1.length; _i++) {
-    var m = LGPE_MOVES_1[_i];
-    delete SS[m];
+try {
+    for (var LGPE_MOVES_1 = __values(LGPE_MOVES), LGPE_MOVES_1_1 = LGPE_MOVES_1.next(); !LGPE_MOVES_1_1.done; LGPE_MOVES_1_1 = LGPE_MOVES_1.next()) {
+        var m = LGPE_MOVES_1_1.value;
+        delete SS[m];
+    }
+}
+catch (e_1_1) { e_1 = { error: e_1_1 }; }
+finally {
+    try {
+        if (LGPE_MOVES_1_1 && !LGPE_MOVES_1_1.done && (_a = LGPE_MOVES_1["return"])) _a.call(LGPE_MOVES_1);
+    }
+    finally { if (e_1) throw e_1.error; }
 }
 exports.MOVES = [{}, RBY, GSC, ADV, DPP, BW, XY, SM, SS];
 var Moves = (function () {
@@ -3949,15 +4304,24 @@ var Move = (function () {
 }());
 var MOVES_BY_ID = [];
 var gen = 0;
-for (var _a = 0, MOVES_1 = exports.MOVES; _a < MOVES_1.length; _a++) {
-    var moves = MOVES_1[_a];
-    var map = {};
-    for (var move in moves) {
-        var data = moves[move];
-        var m = new Move(move, data, gen);
-        map[m.id] = m;
+try {
+    for (var MOVES_1 = __values(exports.MOVES), MOVES_1_1 = MOVES_1.next(); !MOVES_1_1.done; MOVES_1_1 = MOVES_1.next()) {
+        var moves = MOVES_1_1.value;
+        var map = {};
+        for (var move in moves) {
+            var data = moves[move];
+            var m = new Move(move, data, gen);
+            map[m.id] = m;
+        }
+        MOVES_BY_ID.push(map);
+        gen++;
     }
-    MOVES_BY_ID.push(map);
-    gen++;
+}
+catch (e_2_1) { e_2 = { error: e_2_1 }; }
+finally {
+    try {
+        if (MOVES_1_1 && !MOVES_1_1.done && (_b = MOVES_1["return"])) _b.call(MOVES_1);
+    }
+    finally { if (e_2) throw e_2.error; }
 }
 //# sourceMappingURL=moves.js.map

@@ -5,6 +5,9 @@ export declare class Field implements State.Field {
     weather?: Weather;
     terrain?: Terrain;
     isGravity: boolean;
+    isAuraBreak?: boolean;
+    isFairyAura?: boolean;
+    isDarkAura?: boolean;
     attackerSide: Side;
     defenderSide: Side;
     constructor(field?: Partial<State.Field>);
@@ -16,6 +19,10 @@ export declare class Field implements State.Field {
 export declare class Side implements State.Side {
     spikes: number;
     steelsurge: boolean;
+    vinelash: boolean;
+    wildfire: boolean;
+    cannonade: boolean;
+    volcalith: boolean;
     isSR: boolean;
     isReflect: boolean;
     isLightScreen: boolean;
