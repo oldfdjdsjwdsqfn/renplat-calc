@@ -149,6 +149,27 @@ function getItem(currentRow, j) {
 	}
 }
 
+function movePatch(inMove) {
+	var swap = {
+		"Barrage": "Draining Kiss",
+		"Brine": "Scald",
+		"Constrict": "Icicle Crash",
+		"Horn Drill": "Drill Run",
+		"Lunar Dance": "Moonblast",
+		"Luster Purge": "Dazzling Gleam",
+		"Mist Ball": "Disarming Voice",
+		"Sand Tomb": "Bulldoze",
+		"Submission": "Play Rough",
+		"Twister": "Hurricane",
+		"Volt Tackle": "Wild Charge"
+	};
+	if (swap[inMove] != null) {
+		return swap[inMove];
+	} else {
+		return inMove;
+	}
+}
+
 function getMoves(currentPoke, rows, offset) {
 	var movesFound = false;
 	var moves = [];
@@ -157,7 +178,7 @@ function getMoves(currentPoke, rows, offset) {
 			if (rows[x][0] == "-") {
 				movesFound = true;
 				var move = rows[x].substr(2, rows[x].length - 2).replace("[", "").replace("]", "").replace("  ", "");
-				moves.push(move);
+				moves.push(movePatch(move));
 			} else {
 				if (movesFound == true) {
 					break;

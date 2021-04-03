@@ -3775,7 +3775,7 @@ const FAIRY_PATCH = {
   Togepi: {types: ['Fairy']},
   Togetic: {types: ['Fairy', 'Flying']},
   Wigglytuff: {types: ['Normal', 'Fairy']},
-}
+};
 
 const RENPLAT_PATCH = {
   'Venusaur': {
@@ -5146,7 +5146,8 @@ const RENPLAT_PATCH = {
   },
 };
 
-const DPP: {[name: string]: SpeciesData} = extend(true, {}, ADV, DPP_PATCH, FAIRY_PATCH, RENPLAT_PATCH);
+const DPP: {[name: string]: SpeciesData} = extend(true, {}, ADV, DPP_PATCH,
+  FAIRY_PATCH, RENPLAT_PATCH);
 
 const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Fan': {types: ['Electric', 'Flying']},
