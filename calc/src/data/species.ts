@@ -3754,7 +3754,51 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
 };
 
-const DPP: {[name: string]: SpeciesData} = extend(true, {}, ADV, DPP_PATCH);
+const RENPLAT_PATCH = {
+    Venasaur: {
+        bs: {sa: 110}
+    },
+    Charizard: {
+        bs: {sa: 110},
+        types: ['Fire', 'Dragon']
+    },
+    Blastoise: {
+        bs: {sa: 90}
+    },
+    Butterfree: {
+        bs: {df: 45, sa: 110, sd: 100, sp: 90}
+    },
+    Beedrill: {
+        bs: { at: 115, sa: 40, sd: 95, sp: 95 }
+    },
+    Pidgey: {
+        bs: {at: 35, df: 35, sa: 50}
+    },
+    Pidgeotto: {
+        bs: {at: 50, df: 50, sa: 65}
+    },
+    Pidgeot: {
+        bs: {at: 60, df: 70, sa: 115}
+    },
+    Raticate: {
+        bs: {at: 97, df: 70, sa: 45, sp: 113}
+    },
+    Fearow: {
+        bs: {at: 110}
+    },
+    Arbok: {
+        bs: {at: 110, df: 70, sa: 55, sd: 80}
+    },
+    Raichu: {
+        bs: {at: 95, sa: 95}
+    },
+    Ninetales: {
+        bs: {at: 67, sp: 109},
+        types: ['Fire', 'Fairy']
+    },
+};
+
+const DPP: {[name: string]: SpeciesData} = extend(true, {}, ADV, DPP_PATCH, RENPLAT_PATCH);
 
 const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Fan': {types: ['Electric', 'Flying']},
