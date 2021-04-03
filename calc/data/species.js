@@ -3764,50 +3764,1397 @@ var DPP_PATCH = {
         abilities: { 0: 'Speed Boost' }
     }
 };
+var FAIRY_PATCH = {
+    Azumarill: { types: ['Water', 'Fairy'] },
+    Azurill: { types: ['Normal', 'Fairy'] },
+    Clefable: { types: ['Fairy'] },
+    Clefairy: { types: ['Fairy'] },
+    Cleffa: { types: ['Fairy'] },
+    Gardevoir: { types: ['Psychic', 'Fairy'] },
+    Granbull: { types: ['Fairy'] },
+    Igglybuff: { types: ['Normal', 'Fairy'] },
+    Jigglypuff: { types: ['Normal', 'Fairy'] },
+    Kirlia: { types: ['Psychic', 'Fairy'] },
+    Marill: { types: ['Water', 'Fairy'] },
+    Mawile: { types: ['Steel', 'Fairy'] },
+    'Mime Jr.': { types: ['Psychic', 'Fairy'] },
+    'Mr. Mime': { types: ['Psychic', 'Fairy'] },
+    Ralts: { types: ['Psychic', 'Fairy'] },
+    Snubbull: { types: ['Fairy'] },
+    Togekiss: { types: ['Fairy', 'Flying'] },
+    Togepi: { types: ['Fairy'] },
+    Togetic: { types: ['Fairy', 'Flying'] },
+    Wigglytuff: { types: ['Normal', 'Fairy'] }
+};
 var RENPLAT_PATCH = {
-    Venasaur: {
-        bs: { sa: 110 }
+    'Venusaur': {
+        'bs': {
+            'hp': 80,
+            'at': 82,
+            'df': 83,
+            'sa': 110,
+            'sd': 100,
+            'sp': 80
+        }
     },
-    Charizard: {
-        bs: { sa: 110 },
-        types: ['Fire', 'Dragon']
+    'Charizard': {
+        'bs': {
+            'hp': 78,
+            'at': 84,
+            'df': 78,
+            'sa': 110,
+            'sd': 85,
+            'sp': 100
+        },
+        'types': [
+            'Fire',
+            'Dragon',
+        ]
     },
-    Blastoise: {
-        bs: { sa: 90 }
+    'Blastoise': {
+        'bs': {
+            'hp': 79,
+            'at': 83,
+            'df': 100,
+            'sa': 90,
+            'sd': 105,
+            'sp': 78
+        }
     },
-    Butterfree: {
-        bs: { df: 45, sa: 110, sd: 100, sp: 90 }
+    'Butterfree': {
+        'bs': {
+            'hp': 60,
+            'at': 45,
+            'df': 45,
+            'sa': 110,
+            'sd': 100,
+            'sp': 90
+        }
     },
-    Beedrill: {
-        bs: { at: 115, sa: 40, sd: 95, sp: 95 }
+    'Beedrill': {
+        'bs': {
+            'hp': 65,
+            'at': 115,
+            'df': 40,
+            'sa': 40,
+            'sd': 95,
+            'sp': 95
+        }
     },
-    Pidgey: {
-        bs: { at: 35, df: 35, sa: 50 }
+    'Pidgey': {
+        'bs': {
+            'hp': 40,
+            'at': 35,
+            'df': 35,
+            'sa': 50,
+            'sd': 35,
+            'sp': 56
+        }
     },
-    Pidgeotto: {
-        bs: { at: 50, df: 50, sa: 65 }
+    'Pidgeotto': {
+        'bs': {
+            'hp': 63,
+            'at': 50,
+            'df': 50,
+            'sa': 65,
+            'sd': 50,
+            'sp': 71
+        }
     },
-    Pidgeot: {
-        bs: { at: 60, df: 70, sa: 115 }
+    'Pidgeot': {
+        'bs': {
+            'hp': 83,
+            'at': 60,
+            'df': 70,
+            'sa': 115,
+            'sd': 70,
+            'sp': 101
+        }
     },
-    Raticate: {
-        bs: { at: 97, df: 70, sa: 45, sp: 113 }
+    'Raticate': {
+        'bs': {
+            'hp': 55,
+            'at': 97,
+            'df': 70,
+            'sa': 45,
+            'sd': 70,
+            'sp': 113
+        }
     },
-    Fearow: {
-        bs: { at: 110 }
+    'Fearow': {
+        'bs': {
+            'hp': 65,
+            'at': 110,
+            'df': 65,
+            'sa': 61,
+            'sd': 61,
+            'sp': 100
+        }
     },
-    Arbok: {
-        bs: { at: 110, df: 70, sa: 55, sd: 80 }
+    'Arbok': {
+        'bs': {
+            'hp': 60,
+            'at': 110,
+            'df': 70,
+            'sa': 55,
+            'sd': 80,
+            'sp': 80
+        }
     },
-    Raichu: {
-        bs: { at: 95, sa: 95 }
+    'Raichu': {
+        'bs': {
+            'hp': 60,
+            'at': 95,
+            'df': 55,
+            'sa': 95,
+            'sd': 80,
+            'sp': 110
+        }
     },
-    Ninetales: {
-        bs: { at: 67, sp: 109 },
-        types: ['Fire', 'Fairy']
+    'Ninetales': {
+        'bs': {
+            'hp': 73,
+            'at': 67,
+            'df': 75,
+            'sa': 81,
+            'sd': 100,
+            'sp': 109
+        },
+        'types': [
+            'Fire',
+            'Fairy',
+        ]
+    },
+    'Jigglypuff': {
+        'bs': {
+            'hp': 115,
+            'at': 55,
+            'df': 30,
+            'sa': 55,
+            'sd': 35,
+            'sp': 30
+        }
+    },
+    'Wigglytuff': {
+        'bs': {
+            'hp': 140,
+            'at': 80,
+            'df': 55,
+            'sa': 95,
+            'sd': 60,
+            'sp': 55
+        }
+    },
+    'Parasect': {
+        'bs': {
+            'hp': 60,
+            'at': 115,
+            'df': 100,
+            'sa': 55,
+            'sd': 90,
+            'sp': 30
+        }
+    },
+    'Venomoth': {
+        'bs': {
+            'hp': 70,
+            'at': 55,
+            'df': 60,
+            'sa': 100,
+            'sd': 75,
+            'sp': 90
+        }
+    },
+    'Persian': {
+        'bs': {
+            'hp': 65,
+            'at': 80,
+            'df': 60,
+            'sa': 80,
+            'sd': 65,
+            'sp': 115
+        }
+    },
+    'Golduck': {
+        'types': [
+            'Water',
+            'Psychic',
+        ]
+    },
+    'Farfetch\'d': {
+        'bs': {
+            'hp': 55,
+            'at': 110,
+            'df': 60,
+            'sa': 55,
+            'sd': 60,
+            'sp': 110
+        },
+        'types': [
+            'Fighting',
+            'Flying',
+        ]
+    },
+    'Dewgong': {
+        'bs': {
+            'hp': 90,
+            'at': 80,
+            'df': 80,
+            'sa': 80,
+            'sd': 95,
+            'sp': 70
+        }
+    },
+    'Onix': {
+        'bs': {
+            'hp': 35,
+            'at': 75,
+            'df': 160,
+            'sa': 30,
+            'sd': 45,
+            'sp': 80
+        }
+    },
+    'Goldeen': {
+        'bs': {
+            'hp': 45,
+            'at': 77,
+            'df': 60,
+            'sa': 25,
+            'sd': 50,
+            'sp': 73
+        }
+    },
+    'Seaking': {
+        'bs': {
+            'hp': 80,
+            'at': 122,
+            'df': 80,
+            'sa': 45,
+            'sd': 80,
+            'sp': 78
+        }
+    },
+    'Mr. Mime': {
+        'bs': {
+            'hp': 40,
+            'at': 35,
+            'df': 65,
+            'sa': 110,
+            'sd': 120,
+            'sp': 95
+        }
+    },
+    'Jynx': {
+        'bs': {
+            'hp': 75,
+            'at': 40,
+            'df': 35,
+            'sa': 125,
+            'sd': 95,
+            'sp': 95
+        }
+    },
+    'Flareon': {
+        'bs': {
+            'hp': 110,
+            'at': 130,
+            'df': 60,
+            'sa': 65,
+            'sd': 65,
+            'sp': 95
+        }
+    },
+    'Meganium': {
+        'bs': {
+            'hp': 80,
+            'at': 82,
+            'df': 100,
+            'sa': 93,
+            'sd': 100,
+            'sp': 80
+        },
+        'types': [
+            'Grass',
+            'Fairy',
+        ]
+    },
+    'Typhlosion': {
+        'bs': {
+            'hp': 78,
+            'at': 79,
+            'df': 73,
+            'sa': 124,
+            'sd': 80,
+            'sp': 101
+        }
+    },
+    'Feraligatr': {
+        'bs': {
+            'hp': 85,
+            'at': 110,
+            'df': 100,
+            'sa': 79,
+            'sd': 83,
+            'sp': 78
+        },
+        'types': [
+            'Water',
+            'Dark',
+        ]
+    },
+    'Sentret': {
+        'bs': {
+            'hp': 45,
+            'at': 45,
+            'df': 35,
+            'sa': 35,
+            'sd': 45,
+            'sp': 40
+        }
+    },
+    'Furret': {
+        'bs': {
+            'hp': 95,
+            'at': 85,
+            'df': 65,
+            'sa': 45,
+            'sd': 55,
+            'sp': 105
+        }
+    },
+    'Noctowl': {
+        'bs': {
+            'hp': 100,
+            'at': 40,
+            'df': 40,
+            'sa': 106,
+            'sd': 116,
+            'sp': 60
+        },
+        'types': [
+            'Psychic',
+            'Flying',
+        ]
+    },
+    'Ledyba': {
+        'bs': {
+            'hp': 40,
+            'at': 50,
+            'df': 30,
+            'sa': 20,
+            'sd': 80,
+            'sp': 55
+        }
+    },
+    'Ledian': {
+        'bs': {
+            'hp': 65,
+            'at': 105,
+            'df': 50,
+            'sa': 35,
+            'sd': 110,
+            'sp': 85
+        }
+    },
+    'Spinarak': {
+        'bs': {
+            'hp': 40,
+            'at': 70,
+            'df': 40,
+            'sa': 40,
+            'sd': 40,
+            'sp': 45
+        }
+    },
+    'Ariados': {
+        'bs': {
+            'hp': 70,
+            'at': 110,
+            'df': 70,
+            'sa': 50,
+            'sd': 70,
+            'sp': 80
+        }
+    },
+    'Ampharos': {
+        'types': [
+            'Electric',
+            'Dragon',
+        ]
+    },
+    'Marill': {
+        'bs': {
+            'hp': 70,
+            'at': 20,
+            'df': 50,
+            'sa': 40,
+            'sd': 50,
+            'sp': 40
+        }
+    },
+    'Azumarill': {
+        'bs': {
+            'hp': 110,
+            'at': 50,
+            'df': 80,
+            'sa': 80,
+            'sd': 80,
+            'sp': 50
+        }
+    },
+    'Sudowoodo': {
+        'bs': {
+            'hp': 90,
+            'at': 115,
+            'df': 125,
+            'sa': 30,
+            'sd': 75,
+            'sp': 30
+        }
+    },
+    'Hoppip': {
+        'bs': {
+            'hp': 35,
+            'at': 35,
+            'df': 40,
+            'sa': 45,
+            'sd': 55,
+            'sp': 50
+        }
+    },
+    'Skiploom': {
+        'bs': {
+            'hp': 55,
+            'at': 45,
+            'df': 50,
+            'sa': 65,
+            'sd': 65,
+            'sp': 80
+        }
+    },
+    'Jumpluff': {
+        'bs': {
+            'hp': 75,
+            'at': 55,
+            'df': 70,
+            'sa': 85,
+            'sd': 95,
+            'sp': 110
+        }
+    },
+    'Sunflora': {
+        'bs': {
+            'hp': 85,
+            'at': 55,
+            'df': 85,
+            'sa': 125,
+            'sd': 95,
+            'sp': 30
+        }
+    },
+    'Wooper': {
+        'bs': {
+            'hp': 55,
+            'at': 55,
+            'df': 55,
+            'sa': 25,
+            'sd': 25,
+            'sp': 15
+        }
+    },
+    'Quagsire': {
+        'bs': {
+            'hp': 95,
+            'at': 95,
+            'df': 95,
+            'sa': 65,
+            'sd': 65,
+            'sp': 35
+        }
+    },
+    'Misdreavus': {
+        'types': [
+            'Ghost',
+            'Fairy',
+        ]
+    },
+    'Unown': {
+        'bs': {
+            'hp': 54,
+            'at': 108,
+            'df': 54,
+            'sa': 108,
+            'sd': 54,
+            'sp': 54
+        }
+    },
+    'Dunsparce': {
+        'bs': {
+            'hp': 105,
+            'at': 95,
+            'df': 95,
+            'sa': 55,
+            'sd': 55,
+            'sp': 45
+        }
+    },
+    'Steelix': {
+        'bs': {
+            'hp': 75,
+            'at': 105,
+            'df': 200,
+            'sa': 45,
+            'sd': 65,
+            'sp': 30
+        }
+    },
+    'Qwilfish': {
+        'bs': {
+            'hp': 65,
+            'at': 95,
+            'df': 95,
+            'sa': 45,
+            'sd': 55,
+            'sp': 95
+        }
+    },
+    'Slugma': {
+        'bs': {
+            'hp': 50,
+            'at': 50,
+            'df': 50,
+            'sa': 90,
+            'sd': 50,
+            'sp': 20
+        }
+    },
+    'Magcargo': {
+        'bs': {
+            'hp': 60,
+            'at': 50,
+            'df': 150,
+            'sa': 110,
+            'sd': 100,
+            'sp': 30
+        }
+    },
+    'Corsola': {
+        'bs': {
+            'hp': 65,
+            'at': 45,
+            'df': 115,
+            'sa': 90,
+            'sd': 115,
+            'sp': 35
+        }
+    },
+    'Delibird': {
+        'bs': {
+            'hp': 45,
+            'at': 85,
+            'df': 50,
+            'sa': 110,
+            'sd': 50,
+            'sp': 110
+        }
+    },
+    'Smoochum': {
+        'bs': {
+            'hp': 45,
+            'at': 30,
+            'df': 15,
+            'sa': 95,
+            'sd': 65,
+            'sp': 65
+        }
+    },
+    'Sceptile': {
+        'bs': {
+            'hp': 70,
+            'at': 90,
+            'df': 65,
+            'sa': 110,
+            'sd': 80,
+            'sp': 120
+        },
+        'types': [
+            'Grass',
+            'Dragon',
+        ]
+    },
+    'Blaziken': {
+        'bs': {
+            'hp': 80,
+            'at': 120,
+            'df': 75,
+            'sa': 110,
+            'sd': 70,
+            'sp': 80
+        }
+    },
+    'Poochyena': {
+        'bs': {
+            'hp': 35,
+            'at': 75,
+            'df': 35,
+            'sa': 30,
+            'sd': 30,
+            'sp': 65
+        }
+    },
+    'Mightyena': {
+        'bs': {
+            'hp': 70,
+            'at': 110,
+            'df': 70,
+            'sa': 60,
+            'sd': 60,
+            'sp': 95
+        }
+    },
+    'Zigzagoon': {
+        'bs': {
+            'hp': 38,
+            'at': 40,
+            'df': 41,
+            'sa': 30,
+            'sd': 41,
+            'sp': 60
+        }
+    },
+    'Linoone': {
+        'bs': {
+            'hp': 85,
+            'at': 85,
+            'df': 60,
+            'sa': 50,
+            'sd': 60,
+            'sp': 110
+        }
+    },
+    'Beautifly': {
+        'bs': {
+            'hp': 60,
+            'at': 70,
+            'df': 60,
+            'sa': 125,
+            'sd': 60,
+            'sp': 75
+        }
+    },
+    'Dustox': {
+        'bs': {
+            'hp': 60,
+            'at': 50,
+            'df': 75,
+            'sa': 75,
+            'sd': 115,
+            'sp': 75
+        }
+    },
+    'Swellow': {
+        'bs': {
+            'hp': 60,
+            'at': 90,
+            'df': 60,
+            'sa': 80,
+            'sd': 50,
+            'sp': 125
+        }
+    },
+    'Pelipper': {
+        'bs': {
+            'hp': 60,
+            'at': 50,
+            'df': 110,
+            'sa': 95,
+            'sd': 80,
+            'sp': 65
+        }
+    },
+    'Ralts': {
+        'bs': {
+            'hp': 28,
+            'at': 25,
+            'df': 25,
+            'sa': 65,
+            'sd': 55,
+            'sp': 40
+        }
+    },
+    'Kirlia': {
+        'bs': {
+            'hp': 38,
+            'at': 35,
+            'df': 35,
+            'sa': 95,
+            'sd': 85,
+            'sp': 50
+        }
+    },
+    'Surskit': {
+        'bs': {
+            'hp': 40,
+            'at': 30,
+            'df': 30,
+            'sa': 55,
+            'sd': 55,
+            'sp': 65
+        }
+    },
+    'Masquerain': {
+        'bs': {
+            'hp': 70,
+            'at': 50,
+            'df': 50,
+            'sa': 110,
+            'sd': 100,
+            'sp': 100
+        },
+        'types': [
+            'Bug',
+            'Water',
+        ]
+    },
+    'Azurill': {
+        'bs': {
+            'hp': 50,
+            'at': 20,
+            'df': 40,
+            'sa': 40,
+            'sd': 40,
+            'sp': 20
+        }
+    },
+    'Nosepass': {
+        'bs': {
+            'hp': 30,
+            'at': 35,
+            'df': 135,
+            'sa': 55,
+            'sd': 90,
+            'sp': 30
+        }
+    },
+    'Skitty': {
+        'bs': {
+            'hp': 50,
+            'at': 50,
+            'df': 50,
+            'sa': 40,
+            'sd': 40,
+            'sp': 60
+        }
+    },
+    'Delcatty': {
+        'bs': {
+            'hp': 70,
+            'at': 95,
+            'df': 65,
+            'sa': 85,
+            'sd': 55,
+            'sp': 95
+        }
+    },
+    'Sableye': {
+        'bs': {
+            'hp': 50,
+            'at': 85,
+            'df': 95,
+            'sa': 85,
+            'sd': 85,
+            'sp': 50
+        }
+    },
+    'Mawile': {
+        'bs': {
+            'hp': 50,
+            'at': 95,
+            'df': 115,
+            'sa': 55,
+            'sd': 85,
+            'sp': 50
+        }
+    },
+    'Meditite': {
+        'bs': {
+            'hp': 30,
+            'at': 40,
+            'df': 55,
+            'sa': 60,
+            'sd': 55,
+            'sp': 60
+        }
+    },
+    'Medicham': {
+        'bs': {
+            'hp': 60,
+            'at': 60,
+            'df': 80,
+            'sa': 80,
+            'sd': 80,
+            'sp': 90
+        }
+    },
+    'Plusle': {
+        'bs': {
+            'hp': 60,
+            'at': 50,
+            'df': 50,
+            'sa': 95,
+            'sd': 85,
+            'sp': 110
+        }
+    },
+    'Minun': {
+        'bs': {
+            'hp': 60,
+            'at': 50,
+            'df': 50,
+            'sa': 85,
+            'sd': 95,
+            'sp': 110
+        }
+    },
+    'Volbeat': {
+        'bs': {
+            'hp': 65,
+            'at': 33,
+            'df': 75,
+            'sa': 107,
+            'sd': 85,
+            'sp': 100
+        },
+        'types': [
+            'Bug',
+            'Electric',
+        ]
+    },
+    'Illumise': {
+        'bs': {
+            'hp': 65,
+            'at': 33,
+            'df': 85,
+            'sa': 97,
+            'sd': 85,
+            'sp': 100
+        },
+        'types': [
+            'Bug',
+            'Fairy',
+        ]
+    },
+    'Spinda': {
+        'bs': {
+            'hp': 75,
+            'at': 75,
+            'df': 75,
+            'sa': 75,
+            'sd': 75,
+            'sp': 75
+        }
+    },
+    'Trapinch': {
+        'bs': {
+            'hp': 55,
+            'at': 100,
+            'df': 45,
+            'sa': 45,
+            'sd': 45,
+            'sp': 10
+        },
+        'types': [
+            'Bug',
+            'Ground',
+        ]
+    },
+    'Vibrava': {
+        'bs': {
+            'hp': 60,
+            'at': 80,
+            'df': 55,
+            'sa': 90,
+            'sd': 55,
+            'sp': 70
+        },
+        'types': [
+            'Bug',
+            'Dragon',
+        ]
+    },
+    'Flygon': {
+        'bs': {
+            'hp': 90,
+            'at': 110,
+            'df': 85,
+            'sa': 130,
+            'sd': 85,
+            'sp': 100
+        },
+        'types': [
+            'Bug',
+            'Dragon',
+        ]
+    },
+    'Swablu': {
+        'bs': {
+            'hp': 45,
+            'at': 60,
+            'df': 60,
+            'sa': 60,
+            'sd': 75,
+            'sp': 50
+        },
+        'types': [
+            'Fairy',
+            'Flying',
+        ]
+    },
+    'Altaria': {
+        'bs': {
+            'hp': 75,
+            'at': 90,
+            'df': 90,
+            'sa': 90,
+            'sd': 105,
+            'sp': 80
+        },
+        'types': [
+            'Dragon',
+            'Fairy',
+        ]
+    },
+    'Zangoose': {
+        'bs': {
+            'hp': 75,
+            'at': 115,
+            'df': 60,
+            'sa': 60,
+            'sd': 60,
+            'sp': 95
+        }
+    },
+    'Seviper': {
+        'bs': {
+            'hp': 75,
+            'at': 115,
+            'df': 60,
+            'sa': 80,
+            'sd': 60,
+            'sp': 75
+        },
+        'types': [
+            'Poison',
+            'Dark',
+        ]
+    },
+    'Lunatone': {
+        'bs': {
+            'hp': 90,
+            'at': 55,
+            'df': 65,
+            'sa': 100,
+            'sd': 85,
+            'sp': 70
+        }
+    },
+    'Solrock': {
+        'bs': {
+            'hp': 90,
+            'at': 100,
+            'df': 85,
+            'sa': 55,
+            'sd': 65,
+            'sp': 70
+        }
+    },
+    'Milotic': {
+        'types': [
+            'Water',
+            'Fairy',
+        ]
+    },
+    'Castform': {
+        'bs': {
+            'hp': 60,
+            'at': 60,
+            'df': 60,
+            'sa': 105,
+            'sd': 70,
+            'sp': 95
+        }
+    },
+    'Kecleon': {
+        'bs': {
+            'hp': 60,
+            'at': 100,
+            'df': 70,
+            'sa': 60,
+            'sd': 120,
+            'sp': 40
+        }
+    },
+    'Banette': {
+        'bs': {
+            'hp': 64,
+            'at': 125,
+            'df': 65,
+            'sa': 93,
+            'sd': 63,
+            'sp': 65
+        }
+    },
+    'Tropius': {
+        'bs': {
+            'hp': 110,
+            'at': 95,
+            'df': 95,
+            'sa': 95,
+            'sd': 95,
+            'sp': 45
+        }
+    },
+    'Chimecho': {
+        'bs': {
+            'hp': 75,
+            'at': 40,
+            'df': 80,
+            'sa': 110,
+            'sd': 100,
+            'sp': 65
+        }
+    },
+    'Absol': {
+        'bs': {
+            'hp': 65,
+            'at': 130,
+            'df': 60,
+            'sa': 85,
+            'sd': 60,
+            'sp': 85
+        }
+    },
+    'Glalie': {
+        'bs': {
+            'hp': 80,
+            'at': 110,
+            'df': 110,
+            'sa': 60,
+            'sd': 60,
+            'sp': 80
+        },
+        'types': [
+            'Ice',
+            'Rock',
+        ]
+    },
+    'Luvdisc': {
+        'bs': {
+            'hp': 50,
+            'at': 30,
+            'df': 75,
+            'sa': 95,
+            'sd': 75,
+            'sp': 125
+        },
+        'types': [
+            'Water',
+            'Fairy',
+        ]
+    },
+    'Torterra': {
+        'bs': {
+            'hp': 95,
+            'at': 114,
+            'df': 110,
+            'sa': 75,
+            'sd': 85,
+            'sp': 56
+        }
+    },
+    'Infernape': {
+        'bs': {
+            'hp': 76,
+            'at': 104,
+            'df': 71,
+            'sa': 104,
+            'sd': 71,
+            'sp': 109
+        }
+    },
+    'Empoleon': {
+        'bs': {
+            'hp': 84,
+            'at': 86,
+            'df': 88,
+            'sa': 116,
+            'sd': 101,
+            'sp': 60
+        }
+    },
+    'Bibarel': {
+        'bs': {
+            'hp': 94,
+            'at': 100,
+            'df': 65,
+            'sa': 55,
+            'sd': 65,
+            'sp': 71
+        }
+    },
+    'Kricketot': {
+        'bs': {
+            'hp': 37,
+            'at': 35,
+            'df': 41,
+            'sa': 35,
+            'sd': 41,
+            'sp': 25
+        }
+    },
+    'Kricketune': {
+        'bs': {
+            'hp': 80,
+            'at': 115,
+            'df': 70,
+            'sa': 50,
+            'sd': 70,
+            'sp': 65
+        }
+    },
+    'Luxray': {
+        'types': [
+            'Electric',
+            'Dark',
+        ]
+    },
+    'Shieldon': {
+        'bs': {
+            'hp': 30,
+            'at': 62,
+            'df': 118,
+            'sa': 22,
+            'sd': 88,
+            'sp': 30
+        }
+    },
+    'Bastiodon': {
+        'bs': {
+            'hp': 60,
+            'at': 72,
+            'df': 168,
+            'sa': 27,
+            'sd': 138,
+            'sp': 30
+        }
+    },
+    'Mothim': {
+        'bs': {
+            'hp': 70,
+            'at': 70,
+            'df': 50,
+            'sa': 110,
+            'sd': 50,
+            'sp': 100
+        }
+    },
+    'Pachirisu': {
+        'bs': {
+            'hp': 60,
+            'at': 45,
+            'df': 80,
+            'sa': 80,
+            'sd': 90,
+            'sp': 95
+        }
+    },
+    'Cherrim': {
+        'bs': {
+            'hp': 70,
+            'at': 45,
+            'df': 70,
+            'sa': 107,
+            'sd': 83,
+            'sp': 90
+        }
+    },
+    'Lopunny': {
+        'bs': {
+            'hp': 65,
+            'at': 106,
+            'df': 84,
+            'sa': 44,
+            'sd': 96,
+            'sp': 105
+        },
+        'types': [
+            'Normal',
+            'Fighting',
+        ]
+    },
+    'Mismagius': {
+        'types': [
+            'Ghost',
+            'Fairy',
+        ]
+    },
+    'Glameow': {
+        'bs': {
+            'hp': 50,
+            'at': 65,
+            'df': 45,
+            'sa': 45,
+            'sd': 40,
+            'sp': 90
+        }
+    },
+    'Purugly': {
+        'bs': {
+            'hp': 90,
+            'at': 95,
+            'df': 70,
+            'sa': 65,
+            'sd': 60,
+            'sp': 115
+        }
+    },
+    'Chingling': {
+        'bs': {
+            'hp': 45,
+            'at': 30,
+            'df': 50,
+            'sa': 80,
+            'sd': 60,
+            'sp': 45
+        }
+    },
+    'Stunky': {
+        'bs': {
+            'hp': 65,
+            'at': 65,
+            'df': 50,
+            'sa': 40,
+            'sd': 40,
+            'sp': 75
+        }
+    },
+    'Skuntank': {
+        'bs': {
+            'hp': 115,
+            'at': 95,
+            'df': 70,
+            'sa': 70,
+            'sd': 60,
+            'sp': 85
+        }
+    },
+    'Bonsly': {
+        'bs': {
+            'hp': 60,
+            'at': 85,
+            'df': 95,
+            'sa': 10,
+            'sd': 55,
+            'sp': 10
+        }
+    },
+    'Mime Jr.': {
+        'bs': {
+            'hp': 20,
+            'at': 15,
+            'df': 45,
+            'sa': 80,
+            'sd': 90,
+            'sp': 65
+        }
+    },
+    'Chatot': {
+        'bs': {
+            'hp': 75,
+            'at': 45,
+            'df': 55,
+            'sa': 110,
+            'sd': 55,
+            'sp': 110
+        }
+    },
+    'Carnivine': {
+        'bs': {
+            'hp': 74,
+            'at': 110,
+            'df': 72,
+            'sa': 100,
+            'sd': 72,
+            'sp': 36
+        }
+    },
+    'Finneon': {
+        'bs': {
+            'hp': 50,
+            'at': 30,
+            'df': 60,
+            'sa': 60,
+            'sd': 60,
+            'sp': 70
+        }
+    },
+    'Lumineon': {
+        'bs': {
+            'hp': 70,
+            'at': 40,
+            'df': 75,
+            'sa': 105,
+            'sd': 90,
+            'sp': 105
+        }
+    },
+    'Electivire': {
+        'types': [
+            'Electric',
+            'Fighting',
+        ]
+    },
+    'Glaceon': {
+        'bs': {
+            'hp': 65,
+            'at': 60,
+            'df': 110,
+            'sa': 130,
+            'sd': 65,
+            'sp': 95
+        }
+    },
+    'Probopass': {
+        'bs': {
+            'hp': 60,
+            'at': 45,
+            'df': 145,
+            'sa': 85,
+            'sd': 150,
+            'sp': 40
+        }
+    },
+    'Uxie': {
+        'types': [
+            'Psychic',
+            'Fairy',
+        ]
+    },
+    'Mesprit': {
+        'types': [
+            'Psychic',
+            'Fairy',
+        ]
+    },
+    'Azelf': {
+        'types': [
+            'Psychic',
+            'Fairy',
+        ]
     }
 };
-var DPP = util_1.extend(true, {}, ADV, DPP_PATCH, RENPLAT_PATCH);
+var DPP = util_1.extend(true, {}, ADV, DPP_PATCH, FAIRY_PATCH, RENPLAT_PATCH);
 var BW_PATCH = {
     'Rotom-Fan': { types: ['Electric', 'Flying'] },
     'Rotom-Frost': { types: ['Electric', 'Ice'] },
