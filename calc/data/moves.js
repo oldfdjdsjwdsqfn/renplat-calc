@@ -472,7 +472,7 @@ var ADV_PATCH = {
     Hail: { bp: 0, category: 'Status', type: 'Ice' },
     'Icicle Spear': { bp: 10, type: 'Ice', multihit: [2, 5] },
     Ingrain: { bp: 0, category: 'Status', type: 'Grass' },
-    'Knock Off': { bp: 20, type: 'Dark', makesContact: true },
+    'Knock Off': { bp: 65, type: 'Dark', makesContact: true },
     'Leaf Blade': { bp: 70, type: 'Grass', makesContact: true },
     'Magic Coat': { bp: 0, category: 'Status', type: 'Psychic', priority: 4 },
     Memento: { bp: 0, category: 'Status', type: 'Dark' },
