@@ -271,7 +271,22 @@ var SETDEX_DPP = {
                 "Rock Tomb",
                 "Mist",
                 "Rollout"
-            ]            
+            ]   
+        }
+    },
+
+    "Chansey": {
+        "Cheryl": {
+            "level": 20,
+            "item": "Sitrus Berry",
+            "nature": "Quiet",
+            "ability": "Serene Grace",
+            "moves": [
+                "Hyper Voice",
+                "Soft-Boiled",
+                "Ice Beam",
+                "Thunderbolt"
+            ]             
         }
     }
 }
