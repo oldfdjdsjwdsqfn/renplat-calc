@@ -376,7 +376,65 @@ var SETDEX_DPP = {
                 "Sludge",
                 "Dazzling Gleam",
                 "Extrasensory"
-            ]                
+            ]   
+        }
+    },
+
+    "Golbat": {
+        "Jupiter 1": {
+            "level": 26,
+            "nature": "Jolly",
+            "ability": "Inner Focus",
+            "moves": [
+                "Wing Attack",
+                "Giga Drain",
+                "Leech Life",
+                "Confuse Ray"
+            ]   
+        }
+    },
+
+    "Sableye": {
+        "Jupiter 1": {
+            "level": 26,
+            "item": "Sitrus Berry",            
+            "nature": "Adamant",
+            "ability": "Magic Guard",
+            "moves": [
+                "Fake Out",
+                "Shadow Claw",
+                "Knock Off",
+                "Shadow Sneak"
+            ]  
+        }
+    },
+
+    "Tangela": {
+        "Jupiter 1": {
+            "level": 26,            
+            "nature": "Modest",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Giga Drain",
+                "Shock Wave",
+                "Leech Seed",
+                "Sleep Powder"
+            ]   
+        }
+    },
+
+    "Skuntank": {
+        "Jupiter 1": {
+            "level": 27,
+            "item": "Sitrus Berry",            
+            "nature": "Adamant",
+            "ability": "Aftermath",
+            "moves": [
+                "Poison Jab",
+                "Night Slash",
+                "Focus Energy",
+                "Torment"
+            ]               
         }
     }
 }
