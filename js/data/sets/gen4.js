@@ -185,7 +185,50 @@ var SETDEX_DPP = {
                 "Hypnosis",
                 "Facade",
                 "Feint Attack"
-            ]            
+            ]     
+        }
+    },
+
+    "Zubat": {
+        "Mars 1": {
+            "level": 18,
+            "nature": "Naive",
+            "ability": "Inner Focus",
+            "moves": [
+                "Poison Fang",
+                "Wing Attack",
+                "Toxic",
+                "Confuse Ray"
+            ]  
+        }
+    },
+
+    "Bronzor": {
+        "Mars 1": {
+            "level": 18,
+            "item": "Sitrus Berry",
+            "nature": "Brave",
+            "ability": "Levitate",
+            "moves": [
+                "Hypnosis",
+                "Extrasensory",
+                "Gyro Ball",
+                "Confuse Ray"
+            ]     
+        }
+    },
+
+    "Yanma": {
+        "Mars 1": {
+            "level": 18,
+            "nature": "Timid",
+            "ability": "Speed Boost",
+            "moves": [
+                "Silver Wind",
+                "Air Cutter",
+                "Detect",
+                "Sonic Boom"
+            ]              
         }
     }
 }
