@@ -275,7 +275,7 @@ var SETDEX_DPP = {
         }
     },
 
-    "Chansey
+    "Chansey"
         "Cheryl": {
             "level": 20
             "item": "Sitrus Berry",
