@@ -286,7 +286,22 @@ var SETDEX_DPP = {
                 "Soft-Boiled",
                 "Ice Beam",
                 "Thunderbolt"
-            ]             
+            ]  
+        }
+    },
+
+    "Bellossom": {
+        "Gardenia": {
+            "level": 25,
+            "item": "Wide Lens",
+            "nature": "Relaxed",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Grass Knot",
+                "Teeter Dance",
+                "Dazzling Gleam",
+                "Stun Spore"
+            ]               
         }
     }
 }
