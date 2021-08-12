@@ -228,6 +228,64 @@ var SETDEX_DPP = {
                 "Air Cutter",
                 "Detect",
                 "Sonic Boom"
+            ]  
+        }
+    },
+
+    "Drifloon": {
+        "Cheryl": {
+            "level": 19,
+            "item": "Sitrus Berry",
+            "nature": "Modest",
+            "ability": "Unburden",
+            "moves": [
+                "Ominous Wind",
+                "Air Cutter",
+                "Shock Wave",
+                "Swift"
+            ]  
+        }
+    },
+
+    "Makuhita": {
+        "Cheryl": {
+            "level": 19,
+            "nature": "Relaxed",
+            "ability": "Thick Fat",
+            "moves": [
+                "Knock Off",
+                "Fake Out",
+                "Brick Break",
+                "Bullet Punch"
+            ]  
+        }
+    },
+
+    "Wailmer": {
+        "Cheryl": {
+            "level": 19,
+            "nature": "Relaxed",
+            "ability": "Water Veil",
+            "moves": [
+                "Water Pulse",
+                "Rock Tomb",
+                "Mist",
+                "Rollout"
+            ] 
+        }
+    },
+
+    "Chansey
+        "Cheryl": {
+            "level": 20
+            "item": "Sitrus Berry",
+            "nature": "Quiet
+            "ability": "Serene Grace",
+            "moves": [
+                "Hyper Voice",
+                "Soft-Boiled",
+                "Ice Beam",
+                "Thunderbolt"
             ]              
         }
     }
