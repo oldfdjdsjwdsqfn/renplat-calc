@@ -1,7 +1,7 @@
 var SETDEX_DPP = {
 
     "Starly": {
-        "Rival @ Route 203": {
+        "Barry 1": {
             "level": 10,
             "moves": [
                 "Wing Attack",
@@ -12,7 +12,7 @@ var SETDEX_DPP = {
     },
 
     "Munchlax": {
-        "Rival @ Route 203": {
+        "Barry 1": {
             "level": 10,
             "moves": [
                 "Metronome",
@@ -24,7 +24,7 @@ var SETDEX_DPP = {
     },
 
     "Turtwig": {
-        "Rival @ Route 203": {
+        "Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -34,7 +34,7 @@ var SETDEX_DPP = {
             ]
 
         },
-        "Dawn/Lucas @ Route 202": {
+        "Dawn/Lucas 1": {
             "level": 9,
             "moves": [
                 "Tackle",
@@ -45,7 +45,7 @@ var SETDEX_DPP = {
         }
     },
     "Chimchar": {
-        "Rival @ Route 203": {
+        "Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -54,7 +54,7 @@ var SETDEX_DPP = {
                 "Taunt"
             ]
         },
-        "Dawn/Lucas @ Route 202": {
+        "Dawn/Lucas 1": {
             "level": 9,
             "moves": [
                 "Scratch",
@@ -65,7 +65,7 @@ var SETDEX_DPP = {
         }
     },
     "Piplup": {
-        "Rival @ Route 203": {
+        "Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -74,7 +74,7 @@ var SETDEX_DPP = {
                 "Pound"
             ]
         },
-        "Dawn/Lucas @ Route 202": {
+        "Dawn/Lucas 1": {
             "level": 9,
             "moves": [
                 "Pound",
@@ -85,7 +85,7 @@ var SETDEX_DPP = {
         }
     },
     "Nosepass": {
-        "Roark #1": {
+        "Roark": {
             "level": 15,
             "item": "Smooth Rock",
             "ability": "Sturdy",
@@ -100,7 +100,7 @@ var SETDEX_DPP = {
     },
 
     "Bonsly": {
-        "Roark #2": {
+        "Roark": {
             "level": 15,
             "item": "Rindo Berry",
             "nature": "Impish",
@@ -115,7 +115,7 @@ var SETDEX_DPP = {
     },
 
     "Geodude": {
-        "Roark #3": {
+        "Roark": {
             "level": 15,
             "item": "Expert Belt",
             "nature": "Adamant",
@@ -130,7 +130,7 @@ var SETDEX_DPP = {
     },
 
     "Onix": {
-        "Roark #4": {
+        "Roark": {
             "level": 15,
             "item": "Muscle Band",
             "nature": "Jolly",
@@ -145,7 +145,7 @@ var SETDEX_DPP = {
     },
 
     "Larvitar": {
-        "Roark #5": {
+        "Roark": {
             "level": 15,
             "item": "Flame Orb",
             "nature": "Jolly",
@@ -160,7 +160,7 @@ var SETDEX_DPP = {
     },
 
     "Cranidos": {
-        "Roark #6": {
+        "Roark": {
             "level": 16,
             "item": "Sitrus Berry",
             "nature": "Hasty",
@@ -168,7 +168,7 @@ var SETDEX_DPP = {
             "moves": [
                 "Zen Headbutt",
                 "Rock Tomb",
-                "Thudner Punch",
+                "Thunder Punch",
                 "Scary Face"
             ]
         }
