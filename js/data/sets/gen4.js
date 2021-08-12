@@ -277,7 +277,7 @@ var SETDEX_DPP = {
 
     "Chansey"
         "Cheryl": {
-            "level": 20
+            "level": 20,
             "item": "Sitrus Berry",
             "nature": "Quiet
             "ability": "Serene Grace",
