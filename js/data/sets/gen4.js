@@ -301,7 +301,82 @@ var SETDEX_DPP = {
                 "Teeter Dance",
                 "Dazzling Gleam",
                 "Stun Spore"
-            ]               
+            ]
+        }
+    },
+
+    "Tangela": {
+        "Gardenia": {
+            "level": 25,
+            "item": "Coba Berry",
+            "nature": "Rash",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Grass Knot",
+                "Shock Wave",
+                "Ancient Power",
+                "Stun Spore"
+            ]     
+        }
+    },
+
+    "Cherrim": {
+        "Gardenia": {
+            "level": 25,
+            "item": "Focus Sash",
+            "nature": "Hasty",
+            "ability": "Flower Gift",
+            "moves": [
+                "Grass Knot",
+                "Sunny Day",
+                "Weather Ball",
+                "Morning Sun"
+            ]    
+        }
+    },
+
+    "Grotle": {
+        "Gardenia": {
+            "level": 25,
+            "item": "Leftovers",
+            "nature": "Adamant",
+            "ability": "Overgrow",
+            "moves": [
+                "Seed Bomb",
+                "Protect",
+                "Leech Seed",
+                "Bulldoze"
+            ]   
+        }
+    },
+
+    "Breloom": {
+        "Gardenia": {
+            "level": 25,
+            "item": "Muscle Band",
+            "nature": "Naughty",
+            "ability": "Technician",
+            "moves": [
+                "Bullet Seed",
+                "Mach Punch",
+                "Thunder Punch",
+                "Spore"
+            ]
+        }
+    },
+
+    "Roserade": {
+        "Gardenia": {
+            "level": 26,
+            "item": "Sitrus Berry",
+            "nature": "Timid",
+            "ability": "Technician",
+            "moves": [
+                "Magical Leaf",
+                "Sludge",
+                "Dazzling Gleam",
+                "Extrasensory"
+            ]                
         }
     }
 }
