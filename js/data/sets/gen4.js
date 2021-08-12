@@ -279,7 +279,7 @@ var SETDEX_DPP = {
         "Cheryl": {
             "level": 20,
             "item": "Sitrus Berry",
-            "nature": "Quiet
+            "nature": "Quiet",
             "ability": "Serene Grace",
             "moves": [
                 "Hyper Voice",
