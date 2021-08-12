@@ -172,5 +172,20 @@ var SETDEX_DPP = {
                 "Scary Face"
             ]
         }
+    },
+
+    "Purugly": {
+        "Mars 1": {
+            "level": 19,
+            "item": "Sitrus Berry",
+            "nature": "Jolly",
+            "ability": "Thick Fat",
+            "moves": [
+                "Fake Out",
+                "Hypnosis",
+                "Facade",
+                "Feint Attack"
+            ]            
+        }
     }
 }
