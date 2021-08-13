@@ -492,6 +492,81 @@ var SETDEX_DPP = {
                 "Grass Knot",
                 "Dazzling Gleam",
                 "Recover"
+            ] 
+        }
+    },
+
+    "Dustox": {
+        "Aaron Hearthome": {
+            "level": 31,
+            "item": "Leftovers",            
+            "nature": "Calm",
+            "ability": "Shield Dust",
+            "moves": [
+                "Bug Buzz",
+                "Toxic",
+                "Protect",
+                "Moonlight"
+            ]     
+        }
+    },
+
+    "Beautifly": {
+        "Aaron Hearthome": {
+            "level": 31,
+            "item": "Focus Sash",            
+            "nature": "Mild",
+            "ability": "Swarm",
+            "moves": [
+                "Bug Buzz",
+                "Air Slash",
+                "Energy Ball",
+                "Psychic"
+            ]   
+        }
+    },
+
+    "Venomoth": {
+        "Aaron Hearthome": {
+            "level": 31,
+            "item": "Wise Glasses",            
+            "nature": "Naive",
+            "ability": "Tinted Lens",
+            "moves": [
+                "Bug Buzz",
+                "Sludge Bomb",
+                "Sleep Powder",
+                "Psychic"
+            ]  
+        }
+    },
+
+    "Scizor": {
+        "Aaron Hearthome": {
+            "level": 31,
+            "item": "Muscle Band",            
+            "nature": "Adamant",
+            "ability": "Technician",
+            "moves": [
+                "X-Scissor",
+                "Bullet Punch",
+                "Iron Head",
+                "Swords Dance"
+            ]  
+        }
+    },
+
+    "Drapion": {
+        "Aaron Hearthome": {
+            "level": 32,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Sniper",
+            "moves": [
+                "X-Scissor",
+                "Cross Poison",
+                "Night Slash",
+                "Swords Dance"
             ]             
         }
     }
