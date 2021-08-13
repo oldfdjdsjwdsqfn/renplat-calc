@@ -625,7 +625,97 @@ var SETDEX_DPP = {
                 "Magnitude",
                 "Knock Off",
                 "Protect"
-            ]             
+            ]    
+        }
+    },
+
+    "Drifblim": {
+        "Fantina": {
+            "level": 32,
+            "item": "Starf Berry",            
+            "nature": "Naive",
+            "ability": "Unburden",
+            "moves": [
+                "Shadow Ball",
+                "Air Slash",
+                "Baton Pass",
+                "Calm Mind"
+            ]    
+        }
+    },
+
+    "Dusclops": {
+        "Fantina": {
+            "level": 32,
+            "item": "Leftovers",            
+            "nature": "Impish",
+            "ability": "Pressure",
+            "moves": [
+                "Shadow Punch",
+                "Will-O-Wisp",
+                "Protect",
+                "Pain Split"
+            ]   
+        }
+    },
+
+    "Banette": {
+        "Fantina": {
+            "level": 32,
+            "item": "Muscle Band",            
+            "nature": "Adamant",
+            "ability": "Insomnia",
+            "moves": [
+                "Shadow Claw",
+                "Will-O-Wisp",
+                "Sucker Punch",
+                "Disable"
+            ] 
+        }
+    },
+
+    "Spiritomb": {
+        "Fantina": {
+            "level": 32,
+            "item": "Zoom Lens",            
+            "nature": "Relaxed",
+            "ability": "Pressure",
+            "moves": [
+                "Shadow Ball",
+                "Will-O-Wisp",
+                "Dark Pulse",
+                "Disable"
+            ]    
+        }
+    },
+
+    "Gengar": {
+        "Fantina": {
+            "level": 32,
+            "item": "Wise Glasses",            
+            "nature": "Naive",
+            "ability": "Levitate",
+            "moves": [
+                "Shadow Ball",
+                "Will-O-Wisp",
+                "Sludge Bomb",
+                "Dazzling Gleam"
+            ]     
+        }
+    },
+
+    "Mismagius": {
+        "Fantina": {
+            "level": 33,
+            "item": "Sitrus Berry",            
+            "nature": "Naive",
+            "ability": "Levitate",
+            "moves": [
+                "Shadow Ball",
+                "Calm Mind",
+                "Power Gem",
+                "Dazzling Gleam"
+            ]              
         }
     }
 }
