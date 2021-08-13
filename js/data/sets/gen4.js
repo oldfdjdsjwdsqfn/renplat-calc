@@ -995,7 +995,22 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Aerial Ace",
                 "Roost"
-            ]                         
+            ]   
+        }
+    },
+
+    "Arcanine": {
+        "Barry 3": {
+            "level": 41,
+            "item": "Expert Belt",            
+            "nature": "Modest",
+            "ability": "Intimidate",
+            "moves": [
+                "Heat Wave",
+                "Thunder Fang",
+                "Outrage",
+                "Crunch"
+            ] 			
         }
     }
 }
