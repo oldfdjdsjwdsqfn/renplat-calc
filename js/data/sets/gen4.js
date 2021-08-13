@@ -363,6 +363,7 @@ var SETDEX_DPP = {
         },
         "Lucas 2": {
             "level": 30,
+            "item": "Sitrus Berry",
             "nature": "Hasty",
             "ability": "Overgrow",
             "moves": [
