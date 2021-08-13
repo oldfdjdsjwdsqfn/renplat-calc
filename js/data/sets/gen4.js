@@ -316,7 +316,18 @@ var SETDEX_DPP = {
                 "Shock Wave",
                 "Ancient Power",
                 "Stun Spore"
-            ]     
+            ]  
+        }
+        "Jupiter 1": {
+            "level": 26,            
+            "nature": "Modest",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Giga Drain",
+                "Shock Wave",
+                "Leech Seed",
+                "Sleep Powder"
+            ]  
         }
     },
 
@@ -405,20 +416,6 @@ var SETDEX_DPP = {
                 "Shadow Claw",
                 "Knock Off",
                 "Shadow Sneak"
-            ]  
-        }
-    },
-
-    "Tangela": {
-        "Jupiter 1": {
-            "level": 26,            
-            "nature": "Modest",
-            "ability": "Chlorophyll",
-            "moves": [
-                "Giga Drain",
-                "Shock Wave",
-                "Leech Seed",
-                "Sleep Powder"
             ]   
         }
     },
