@@ -746,7 +746,20 @@ var SETDEX_DPP = {
                 "Aerial Ace",
                 "Knock Off"
             ]  
-        }
+			
+        },	
+        "Barry 3": {
+            "level": 41,
+            "item": "Coba Berry",            
+            "nature": "Quirky",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Brick Break",
+                "Bullet Punch",
+                "Night Slash"
+            ]  
+		}	
     },
 
     "Snorlax": {
@@ -761,6 +774,20 @@ var SETDEX_DPP = {
                 "Amnesia",
                 "Rock Slide"
             ]   
+			
+						
+        },	
+        "Barry 3": {
+            "level": 41,
+            "item": "Leftovers",            
+            "nature": "Gentle",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Crunch",
+                "Rest",
+                "Sleep Talk"
+            ]  
         }
     },
 
@@ -953,7 +980,23 @@ var SETDEX_DPP = {
                 "Flash Cannon",
                 "Dark Pulse",
                 "Agility"
-            ]             
+            ] 
+        }
+    },
+
+    "Staraptor": {
+        "Barry 3": {
+            "level": 41,
+            "item": "Muscle Band",            
+            "nature": "Hardy",
+            "ability": "Reckless",
+            "moves": [
+                "Double-Edge",
+                "Close Combat",
+                "Aerial Ace",
+                "Roost"
+            ]                         
         }
     }
 }
+
