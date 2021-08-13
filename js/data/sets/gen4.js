@@ -432,7 +432,67 @@ var SETDEX_DPP = {
                 "Night Slash",
                 "Focus Energy",
                 "Torment"
-            ]               
+            ] 
+        }
+    },
+
+    "Togetic": {
+        "Mira": {
+            "level": 27,
+            "item": "Sitrus Berry",            
+            "nature": "Modest",
+            "ability": "Serene Grace",
+            "moves": [
+                "Dazzling Gleam",
+                "Air Cutter",
+                "Soft-Boiled",
+                "Sweet Kiss"
+            ]  
+        }
+    },
+
+    "Haunter": {
+        "Mira": {
+            "level": 27,
+            "item": "Spell Tag",            
+            "nature": "Hasty",
+            "ability": "Levitate",
+            "moves": [
+                "Shadow Ball",
+                "Double Team",
+                "Hypnosis",
+                "Curse"
+            ] 
+        }
+    },
+
+    "Porygon2": {
+        "Mira": {
+            "level": 27,
+            "item": "Expert Belt",            
+            "nature": "Calm",
+            "ability": "Trace",
+            "moves": [
+                "Tri Attack",
+                "Charge Beam",
+                "Signal Beam",
+                "Recover"
+            ]    
+        }
+    },
+
+    "Kadabra": {
+        "Mira": {
+            "level": 28,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Magic Guard",
+            "moves": [
+                "Psybeam",
+                "Grass Knot",
+                "Dazzling Gleam",
+                "Recover"
+            ]             
         }
     }
 }
