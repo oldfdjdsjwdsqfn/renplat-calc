@@ -387,6 +387,18 @@ var SETDEX_DPP = {
                 "Thunder Punch",
                 "Spore"
             ]
+        },
+        "Barry 3": {
+            "level": 41,
+            "item": "Focus Sash",            
+            "nature": "Bold",
+            "ability": "Technician",
+            "moves": [
+                "Bullet Seed",
+                "Force Palm",
+                "Spore",
+                "Rock Tomb"
+            ] 			
         }
     },
 
@@ -1010,7 +1022,112 @@ var SETDEX_DPP = {
                 "Thunder Fang",
                 "Outrage",
                 "Crunch"
-            ] 			
+            ] 	
+        }
+    },
+
+    "Empoleon": {
+        "Barry 3": {
+            "level": 42,
+            "item": "Sitrus Berry",            
+            "nature": "Gentle",
+            "ability": "Torrent",
+            "moves": [
+                "Scald",
+                "Flash Cannon",
+                "Agility",
+                "Swagger"
+            ] 	
+        }
+    },
+
+    "Quagsire": {
+        "Wake": {
+            "level": 43,
+            "item": "Rindo Berry",            
+            "nature": "Adamant",
+            "ability": "Water Absorb",
+            "moves": [
+                "Aqua Tail",
+                "Earthquake",
+                "Recover",
+                "Ice Punch"
+            ]	
+        }
+    },
+
+    "Gyarados": {
+        "Wake": {
+            "level": 43,
+            "item": "Wacan Berry",            
+            "nature": "Jolly",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Ice Fang",
+                "Crunch",
+                "Dragon Dance"
+            ]	
+        }
+    },
+
+    "Poliwrath": {
+        "Wake": {
+            "level": 43,
+            "item": "Sitrus Berry",            
+            "nature": "Careful",
+            "ability": "Water Absorb",
+            "moves": [
+                "Waterfall",
+                "Drain Punch",
+                "Ice Punch",
+                "Hypnosis"
+            ]
+        }
+    },
+
+    "Ludicolo": {
+        "Wake": {
+            "level": 43,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Swift Swim",
+            "moves": [
+                "Hydro Pump",
+                "Ice Beam",
+                "Energy Ball",
+                "Fake Out"
+            ]	
+        }
+    },
+
+    "Sharpedo": {
+        "Wake": {
+            "level": 43,
+            "item": "Focus Sash",            
+            "nature": "Naive",
+            "ability": "Speed Boost",
+            "moves": [
+                "Waterfall",
+                "Crunch",
+                "Ice Fang",
+                "Zen Headbutt"
+            ]		
+        }
+    },
+
+    "Floatzel": {
+        "Wake": {
+            "level": 44,
+            "item": "Life Orb",            
+            "nature": "Naive",
+            "ability": "Swift Swim",
+            "moves": [
+                "Aqua Tail",
+                "Crunch",
+                "Ice Punch",
+                "Aqua Jet"
+            ]			
         }
     }
 }
