@@ -715,6 +715,156 @@ var SETDEX_DPP = {
                 "Calm Mind",
                 "Power Gem",
                 "Dazzling Gleam"
+            ]   
+        }
+    },
+
+    "Staravia": {
+        "Barry 2": {
+            "level": 32,
+            "item": "Muscle Band",            
+            "nature": "Quiet",
+            "ability": "Reckless",
+            "moves": [
+                "Facade",
+                "Aerial Ace",
+                "Double Team",
+                "Endeavor"
+            ]      
+        }
+    },
+
+    "Heracross": {
+        "Barry 2": {
+            "level": 32,
+            "item": "Coba Berry",            
+            "nature": "Timid",
+            "ability": "Guts",
+            "moves": [
+                "Bug Bite",
+                "Brick Break",
+                "Aerial Ace",
+                "Knock Off"
+            ]  
+        }
+    },
+
+    "Snorlax": {
+        "Barry 2": {
+            "level": 32,
+            "item": "Leftovers",            
+            "nature": "Naughty",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Yawn",
+                "Amnesia",
+                "Rock Slide"
+            ]   
+        }
+    },
+
+    "Prinplup": {
+        "Barry 2": {
+            "level": 33,
+            "item": "Sitrus Berry",            
+            "nature": "Naughty",
+            "ability": "Torrent",
+            "moves": [
+                "Scald",
+                "Icy Wind",
+                "Grass Knot",
+                "Aerial Ace"
+            ]   
+        }
+    },
+
+    "Bronzong": {
+        "Saturn & Backlot Tag": {
+            "level": 33,
+            "item": "Leftovers",            
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Hypnosis",
+                "Gyro Ball",
+                "Zen Headbutt",
+                "Confuse Ray"
+            ] 
+        }
+    },
+
+    "Octillery": {
+        "Saturn & Backlot Tag": {
+            "level": 33,
+            "item": "Wise Glasses",            
+            "nature": "Adamant",
+            "ability": "Suction Cups",
+            "moves": [
+                "Octazooka",
+                "Signal Beam",
+                "Ice Beam",
+                "Flamethrower"
+            ]     
+        }
+    },
+
+    "Toxicroak": {
+        "Saturn & Backlot Tag": {
+            "level": 34,
+            "item": "Muscle Band",            
+            "nature": "Adamant",
+            "ability": "Dry Skin",
+            "moves": [
+                "Drain Punch",
+                "Poison Jab",
+                "Fake Out",
+                "Vacuum Wave"
+            ]     
+        }
+    },
+
+    "Wigglytuff": {
+        "Saturn & Backlot Tag": {
+            "level": 33,
+            "item": "Zoom Lens",            
+            "nature": "Lonely",
+            "ability": "Cute Charm",
+            "moves": [
+                "Moonblast",
+                "Hyper Voice",
+                "Sing",
+                "Thunderbolt"
+            ]     
+        }
+    },
+
+    "Raichu": {
+        "Saturn & Backlot Tag": {
+            "level": 33,
+            "item": "Wise Glasses",            
+            "nature": "Impish",
+            "ability": "Static",
+            "moves": [
+                "Fake Out",
+                "Thunderbolt",
+                "Grass Knot",
+                "Teeter Dance"
+            ]    
+        }
+    },
+
+    "Espeon": {
+        "Saturn & Backlot Tag": {
+            "level": 33,
+            "item": "Sitrus Berry",            
+            "nature": "Quiet",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Power Gem",
+                "Dazzling Gleam",
+                "Protect"
             ]              
         }
     }
