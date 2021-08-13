@@ -321,7 +321,6 @@ var SETDEX_DPP = {
         },
         "Jupiter 1": {
             "level": 26,
-            "item": "Oran Berry",
             "nature": "Relaxed",
             "ability": "Chlorophyll",
             "moves": [
