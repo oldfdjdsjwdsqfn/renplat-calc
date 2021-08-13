@@ -359,6 +359,18 @@ var SETDEX_DPP = {
                 "Leech Seed",
                 "Bulldoze"
             ]   
+
+        },
+        "Lucas 2": {
+            "level": 30,
+            "nature": "Hasty",
+            "ability": "Overgrow",
+            "moves": [
+                "Seed Bomb",
+                "Body Slam",
+                "Leech Seed",
+                "Bulldoze"
+            ]             
         }
     },
 
@@ -567,6 +579,51 @@ var SETDEX_DPP = {
                 "Cross Poison",
                 "Night Slash",
                 "Swords Dance"
+            ]   
+        }
+    },
+
+    "Piloswine": {
+        "Lucas 2": {
+            "level": 29,
+            "item": "Focus Sash",            
+            "nature": "Hasty",
+            "ability": "Thick Fat",
+            "moves": [
+                "Avalanche",
+                "Take Down",
+                "Rock Slide",
+                "Ice Shard"
+            ]   
+        }
+    },
+
+    "Granbull": {
+        "Lucas 2": {
+            "level": 29,
+            "item": "Focus Sash",            
+            "nature": "Hasty",
+            "ability": "Thick Fat",
+            "moves": [
+                "Avalanche",
+                "Take Down",
+                "Rock Slide",
+                "Ice Shard"
+            ]    
+        }
+    },
+
+    "Lickilicky": {
+        "Lucas 2": {
+            "level": 29,
+            "item": "Leftovers",            
+            "nature": "Hasty",
+            "ability": "Own Tempo",
+            "moves": [
+                "Slam",
+                "Magnitude",
+                "Knock Off",
+                "Protect"
             ]             
         }
     }
