@@ -820,7 +820,20 @@ var SETDEX_DPP = {
                 "Poison Jab",
                 "Fake Out",
                 "Vacuum Wave"
-            ]     
+            ]   
+
+        },
+        "Maylene": {
+            "level": 38,
+            "item": "Big Root",
+            "nature": "Lonely",
+            "ability": "Dry Skin",
+            "moves": [
+                "Drain Punch",
+                "Poison Jab",
+                "Ice Punch",
+                "Sucker Punch"
+            ]               
         }
     },
 
@@ -865,7 +878,82 @@ var SETDEX_DPP = {
                 "Power Gem",
                 "Dazzling Gleam",
                 "Protect"
-            ]              
+            ]  
+        }
+    },
+
+    "Medicham": {
+        "Maylene": {
+            "level": 38,
+            "item": "Sitrus Berry",            
+            "nature": "Naive",
+            "ability": "Pure Power",
+            "moves": [
+                "High Jump Kick",
+                "Zen Headbutt",
+                "Ice Punch",
+                "Fake Out"
+            ]    
+        }
+    },
+
+    "Machamp": {
+        "Maylene": {
+            "level": 38,
+            "item": "Toxic Orb",            
+            "nature": "Relaxed",
+            "ability": "Guts",
+            "moves": [
+                "Close Combat",
+                "Payback",
+                "Thunder Punch",
+                "Protect"
+            ]     
+        }
+    },
+
+    "Infernape": {
+        "Maylene": {
+            "level": 38,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Iron Fist",
+            "moves": [
+                "Close Combat",
+                "Rock Slide",
+                "Fire Punch",
+                "Mach Punch"
+            ]   
+        }
+    },
+
+    "Gallade": {
+        "Maylene": {
+            "level": 38,
+            "item": "Light Clay",            
+            "nature": "Brave",
+            "ability": "Steadfast",
+            "moves": [
+                "Drain Punch",
+                "Zen Headbutt",
+                "Light Screen",
+                "Reflect"
+            ]
+        }
+    },
+
+    "Lucario": {
+        "Maylene": {
+            "level": 39,
+            "item": "Focus Sash",            
+            "nature": "Timid",
+            "ability": "Adaptability",
+            "moves": [
+                "Aura Sphere",
+                "Flash Cannon",
+                "Dark Pulse",
+                "Agility"
+            ]             
         }
     }
 }
