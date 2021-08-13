@@ -602,14 +602,14 @@ var SETDEX_DPP = {
     "Granbull": {
         "Lucas 2": {
             "level": 29,
-            "item": "Focus Sash",            
+            "item": "Muscle Band",            
             "nature": "Hasty",
-            "ability": "Thick Fat",
+            "ability": "Intimidate",
             "moves": [
-                "Avalanche",
-                "Take Down",
-                "Rock Slide",
-                "Ice Shard"
+                "Play Rough",
+                "Fire Fang",
+                "Thunder Fang",
+                "Ice Fang"
             ]    
         }
     },
