@@ -316,18 +316,20 @@ var SETDEX_DPP = {
                 "Shock Wave",
                 "Ancient Power",
                 "Stun Spore"
-            ]  
-        }
+            ]
+
+        },
         "Jupiter 1": {
-            "level": 26,            
-            "nature": "Modest",
+            "level": 26,
+            "item": "Oran Berry",
+            "nature": "Relaxed",
             "ability": "Chlorophyll",
             "moves": [
                 "Giga Drain",
                 "Shock Wave",
                 "Leech Seed",
                 "Sleep Powder"
-            ]  
+            ] 
         }
     },
 
