@@ -398,6 +398,18 @@ var SETDEX_DPP = {
                 "Force Palm",
                 "Spore",
                 "Rock Tomb"
+            ] 	
+        },
+        "Barry 4": {
+            "level": 48,
+            "item": "Focus Sash",            
+            "nature": "Hasty",
+            "ability": "Technician",
+            "moves": [
+                "Bullet Seed",
+                "Force Palm",
+                "Spore",
+                "Stone Edge"
             ] 			
         }
     },
@@ -623,6 +635,18 @@ var SETDEX_DPP = {
                 "Thunder Fang",
                 "Ice Fang"
             ]    
+        },
+		        "Lucas 3": {
+            "level": 44,
+            "item": "Choice Band",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Play Rough",
+                "Close Combat",
+                "Crunch",
+                "Earthquake"
+            ]    
         }
     },
 
@@ -637,6 +661,18 @@ var SETDEX_DPP = {
                 "Magnitude",
                 "Knock Off",
                 "Protect"
+            ]    
+        },
+        "Lucas 3": {
+            "level": 44,
+            "item": "Leftovers",            
+            "nature": "Hasty",
+            "ability": "Own Tempo",
+            "moves": [
+                "Body Slam",
+                "Zen Headbutt",
+                "Earthquake",
+                "Amnesia"
             ]    
         }
     },
@@ -771,6 +807,18 @@ var SETDEX_DPP = {
                 "Bullet Punch",
                 "Night Slash"
             ]  
+			        },	
+        "Barry 4": {
+            "level": 48,
+            "item": "Muscle Band",            
+            "nature": "Naive",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Rock Slide",
+                "Night Slash"
+            ] 
 		}	
     },
 
@@ -800,6 +848,18 @@ var SETDEX_DPP = {
                 "Rest",
                 "Sleep Talk"
             ]  
+        },	
+        "Barry 4": {
+            "level": 41,
+            "item": "Leftovers",            
+            "nature": "Impish",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Crunch",
+                "Curse",
+                "Slack Off"
+            ] 			
         }
     },
 
@@ -830,7 +890,19 @@ var SETDEX_DPP = {
                 "Zen Headbutt",
                 "Confuse Ray"
             ] 
-        }
+        },
+        "Byron": {
+            "level": 52,
+            "item": "Light Clay",            
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Gyro Ball",
+                "Stealth Rock",
+                "Reflect",
+                "Light Screen"
+            ] 
+        }		
     },
 
     "Octillery": {
@@ -978,7 +1050,19 @@ var SETDEX_DPP = {
                 "Light Screen",
                 "Reflect"
             ]
-        }
+        },
+        "Darach": {
+            "level": 48,
+            "item": "Scope Lens",            
+            "nature": "Docile",
+            "ability": "Steadfast",
+            "moves": [
+                "Psycho Cut",
+                "Night Slash",
+                "Close Combat",
+                "Leaf Blade"
+            ]
+        }		
     },
 
     "Lucario": {
@@ -993,7 +1077,19 @@ var SETDEX_DPP = {
                 "Dark Pulse",
                 "Agility"
             ] 
-        }
+        },
+        "Riley": {
+            "level": 50,
+            "item": "Life Orb",            
+            "nature": "Impish",
+            "ability": "Adaptability",
+            "moves": [
+                "High Jump Kick",
+                "Meteor Mash",
+                "Blaze Kick",
+                "Bullet Punch"
+            ] 
+        }		
     },
 
     "Staraptor": {
@@ -1008,7 +1104,31 @@ var SETDEX_DPP = {
                 "Aerial Ace",
                 "Roost"
             ]   
-        }
+        },
+        "Darach": {
+            "level": 48,
+            "item": "King's Rock",            
+            "nature": "Naive",
+            "ability": "Reckless",
+            "moves": [
+                "Return",
+                "Brave Bird",
+                "Close Combat",
+                "Roost"
+            ] 
+        },
+        "Barry 4": {
+            "level": 48,
+            "item": "Choice Band",            
+            "nature": "Gentle",
+            "ability": "Reckless",
+            "moves": [
+                "Double-Edge",
+                "Brave Bird",
+                "Close Combat",
+                "U-turn"
+            ] 			
+        }		
     },
 
     "Arcanine": {
@@ -1023,7 +1143,19 @@ var SETDEX_DPP = {
                 "Outrage",
                 "Crunch"
             ] 	
-        }
+        },
+        "Barry 4": {
+            "level": 48,
+            "item": "Expert Belt",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Flare Blitz",
+                "Extreme Speed",
+                "Crunch",
+                "Close Combat"
+            ] 	
+        }		
     },
 
     "Empoleon": {
@@ -1038,7 +1170,31 @@ var SETDEX_DPP = {
                 "Agility",
                 "Swagger"
             ] 	
-        }
+        },
+        "Darach": {
+            "level": 48,
+            "item": "Sitrus Berry",            
+            "nature": "Careful",
+            "ability": "Torrent",
+            "moves": [
+                "Hydro Pump",
+                "Flash Cannon",
+                "Ice Beam",
+                "Aqua Jet"
+            ] 	
+        },
+        "Barry 4": {
+            "level": 48,
+            "item": "Sitrus Berry",            
+            "nature": "Impish",
+            "ability": "Torrent",
+            "moves": [
+                "Surf",
+                "Flash Cannon",
+                "Grass Knot",
+                "Agility"
+            ] 			
+        }		
     },
 
     "Quagsire": {
@@ -1127,7 +1283,313 @@ var SETDEX_DPP = {
                 "Crunch",
                 "Ice Punch",
                 "Aqua Jet"
-            ]			
+            ]
+        }
+    },
+
+    "Alakazam": {
+        "Lucas 3": {
+            "level": 44,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Magic Guard",
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+                "Energy Ball",
+                "Dazzling Gleam"
+            ]	
+        },
+        "Darach": {
+            "level": 48,
+            "item": "Expert Belt",            
+            "nature": "Naive",
+            "ability": "Magic Guard",
+            "moves": [
+                "Psychic",
+                "Focus Blast",
+                "Energy Ball",
+                "Dazzling Gleam"
+            ]	
+        }		
+    },
+
+    "Mamoswine": {
+        "Lucas 3": {
+            "level": 44,
+            "item": "Passho Berry",            
+            "nature": "Hasty",
+            "ability": "Thick Fat",
+            "moves": [
+                "Earthquake",
+                "Avalanche",
+                "Stone Edge",
+                "Ice Shard"
+            ]	
+        }
+    },
+
+    "Vaporeon": {
+        "Lucas 3": {
+            "level": 44,
+            "item": "Wise Glasses",            
+            "nature": "Hasty",
+            "ability": "Water Absorb",
+            "moves": [
+                "Hydro Pump",
+                "Ice Beam",
+                "Extrasensory",
+                "Aqua Ring"
+            ]	
+        }
+    },
+
+    "Torterra": {
+        "Lucas 3": {
+            "level": 45,
+            "item": "Sitrus Berry",            
+            "nature": "Hasty",
+            "ability": "Overgrow",
+            "moves": [
+                "Wood Hammer",
+                "Earthquake",
+                "Iron Head",
+                "Rock Slide"
+            ]	
+        }
+    },
+
+    "Crobat": {
+        "Cyrus 1": {
+            "level": 45,
+            "item": "Wise Glasses",            
+            "nature": "Docile",
+            "ability": "Inner Focus",
+            "moves": [
+                "Sludge Bomb",
+                "Air Slash",
+                "Giga Drain",
+                "Hypnosis"
+            ]	
+        }
+    },
+
+    "Honchkrow": {
+        "Cyrus 1": {
+            "level": 45,
+            "item": "Scope Lens",            
+            "nature": "Sassy",
+            "ability": "Super Luck",
+            "moves": [
+                "Brave Bird",
+                "Night Slash",
+                "Swagger",
+                "Torment"
+            ]	        
+		}
+    },
+
+    "Magnezone": {
+        "Cyrus 1": {
+            "level": 45,
+            "item": "Life Orb",            
+            "nature": "Adamant",
+            "ability": "Magnet Pull",
+            "moves": [
+                "Thunderbolt",
+                "Flash Cannon",
+                "Thunder Wave",
+                "Mirror Coat"
+            ]	
+		},
+        "Byron": {
+            "level": 52,
+            "item": "Wise Glasses",            
+            "nature": "Quiet",
+            "ability": "Magnet Pull",
+            "moves": [
+                "Thunderbolt",
+                "Flash Cannon",
+                "Signal Beam",
+                "Thunder Wave"
+            ]	
+		}		
+    },
+
+    "Weavile": {
+        "Cyrus 1": {
+            "level": 46,
+            "item": "Expert Belt",            
+            "nature": "Bold",
+            "ability": "Technician",
+            "moves": [
+                "Feint Attack",
+                "Icicle Crash",
+                "Ice Shard",
+                "Swords Dance"
+            ]
+		}
+    },
+
+    "Metagross": {
+        "Darach": {
+            "level": 48,
+            "item": "Life Orb",            
+            "nature": "Impish",
+            "ability": "Iron Fist",
+            "moves": [
+                "Meteor Mash",
+                "Zen Headbutt",
+                "Earthquake",
+                "Hammer Arm"
+            ]	
+		},
+        "Riley": {
+            "level": 49,
+            "item": "Liechi Berry",            
+            "nature": "Impish",
+            "ability": "Iron Fist",
+            "moves": [
+                "Meteor Mash",
+                "Earthquake",
+                "Zen Headbutt",
+                "Agility"
+            ]				
+        }		
+    },
+
+    "Entei": {
+        "Darach": {
+            "level": 48,
+            "item": "Shuca Berry",            
+            "nature": "Calm",
+            "ability": "Pressure",
+            "moves": [
+                "Sacred Fire",
+                "Stone Edge",
+                "Extreme Speed",
+                "Iron Head"
+            ]		
+		}
+    },
+
+    "Absol": {
+        "Riley": {
+            "level": 49,
+            "item": "Scope Lens",            
+            "nature": "Relaxed",
+            "ability": "Super Luck",
+            "moves": [
+                "Night Slash",
+                "Psycho Cut",
+                "Megahorn",
+                "Play Rough"
+            ]
+		}
+    },
+
+    "Ursaring": {
+        "Riley": {
+            "level": 49,
+            "item": "Flame Orb",            
+            "nature": "Naughty",
+            "ability": "Guts",
+            "moves": [
+                "Strength",
+                "Close Combat",
+                "Protect",
+                "Play Rough"
+            ]	
+		}
+    },
+
+    "Salamence": {
+        "Riley": {
+            "level": 49,
+            "item": "Power Herb",            
+            "nature": "Lax",
+            "ability": "Intimidate",
+            "moves": [
+                "Dragon Rush",
+                "Fly",
+                "Crunch",
+                "Dragon Dance"
+            ]	
+		}
+    },
+
+    "Slaking": {
+        "Riley": {
+            "level": 49,
+            "item": "Sitrus Berry",            
+            "nature": "Docile",
+            "ability": "Truant",
+            "moves": [
+                "Body Slam",
+                "Hammer Arm",
+                "Play Rough",
+                "Slack Off"
+            ]	
+		}
+    },
+
+    "Steelix": {
+        "Byron": {
+            "level": 52,
+            "item": "Muscle Band",            
+            "nature": "Adamant",
+            "ability": "Rock Head",
+            "moves": [
+                "Gyro Ball",
+                "Earthquake",
+                "Stone Edge",
+                "Explosion"
+            ]	
+		}
+    },
+
+    "Aggron": {
+        "Byron": {
+            "level": 52,
+            "item": "Focus Sash",            
+            "nature": "Naughty",
+            "ability": "Rock Head",
+            "moves": [
+                "Head Smash",
+                "Iron Head",
+                "Aqua Tail",
+                "Low Kick"
+            ]	
+		}
+    },
+
+    "Forretress": {
+        "Byron": {
+            "level": 52,
+            "item": "Sitrus Berry",            
+            "nature": "Impish",
+            "ability": "Sturdy",
+            "moves": [
+                "Gyro Ball",
+                "Spikes",
+                "Toxic Spikes",
+                "Explosion"
+            ]		
+		}
+    },
+
+    "Bastiodon": {
+        "Byron": {
+            "level": 53,
+            "item": "Leftovers",            
+            "nature": "Sassy",
+            "ability": "Soundproof",
+            "moves": [
+                "Iron Head",
+                "Toxic",
+                "Protect",
+                "Metal Burst"
+            ]				
         }
     }
 }
