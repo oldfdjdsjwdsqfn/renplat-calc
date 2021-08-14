@@ -1,7 +1,7 @@
 var SETDEX_DPP = {
 
     "Starly": {
-        "Barry 1": {
+        "Rival Barry 1": {
             "level": 10,
             "moves": [
                 "Wing Attack",
@@ -12,7 +12,7 @@ var SETDEX_DPP = {
     },
 
     "Munchlax": {
-        "Barry 1": {
+        "Rival Barry 1": {
             "level": 10,
             "moves": [
                 "Metronome",
@@ -24,7 +24,7 @@ var SETDEX_DPP = {
     },
 
     "Turtwig": {
-        "Barry 1": {
+        "Rival Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -34,7 +34,7 @@ var SETDEX_DPP = {
             ]
 
         },
-        "Dawn/Lucas 1": {
+        "Dawn/Rival Lucas 1": {
             "level": 9,
             "moves": [
                 "Tackle",
@@ -45,7 +45,7 @@ var SETDEX_DPP = {
         }
     },
     "Chimchar": {
-        "Barry 1": {
+        "Rival Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -54,7 +54,7 @@ var SETDEX_DPP = {
                 "Taunt"
             ]
         },
-        "Dawn/Lucas 1": {
+        "Dawn/Rival Lucas 1": {
             "level": 9,
             "moves": [
                 "Scratch",
@@ -65,7 +65,7 @@ var SETDEX_DPP = {
         }
     },
     "Piplup": {
-        "Barry 1": {
+        "Rival Barry 1": {
             "level": 11,
             "item": "Oran Berry",
             "moves": [
@@ -74,7 +74,7 @@ var SETDEX_DPP = {
                 "Pound"
             ]
         },
-        "Dawn/Lucas 1": {
+        "Dawn/Rival Lucas 1": {
             "level": 9,
             "moves": [
                 "Pound",
@@ -85,7 +85,7 @@ var SETDEX_DPP = {
         }
     },
     "Nosepass": {
-        "Roark": {
+        "Leader Roark": {
             "level": 15,
             "item": "Smooth Rock",
             "ability": "Sturdy",
@@ -100,7 +100,7 @@ var SETDEX_DPP = {
     },
 
     "Bonsly": {
-        "Roark": {
+        "Leader Roark": {
             "level": 15,
             "item": "Rindo Berry",
             "nature": "Impish",
@@ -115,7 +115,7 @@ var SETDEX_DPP = {
     },
 
     "Geodude": {
-        "Roark": {
+        "Leader Roark": {
             "level": 15,
             "item": "Expert Belt",
             "nature": "Adamant",
@@ -130,7 +130,7 @@ var SETDEX_DPP = {
     },
 
     "Onix": {
-        "Roark": {
+        "Leader Roark": {
             "level": 15,
             "item": "Muscle Band",
             "nature": "Jolly",
@@ -145,7 +145,7 @@ var SETDEX_DPP = {
     },
 
     "Larvitar": {
-        "Roark": {
+        "Leader Roark": {
             "level": 15,
             "item": "Flame Orb",
             "nature": "Jolly",
@@ -160,7 +160,7 @@ var SETDEX_DPP = {
     },
 
     "Cranidos": {
-        "Roark": {
+        "Leader Roark": {
             "level": 16,
             "item": "Sitrus Berry",
             "nature": "Hasty",
@@ -175,7 +175,7 @@ var SETDEX_DPP = {
     },
 
     "Purugly": {
-        "Mars 1": {
+        "Commander Mars 1": {
             "level": 19,
             "item": "Sitrus Berry",
             "nature": "Jolly",
@@ -188,7 +188,7 @@ var SETDEX_DPP = {
             ] 
 			
         },
-        "Mars 2": {
+        "Commander Mars 2": {
             "level": 53,
             "item": "Sitrus Berry",
             "nature": "Lonely",
@@ -200,7 +200,7 @@ var SETDEX_DPP = {
                 "Fake Out"
             ]  
         },
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 58,
             "item": "Sitrus Berry",
             "nature": "Brave",
@@ -215,7 +215,7 @@ var SETDEX_DPP = {
     },
 
     "Zubat": {
-        "Mars 1": {
+        "Commander Mars 1": {
             "level": 18,
             "nature": "Naive",
             "ability": "Inner Focus",
@@ -229,7 +229,7 @@ var SETDEX_DPP = {
     },
 
     "Bronzor": {
-        "Mars 1": {
+        "Commander Mars 1": {
             "level": 18,
             "item": "Sitrus Berry",
             "nature": "Brave",
@@ -244,7 +244,7 @@ var SETDEX_DPP = {
     },
 
     "Yanma": {
-        "Mars 1": {
+        "Commander Mars 1": {
             "level": 18,
             "nature": "Timid",
             "ability": "Speed Boost",
@@ -258,7 +258,7 @@ var SETDEX_DPP = {
     },
 
     "Drifloon": {
-        "Cheryl": {
+        "PKMN Trainer Cheryl": {
             "level": 19,
             "item": "Sitrus Berry",
             "nature": "Modest",
@@ -273,7 +273,7 @@ var SETDEX_DPP = {
     },
 
     "Makuhita": {
-        "Cheryl": {
+        "PKMN Trainer Cheryl": {
             "level": 19,
             "nature": "Relaxed",
             "ability": "Thick Fat",
@@ -287,7 +287,7 @@ var SETDEX_DPP = {
     },
 
     "Wailmer": {
-        "Cheryl": {
+        "PKMN Trainer Cheryl": {
             "level": 19,
             "nature": "Relaxed",
             "ability": "Water Veil",
@@ -301,7 +301,7 @@ var SETDEX_DPP = {
     },
 
     "Chansey": {
-        "Cheryl": {
+        "PKMN Trainer Cheryl": {
             "level": 20,
             "item": "Sitrus Berry",
             "nature": "Quiet",
@@ -316,7 +316,7 @@ var SETDEX_DPP = {
     },
 
     "Bellossom": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 25,
             "item": "Wide Lens",
             "nature": "Relaxed",
@@ -331,7 +331,7 @@ var SETDEX_DPP = {
     },
 
     "Tangela": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 25,
             "item": "Coba Berry",
             "nature": "Rash",
@@ -344,7 +344,7 @@ var SETDEX_DPP = {
             ]
 
         },
-        "Jupiter 1": {
+        "Commander Jupiter 1": {
             "level": 26,
             "nature": "Relaxed",
             "ability": "Chlorophyll",
@@ -358,7 +358,7 @@ var SETDEX_DPP = {
     },
 
     "Cherrim": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 25,
             "item": "Focus Sash",
             "nature": "Hasty",
@@ -373,7 +373,7 @@ var SETDEX_DPP = {
     },
 
     "Grotle": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 25,
             "item": "Leftovers",
             "nature": "Adamant",
@@ -386,7 +386,7 @@ var SETDEX_DPP = {
             ]   
 
         },
-        "Lucas 2": {
+        "Rival Lucas 2": {
             "level": 30,
             "item": "Sitrus Berry",
             "nature": "Hasty",
@@ -401,7 +401,7 @@ var SETDEX_DPP = {
     },
 
     "Breloom": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 25,
             "item": "Muscle Band",
             "nature": "Naughty",
@@ -413,7 +413,7 @@ var SETDEX_DPP = {
                 "Spore"
             ]
         },
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 41,
             "item": "Focus Sash",            
             "nature": "Bold",
@@ -425,7 +425,7 @@ var SETDEX_DPP = {
                 "Rock Tomb"
             ] 	
         },
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 48,
             "item": "Focus Sash",            
             "nature": "Hasty",
@@ -437,7 +437,7 @@ var SETDEX_DPP = {
                 "Stone Edge"
             ]
         },
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 70,
             "item": "Life Orb",            
             "nature": "Hasty",
@@ -452,7 +452,7 @@ var SETDEX_DPP = {
     },
 
     "Roserade": {
-        "Gardenia": {
+        "Leader Gardenia": {
             "level": 26,
             "item": "Sitrus Berry",
             "nature": "Timid",
@@ -463,11 +463,22 @@ var SETDEX_DPP = {
                 "Dazzling Gleam",
                 "Extrasensory"
             ]   
+        },
+        "Ace Trainer Maya": {
+            "level": 35,
+            "nature": "Rash",
+            "ability": "Technician",
+            "moves": [
+                "Giga Drain",
+                "Sludge Bomb",
+                "Weather Ball",
+                "Stun Spore"
+            ]   
         }
     },
 
     "Golbat": {
-        "Jupiter 1": {
+        "Commander Jupiter 1": {
             "level": 26,
             "nature": "Jolly",
             "ability": "Inner Focus",
@@ -481,7 +492,7 @@ var SETDEX_DPP = {
     },
 
     "Sableye": {
-        "Jupiter 1": {
+        "Commander Jupiter 1": {
             "level": 26,
             "item": "Sitrus Berry",            
             "nature": "Adamant",
@@ -493,7 +504,7 @@ var SETDEX_DPP = {
                 "Shadow Sneak"
             ]   
         },
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 57,
             "item": "Muscle Band",            
             "nature": "Gentle",
@@ -508,7 +519,7 @@ var SETDEX_DPP = {
     },
 
     "Skuntank": {
-        "Jupiter 1": {
+        "Commander Jupiter 1": {
             "level": 27,
             "item": "Sitrus Berry",            
             "nature": "Adamant",
@@ -520,7 +531,7 @@ var SETDEX_DPP = {
                 "Torment"
             ] 
         },
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 58,
             "item": "Sitrus Berry",            
             "nature": "Lax",
@@ -535,7 +546,7 @@ var SETDEX_DPP = {
     },
 
     "Togetic": {
-        "Mira": {
+        "PKMN Trainer Mira": {
             "level": 27,
             "item": "Sitrus Berry",            
             "nature": "Modest",
@@ -550,7 +561,7 @@ var SETDEX_DPP = {
     },
 
     "Haunter": {
-        "Mira": {
+        "PKMN Trainer Mira": {
             "level": 27,
             "item": "Spell Tag",            
             "nature": "Hasty",
@@ -565,7 +576,7 @@ var SETDEX_DPP = {
     },
 
     "Porygon2": {
-        "Mira": {
+        "PKMN Trainer Mira": {
             "level": 27,
             "item": "Expert Belt",            
             "nature": "Calm",
@@ -580,7 +591,7 @@ var SETDEX_DPP = {
     },
 
     "Kadabra": {
-        "Mira": {
+        "PKMN Trainer Mira": {
             "level": 28,
             "item": "Life Orb",            
             "nature": "Modest",
@@ -595,7 +606,7 @@ var SETDEX_DPP = {
     },
 
     "Dustox": {
-        "Aaron Hearthome": {
+        "Elite Four Aaron Hearthome": {
             "level": 31,
             "item": "Leftovers",            
             "nature": "Calm",
@@ -610,7 +621,7 @@ var SETDEX_DPP = {
     },
 
     "Beautifly": {
-        "Aaron Hearthome": {
+        "Elite Four Aaron Hearthome": {
             "level": 31,
             "item": "Focus Sash",            
             "nature": "Mild",
@@ -625,7 +636,7 @@ var SETDEX_DPP = {
     },
 
     "Venomoth": {
-        "Aaron Hearthome": {
+        "Elite Four Aaron Hearthome": {
             "level": 31,
             "item": "Wise Glasses",            
             "nature": "Naive",
@@ -640,7 +651,7 @@ var SETDEX_DPP = {
     },
 
     "Scizor": {
-        "Aaron Hearthome": {
+        "Elite Four Aaron Hearthome": {
             "level": 31,
             "item": "Muscle Band",            
             "nature": "Adamant",
@@ -655,7 +666,7 @@ var SETDEX_DPP = {
     },
 
     "Drapion": {
-        "Aaron Hearthome": {
+        "Elite Four Aaron Hearthome": {
             "level": 32,
             "item": "Scope Lens",            
             "nature": "Jolly",
@@ -670,7 +681,7 @@ var SETDEX_DPP = {
     },
 
     "Piloswine": {
-        "Lucas 2": {
+        "Rival Lucas 2": {
             "level": 29,
             "item": "Focus Sash",            
             "nature": "Hasty",
@@ -685,7 +696,7 @@ var SETDEX_DPP = {
     },
 
     "Granbull": {
-        "Lucas 2": {
+        "Rival Lucas 2": {
             "level": 29,
             "item": "Muscle Band",            
             "nature": "Hasty",
@@ -697,7 +708,7 @@ var SETDEX_DPP = {
                 "Ice Fang"
             ]    
         },
-		"Lucas 3": {
+		"Rival Lucas 3": {
             "level": 44,
             "item": "Choice Band",            
             "nature": "Hasty",
@@ -709,7 +720,7 @@ var SETDEX_DPP = {
                 "Earthquake"
             ]  
         },
-		"Lucas 4": {
+		"Rival Lucas 4": {
             "level": 69,
             "item": "Muscle Band",            
             "nature": "Hasty",
@@ -724,7 +735,7 @@ var SETDEX_DPP = {
     },
 
     "Lickilicky": {
-        "Lucas 2": {
+        "Rival Lucas 2": {
             "level": 29,
             "item": "Leftovers",            
             "nature": "Hasty",
@@ -736,7 +747,7 @@ var SETDEX_DPP = {
                 "Protect"
             ]    
         },
-        "Lucas 3": {
+        "Rival Lucas 3": {
             "level": 44,
             "item": "Leftovers",            
             "nature": "Hasty",
@@ -748,7 +759,7 @@ var SETDEX_DPP = {
                 "Amnesia"
             ]  
         },
-        "Lucas 4": {
+        "Rival Lucas 4": {
             "level": 69,
             "item": "Leftovers",            
             "nature": "Hasty",
@@ -758,12 +769,23 @@ var SETDEX_DPP = {
                 "Hammer Arm",
                 "Earthquake",
                 "Swords Dance"
-            ] 			
+            ] 	
+        },
+        "Veteran Clayton": {
+            "level": 64,           
+            "nature": "Brave",
+            "ability": "Own Tempo",
+            "moves": [
+                "Body Slam",
+                "Power Whip",
+                "Flamethrower",
+                "Zen Headbutt"
+            ] 				
         }
     },
 
     "Drifblim": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 32,
             "item": "Starf Berry",            
             "nature": "Naive",
@@ -774,11 +796,22 @@ var SETDEX_DPP = {
                 "Baton Pass",
                 "Calm Mind"
             ]    
-        }
+        },
+        "Ace Trainer Dennis": {
+            "level": 35,            
+            "nature": "Gentle",
+            "ability": "Unburden",
+            "moves": [
+                "Shadow Ball",
+                "Air Slash",
+                "Destiny Bond",
+                "Amnesia"
+            ]    
+        }		
     },
 
     "Dusclops": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 32,
             "item": "Leftovers",            
             "nature": "Impish",
@@ -793,7 +826,7 @@ var SETDEX_DPP = {
     },
 
     "Banette": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 32,
             "item": "Muscle Band",            
             "nature": "Adamant",
@@ -808,7 +841,7 @@ var SETDEX_DPP = {
     },
 
     "Spiritomb": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 32,
             "item": "Zoom Lens",            
             "nature": "Relaxed",
@@ -823,7 +856,7 @@ var SETDEX_DPP = {
     },
 
     "Gengar": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 32,
             "item": "Wise Glasses",            
             "nature": "Naive",
@@ -838,7 +871,7 @@ var SETDEX_DPP = {
     },
 
     "Mismagius": {
-        "Fantina": {
+        "Leader Fantina": {
             "level": 33,
             "item": "Sitrus Berry",            
             "nature": "Naive",
@@ -849,11 +882,22 @@ var SETDEX_DPP = {
                 "Power Gem",
                 "Dazzling Gleam"
             ]   
-        }
+        },
+        "Ace Trainer Mariah": {
+            "level": 63,          
+            "nature": "Adamant",
+            "ability": "Levitate",
+            "moves": [
+                "Shadow Ball",
+                "Moonblast",
+                "Power Gem",
+                "Thunderbolt"
+            ]   
+        }		
     },
 
     "Staravia": {
-        "Barry 2": {
+        "Rival Barry 2": {
             "level": 32,
             "item": "Muscle Band",            
             "nature": "Quiet",
@@ -868,7 +912,7 @@ var SETDEX_DPP = {
     },
 
     "Heracross": {
-        "Barry 2": {
+        "Rival Barry 2": {
             "level": 32,
             "item": "Coba Berry",            
             "nature": "Timid",
@@ -881,7 +925,7 @@ var SETDEX_DPP = {
             ]  
 			
         },	
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 41,
             "item": "Coba Berry",            
             "nature": "Quirky",
@@ -893,7 +937,7 @@ var SETDEX_DPP = {
                 "Night Slash"
             ]  
 		 },	
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 48,
             "item": "Muscle Band",            
             "nature": "Naive",
@@ -905,7 +949,7 @@ var SETDEX_DPP = {
                 "Night Slash"
             ] 
 		 },	
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 70,
             "item": "Toxic Orb",            
             "nature": "Naive",
@@ -920,7 +964,7 @@ var SETDEX_DPP = {
     },
 
     "Snorlax": {
-        "Barry 2": {
+        "Rival Barry 2": {
             "level": 32,
             "item": "Leftovers",            
             "nature": "Naughty",
@@ -934,7 +978,7 @@ var SETDEX_DPP = {
 			
 						
         },	
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 41,
             "item": "Leftovers",            
             "nature": "Gentle",
@@ -946,7 +990,7 @@ var SETDEX_DPP = {
                 "Sleep Talk"
             ]  
         },	
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 41,
             "item": "Leftovers",            
             "nature": "Impish",
@@ -958,7 +1002,7 @@ var SETDEX_DPP = {
                 "Slack Off"
             ] 	
         },	
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 70,
             "item": "Leftovers",            
             "nature": "Impish",
@@ -973,7 +1017,7 @@ var SETDEX_DPP = {
     },
 
     "Prinplup": {
-        "Barry 2": {
+        "Rival Barry 2": {
             "level": 33,
             "item": "Sitrus Berry",            
             "nature": "Naughty",
@@ -988,7 +1032,7 @@ var SETDEX_DPP = {
     },
 
     "Bronzong": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 33,
             "item": "Leftovers",            
             "nature": "Impish",
@@ -1000,7 +1044,7 @@ var SETDEX_DPP = {
                 "Confuse Ray"
             ] 
         },
-        "Byron": {
+        "Leader Byron": {
             "level": 52,
             "item": "Light Clay",            
             "nature": "Impish",
@@ -1012,7 +1056,7 @@ var SETDEX_DPP = {
                 "Light Screen"
             ] 
         },
-        "Saturn 2": {
+        "Commander Saturn 2": {
             "level": 52,
             "item": "Bright Powder",            
             "nature": "Relaxed",
@@ -1024,7 +1068,7 @@ var SETDEX_DPP = {
                 "Explosion"
             ]	
         },
-        "Mars 2": {
+        "Commander Mars 2": {
             "level": 52,
             "item": "Leftovers",            
             "nature": "Naughty",
@@ -1036,7 +1080,7 @@ var SETDEX_DPP = {
                 "Explosion"
             ]
         },
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 56,
             "item": "Light Clay",            
             "nature": "Impish",
@@ -1048,7 +1092,7 @@ var SETDEX_DPP = {
                 "Light Screen"
             ]	
         },
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 57,
             "item": "Leftovers",            
             "nature": "Bold",
@@ -1060,7 +1104,7 @@ var SETDEX_DPP = {
                 "Earthquake"
             ]
         },
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 57,
             "item": "Leftovers",            
             "nature": "Quiet",
@@ -1075,7 +1119,7 @@ var SETDEX_DPP = {
     },
 
     "Octillery": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 33,
             "item": "Wise Glasses",            
             "nature": "Adamant",
@@ -1087,7 +1131,7 @@ var SETDEX_DPP = {
                 "Flamethrower"
             ]     
         },
-        "Saturn 2": {
+        "Commander Saturn 2": {
             "level": 52,
             "item": "Expert Belt",            
             "nature": "Bashful",
@@ -1099,7 +1143,7 @@ var SETDEX_DPP = {
                 "Flamethrower"
             ]  
         },
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 56,
             "item": "Expert Belt",            
             "nature": "Adamant",
@@ -1114,7 +1158,7 @@ var SETDEX_DPP = {
     },
 
     "Toxicroak": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 34,
             "item": "Muscle Band",            
             "nature": "Adamant",
@@ -1127,7 +1171,7 @@ var SETDEX_DPP = {
             ]   
 
         },
-        "Maylene": {
+        "Leader Maylene": {
             "level": 38,
             "item": "Big Root",
             "nature": "Lonely",
@@ -1139,7 +1183,7 @@ var SETDEX_DPP = {
                 "Sucker Punch"
             ]  
         },
-        "Saturn 2": {
+        "Commander Saturn 2": {
             "level": 53,
             "item": "Life Orb",
             "nature": "Brave",
@@ -1151,7 +1195,7 @@ var SETDEX_DPP = {
                 "Sucker Punch"
             ]	
         },
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 57,
             "item": "Focus Sash",
             "nature": "Adamant",
@@ -1166,7 +1210,7 @@ var SETDEX_DPP = {
     },
 
     "Wigglytuff": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 33,
             "item": "Zoom Lens",            
             "nature": "Lonely",
@@ -1181,7 +1225,7 @@ var SETDEX_DPP = {
     },
 
     "Raichu": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 33,
             "item": "Wise Glasses",            
             "nature": "Impish",
@@ -1193,7 +1237,7 @@ var SETDEX_DPP = {
                 "Teeter Dance"
             ]    
         },
-        "Volkner": {
+        "Leader Volkner": {
             "level": 61,
             "item": "Expert Belt",            
             "nature": "Timid",
@@ -1208,7 +1252,7 @@ var SETDEX_DPP = {
     },
 
     "Espeon": {
-        "Saturn & Backlot Tag": {
+        "Commander Saturn & Backlot Tag": {
             "level": 33,
             "item": "Sitrus Berry",            
             "nature": "Quiet",
@@ -1223,7 +1267,7 @@ var SETDEX_DPP = {
     },
 
     "Medicham": {
-        "Maylene": {
+        "Leader Maylene": {
             "level": 38,
             "item": "Sitrus Berry",            
             "nature": "Naive",
@@ -1238,7 +1282,7 @@ var SETDEX_DPP = {
     },
 
     "Machamp": {
-        "Maylene": {
+        "Leader Maylene": {
             "level": 38,
             "item": "Toxic Orb",            
             "nature": "Relaxed",
@@ -1249,11 +1293,22 @@ var SETDEX_DPP = {
                 "Thunder Punch",
                 "Protect"
             ]     
-        }
+        },
+        "Black Belt Miles": {
+            "level": 63,            
+            "nature": "Jolly",
+            "ability": "Guts",
+            "moves": [
+                "Close Combat",
+                "Payback",
+                "Counter",
+                "Stone Edge"
+            ]     
+        }		
     },
 
     "Infernape": {
-        "Maylene": {
+        "Leader Maylene": {
             "level": 38,
             "item": "Life Orb",            
             "nature": "Hasty",
@@ -1268,7 +1323,7 @@ var SETDEX_DPP = {
     },
 
     "Gallade": {
-        "Maylene": {
+        "Leader Maylene": {
             "level": 38,
             "item": "Light Clay",            
             "nature": "Brave",
@@ -1280,7 +1335,7 @@ var SETDEX_DPP = {
                 "Reflect"
             ]
         },
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "Scope Lens",            
             "nature": "Docile",
@@ -1295,7 +1350,7 @@ var SETDEX_DPP = {
     },
 
     "Lucario": {
-        "Maylene": {
+        "Leader Maylene": {
             "level": 39,
             "item": "Focus Sash",            
             "nature": "Timid",
@@ -1307,7 +1362,7 @@ var SETDEX_DPP = {
                 "Agility"
             ] 
         },
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 50,
             "item": "Life Orb",            
             "nature": "Impish",
@@ -1322,7 +1377,7 @@ var SETDEX_DPP = {
     },
 
     "Staraptor": {
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 41,
             "item": "Muscle Band",            
             "nature": "Hardy",
@@ -1334,7 +1389,7 @@ var SETDEX_DPP = {
                 "Roost"
             ]   
         },
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "King's Rock",            
             "nature": "Naive",
@@ -1346,7 +1401,7 @@ var SETDEX_DPP = {
                 "Roost"
             ] 
         },
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 48,
             "item": "Choice Band",            
             "nature": "Gentle",
@@ -1358,7 +1413,7 @@ var SETDEX_DPP = {
                 "U-turn"
             ] 	
         },
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 70,
             "item": "Choice Scarf",            
             "nature": "Serious",
@@ -1368,12 +1423,23 @@ var SETDEX_DPP = {
                 "Brave Bird",
                 "Close Combat",
                 "U-turn"
-            ] 				
+            ] 	
+        },
+        "Veteran Clayton": {
+            "level": 64,        
+            "nature": "Rash",
+            "ability": "Reckless",
+            "moves": [
+                "Double-Edge",
+                "Brave Bird",
+                "Close Combat",
+                "U-turn"
+            ] 			
         }		
     },
 
     "Arcanine": {
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 41,
             "item": "Expert Belt",            
             "nature": "Modest",
@@ -1385,7 +1451,7 @@ var SETDEX_DPP = {
                 "Crunch"
             ] 	
         },
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 48,
             "item": "Expert Belt",            
             "nature": "Hasty",
@@ -1409,7 +1475,7 @@ var SETDEX_DPP = {
                 "Close Combat"
             ]
         },
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 70,
             "item": "Life Orb",            
             "nature": "Brave",
@@ -1424,7 +1490,7 @@ var SETDEX_DPP = {
     },
 
     "Empoleon": {
-        "Barry 3": {
+        "Rival Barry 3": {
             "level": 42,
             "item": "Sitrus Berry",            
             "nature": "Gentle",
@@ -1436,7 +1502,7 @@ var SETDEX_DPP = {
                 "Swagger"
             ] 	
         },
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "Sitrus Berry",            
             "nature": "Careful",
@@ -1448,7 +1514,7 @@ var SETDEX_DPP = {
                 "Aqua Jet"
             ] 	
         },
-        "Barry 4": {
+        "Rival Barry 4": {
             "level": 48,
             "item": "Sitrus Berry",            
             "nature": "Impish",
@@ -1460,7 +1526,7 @@ var SETDEX_DPP = {
                 "Agility"
             ] 	
         },
-        "Barry 5": {
+        "Rival Barry 5": {
             "level": 71,
             "item": "Sitrus Berry",            
             "nature": "Brave",
@@ -1475,7 +1541,7 @@ var SETDEX_DPP = {
     },
 
     "Quagsire": {
-        "Wake": {
+        "Leader Wake": {
             "level": 43,
             "item": "Rindo Berry",            
             "nature": "Adamant",
@@ -1490,7 +1556,7 @@ var SETDEX_DPP = {
     },
 
     "Gyarados": {
-        "Wake": {
+        "Leader Wake": {
             "level": 43,
             "item": "Wacan Berry",            
             "nature": "Jolly",
@@ -1502,7 +1568,7 @@ var SETDEX_DPP = {
                 "Dragon Dance"
             ]	
         },
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 59,
             "item": "Muscle Band",            
             "nature": "Jolly",
@@ -1513,11 +1579,33 @@ var SETDEX_DPP = {
                 "Stone Edge",
                 "Dragon Dance"
             ]	
+        },
+        "Ace Trainer Dennis": {
+            "level": 35,          
+            "nature": "Naive",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Ice Fang",
+                "Crunch",
+                "Bounce"
+            ]	
+        },
+        "Ace Trainers Zac & Jen": {
+            "level": 42,          
+            "nature": "Impish",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Ice Fang",
+                "Crunch",
+                "Bounce"
+            ]			
         }		
     },
 
     "Poliwrath": {
-        "Wake": {
+        "Leader Wake": {
             "level": 43,
             "item": "Sitrus Berry",            
             "nature": "Careful",
@@ -1528,11 +1616,22 @@ var SETDEX_DPP = {
                 "Ice Punch",
                 "Hypnosis"
             ]
-        }
+        },
+        "Black Belt Miles": {
+            "level": 63,          
+            "nature": "Lonely",
+            "ability": "Water Absorb",
+            "moves": [
+                "Waterfall",
+                "Close Combat",
+                "Ice Punch",
+                "Hypnosis"
+            ]
+        }		
     },
 
     "Ludicolo": {
-        "Wake": {
+        "Leader Wake": {
             "level": 43,
             "item": "Life Orb",            
             "nature": "Modest",
@@ -1547,7 +1646,7 @@ var SETDEX_DPP = {
     },
 
     "Sharpedo": {
-        "Wake": {
+        "Leader Wake": {
             "level": 43,
             "item": "Focus Sash",            
             "nature": "Naive",
@@ -1562,7 +1661,7 @@ var SETDEX_DPP = {
     },
 
     "Floatzel": {
-        "Wake": {
+        "Leader Wake": {
             "level": 44,
             "item": "Life Orb",            
             "nature": "Naive",
@@ -1577,7 +1676,7 @@ var SETDEX_DPP = {
     },
 
     "Alakazam": {
-        "Lucas 3": {
+        "Rival Lucas 3": {
             "level": 44,
             "item": "Life Orb",            
             "nature": "Hasty",
@@ -1589,7 +1688,7 @@ var SETDEX_DPP = {
                 "Dazzling Gleam"
             ]	
         },
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "Expert Belt",            
             "nature": "Naive",
@@ -1601,7 +1700,7 @@ var SETDEX_DPP = {
                 "Dazzling Gleam"
             ]
         },
-        "Saturn 2": {
+        "Commander Saturn 2": {
             "level": 52,
             "item": "Wise Glasses",            
             "nature": "Quirky",
@@ -1613,7 +1712,7 @@ var SETDEX_DPP = {
                 "Recover"
             ]	
         },
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 56,
             "item": "Life Orb",            
             "nature": "Hardy",
@@ -1625,7 +1724,7 @@ var SETDEX_DPP = {
                 "Dazzling Gleam"
             ]
         },
-        "Lucas 4": {
+        "Rival Lucas 4": {
             "level": 69,
             "item": "Life Orb",            
             "nature": "Hasty",
@@ -1640,7 +1739,7 @@ var SETDEX_DPP = {
     },
 
     "Mamoswine": {
-        "Lucas 3": {
+        "Rival Lucas 3": {
             "level": 44,
             "item": "Passho Berry",            
             "nature": "Hasty",
@@ -1652,7 +1751,7 @@ var SETDEX_DPP = {
                 "Ice Shard"
             ]	
         },
-        "Candice": {
+        "Leader Candice": {
             "level": 55,
             "item": "Passho Berry",            
             "nature": "Naive",
@@ -1664,7 +1763,7 @@ var SETDEX_DPP = {
                 "Ice Shard"
             ]
         },
-        "Lucas 4": {
+        "Rival Lucas 4": {
             "level": 69,
             "item": "Choice Band",            
             "nature": "Hasty",
@@ -1679,7 +1778,7 @@ var SETDEX_DPP = {
     },
 
     "Vaporeon": {
-        "Lucas 3": {
+        "Rival Lucas 3": {
             "level": 44,
             "item": "Wise Glasses",            
             "nature": "Hasty",
@@ -1691,7 +1790,7 @@ var SETDEX_DPP = {
                 "Aqua Ring"
             ]	
         },
-        "Lucas 4": {
+        "Rival Lucas 4": {
             "level": 69,
             "item": "Wacan Berry",            
             "nature": "Hasty",
@@ -1706,7 +1805,7 @@ var SETDEX_DPP = {
     },
 
     "Torterra": {
-        "Lucas 3": {
+        "Rival Lucas 3": {
             "level": 45,
             "item": "Sitrus Berry",            
             "nature": "Hasty",
@@ -1718,7 +1817,7 @@ var SETDEX_DPP = {
                 "Rock Slide"
             ]	
         },
-        "Lucas 4": {
+        "Rival Lucas 4": {
             "level": 70,
             "item": "Sitrus Berry",            
             "nature": "Hasty",
@@ -1729,11 +1828,33 @@ var SETDEX_DPP = {
                 "Iron Head",
                 "Stone Edge"
             ]	
+        },
+        "Ace Trainer Alyssa": {
+            "level": 42,          
+            "nature": "Mild",
+            "ability": "Overgrow",
+            "moves": [
+                "Seed Bomb",
+                "Earthquake",
+                "Iron Head",
+                "Crunch"
+            ]	
+        },
+        "Ace Trainer Sydney": {
+            "level": 63,          
+            "nature": "Hardy",
+            "ability": "Overgrow",
+            "moves": [
+                "Wood Hammer",
+                "Earthquake",
+                "Iron Head",
+                "Crunch"
+            ]				
         }		
     },
 
     "Crobat": {
-        "Cyrus 1": {
+        "Galactic Leader Cyrus 1": {
             "level": 45,
             "item": "Wise Glasses",            
             "nature": "Docile",
@@ -1745,7 +1866,7 @@ var SETDEX_DPP = {
                 "Hypnosis"
             ]	
         },
-        "Mars 2": {
+        "Commander Mars 2": {
             "level": 52,
             "item": "Bright Powder",            
             "nature": "Modest",
@@ -1757,7 +1878,7 @@ var SETDEX_DPP = {
                 "Giga Drain"
             ]	
         },
-        "Cyrus 2": {
+        "Galactic Leader Cyrus 2": {
             "level": 57,
             "item": "Choice Band",            
             "nature": "Sassy",
@@ -1769,7 +1890,7 @@ var SETDEX_DPP = {
                 "Zen Headbutt"
             ]
         },
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 57,
             "item": "Life Orb",            
             "nature": "Hardy",
@@ -1781,7 +1902,7 @@ var SETDEX_DPP = {
                 "Torment"
             ]	
         },
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 57,
             "item": "Bright Powder",            
             "nature": "Sassy",
@@ -1793,7 +1914,7 @@ var SETDEX_DPP = {
                 "Hypnosis"
             ]
         },
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 59,
             "item": "Choice Band",            
             "nature": "Jolly",
@@ -1820,7 +1941,7 @@ var SETDEX_DPP = {
     },
 
     "Honchkrow": {
-        "Cyrus 1": {
+        "Galactic Leader Cyrus 1": {
             "level": 45,
             "item": "Scope Lens",            
             "nature": "Sassy",
@@ -1832,7 +1953,7 @@ var SETDEX_DPP = {
                 "Torment"
             ]	        
 		},
-        "Cyrus 2": {
+        "Galactic Leader Cyrus 2": {
             "level": 57,
             "item": "Scope Lens",            
             "nature": "Jolly",
@@ -1844,7 +1965,7 @@ var SETDEX_DPP = {
                 "Heat Wave"
             ]	    
 		},
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 59,
             "item": "White Herb",            
             "nature": "Naughty",
@@ -1859,7 +1980,7 @@ var SETDEX_DPP = {
     },
 
     "Magnezone": {
-        "Cyrus 1": {
+        "Galactic Leader Cyrus 1": {
             "level": 45,
             "item": "Life Orb",            
             "nature": "Adamant",
@@ -1871,7 +1992,7 @@ var SETDEX_DPP = {
                 "Mirror Coat"
             ]	
 		},
-        "Byron": {
+        "Leader Byron": {
             "level": 52,
             "item": "Wise Glasses",            
             "nature": "Quiet",
@@ -1883,7 +2004,7 @@ var SETDEX_DPP = {
                 "Thunder Wave"
             ]	
 		},
-        "Cyrus 2": {
+        "Galactic Leader Cyrus 2": {
             "level": 57,
             "item": "Wise Glasses",            
             "nature": "Timid",
@@ -1895,7 +2016,7 @@ var SETDEX_DPP = {
                 "Mirror Coat"
             ]
 		},
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 59,
             "item": "Wise Glasses",            
             "nature": "Modest",
@@ -1910,7 +2031,7 @@ var SETDEX_DPP = {
     },
 
     "Weavile": {
-        "Cyrus 1": {
+        "Galactic Leader Cyrus 1": {
             "level": 46,
             "item": "Expert Belt",            
             "nature": "Bold",
@@ -1922,7 +2043,7 @@ var SETDEX_DPP = {
                 "Swords Dance"
             ]
 		},
-        "Candice": {
+        "Leader Candice": {
             "level": 55,
             "item": "Focus Sash",            
             "nature": "Naughty",
@@ -1934,7 +2055,7 @@ var SETDEX_DPP = {
                 "Swords Dance"
             ]
 		},
-        "Cyrus 2": {
+        "Galactic Leader Cyrus 2": {
             "level": 58,
             "item": "Expert Belt",            
             "nature": "Timid",
@@ -1946,7 +2067,7 @@ var SETDEX_DPP = {
                 "X-Scissor"
             ]	
 		},
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 60,
             "item": "Focus Sash",            
             "nature": "Jolly",
@@ -1973,7 +2094,7 @@ var SETDEX_DPP = {
     },
 
     "Metagross": {
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "Life Orb",            
             "nature": "Impish",
@@ -1985,7 +2106,7 @@ var SETDEX_DPP = {
                 "Hammer Arm"
             ]	
 		},
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 49,
             "item": "Liechi Berry",            
             "nature": "Impish",
@@ -2000,7 +2121,7 @@ var SETDEX_DPP = {
     },
 
     "Entei": {
-        "Darach": {
+        "Castle Valet Darach": {
             "level": 48,
             "item": "Shuca Berry",            
             "nature": "Calm",
@@ -2015,7 +2136,7 @@ var SETDEX_DPP = {
     },
 
     "Absol": {
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 49,
             "item": "Scope Lens",            
             "nature": "Relaxed",
@@ -2030,7 +2151,7 @@ var SETDEX_DPP = {
     },
 
     "Ursaring": {
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 49,
             "item": "Flame Orb",            
             "nature": "Naughty",
@@ -2041,11 +2162,22 @@ var SETDEX_DPP = {
                 "Protect",
                 "Play Rough"
             ]	
-		}
+		},
+        "Ace Trainers Zac & Jen": {
+            "level": 42,          
+            "nature": "Jolly",
+            "ability": "Guts",
+            "moves": [
+                "Thrash",
+                "Shadow Claw",
+                "",
+                ""
+            ]	
+		}		
     },
 
     "Salamence": {
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 49,
             "item": "Power Herb",            
             "nature": "Lax",
@@ -2060,7 +2192,7 @@ var SETDEX_DPP = {
     },
 
     "Slaking": {
-        "Riley": {
+        "PKMN Trainer Ryley": {
             "level": 49,
             "item": "Sitrus Berry",            
             "nature": "Docile",
@@ -2075,7 +2207,7 @@ var SETDEX_DPP = {
     },
 
     "Steelix": {
-        "Byron": {
+        "Leader Byron": {
             "level": 52,
             "item": "Muscle Band",            
             "nature": "Adamant",
@@ -2090,7 +2222,7 @@ var SETDEX_DPP = {
     },
 
     "Aggron": {
-        "Byron": {
+        "Leader Byron": {
             "level": 52,
             "item": "Focus Sash",            
             "nature": "Naughty",
@@ -2101,11 +2233,22 @@ var SETDEX_DPP = {
                 "Aqua Tail",
                 "Low Kick"
             ]	
-		}
+		},
+        "Ace Trainer Mariah": {
+            "level": 63,           
+            "nature": "Careful",
+            "ability": "Rock Head",
+            "moves": [
+                "Head Smash",
+                "Iron Tail",
+                "Dragon Rush",
+                "Superpower"
+            ]	
+		}		
     },
 
     "Forretress": {
-        "Byron": {
+        "Leader Byron": {
             "level": 52,
             "item": "Sitrus Berry",            
             "nature": "Impish",
@@ -2120,7 +2263,7 @@ var SETDEX_DPP = {
     },
 
     "Bastiodon": {
-        "Byron": {
+        "Leader Byron": {
             "level": 53,
             "item": "Leftovers",            
             "nature": "Sassy",
@@ -2135,7 +2278,7 @@ var SETDEX_DPP = {
     },
 
     "Rhydon": {
-        "Saturn	2": {
+        "Commander Saturn	2": {
             "level": 52,
             "item": "Muscle Band",            
             "nature": "Timid",
@@ -2150,7 +2293,7 @@ var SETDEX_DPP = {
     },
 
     "Yanmega": {
-        "Mars 2": {
+        "Commander Mars 2": {
             "level": 52,
             "item": "Wise Glasses",            
             "nature": "Rash",
@@ -2162,7 +2305,7 @@ var SETDEX_DPP = {
                 "Detect"
             ]
 		},
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 57,
             "item": "Wise Glasses",            
             "nature": "Calm",
@@ -2177,7 +2320,7 @@ var SETDEX_DPP = {
     },
 
     "Kangaskhan": {
-        "Mars 2": {
+        "Commander Mars 2": {
             "level": 52,
             "item": "Muscle Band",            
             "nature": "Impish",
@@ -2189,7 +2332,7 @@ var SETDEX_DPP = {
                 "Fake Out"
             ]		
 		},
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 57,
             "item": "Muscle Band",            
             "nature": "Lax",
@@ -2204,7 +2347,7 @@ var SETDEX_DPP = {
     },
 
     "Abomasnow": {
-        "Candice": {
+        "Leader Candice": {
             "level": 55,
             "item": "Expert Belt",            
             "nature": "Brave",
@@ -2219,7 +2362,7 @@ var SETDEX_DPP = {
     },
 
     "Glaceon": {
-        "Candice": {
+        "Leader Candice": {
             "level": 55,
             "item": "Bright Powder",            
             "nature": "Bold",
@@ -2234,7 +2377,7 @@ var SETDEX_DPP = {
     },
 
     "Walrein": {
-        "Candice": {
+        "Leader Candice": {
             "level": 55,
             "item": "Chople Berry",            
             "nature": "Quiet",
@@ -2245,11 +2388,22 @@ var SETDEX_DPP = {
                 "Yawn",
                 "Aqua Ring"
             ]	
-		}
+		},
+        "Ace Trainer Mariah": {
+            "level": 63,           
+            "nature": "Mild",
+            "ability": "Thick Fat",
+            "moves": [
+                "Crunch",
+                "Surf",
+                "Ice Beam",
+                "Earthquake"
+            ]	
+		}		
     },
 
     "Froslass": {
-        "Candice": {
+        "Leader Candice": {
             "level": 56,
             "item": "Life Orb",            
             "nature": "Modest",
@@ -2264,7 +2418,7 @@ var SETDEX_DPP = {
     },
 
     "Houndoom": {
-        "Cyrus 2": {
+        "Galactic Leader Cyrus 2": {
             "level": 57,
             "item": "Life Orb",            
             "nature": "Bashful",
@@ -2276,7 +2430,7 @@ var SETDEX_DPP = {
                 "Nasty Plot"
             ]	
 		},
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 59,
             "item": "Life Orb",            
             "nature": "Hasty",
@@ -2291,7 +2445,7 @@ var SETDEX_DPP = {
     },
 
     "Rhyperior": {
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 56,
             "item": "Choice Band",            
             "nature": "Gentle",
@@ -2306,7 +2460,7 @@ var SETDEX_DPP = {
     },
 
     "Magmortar": {
-        "Saturn 3": {
+        "Commander Saturn 3": {
             "level": 56,
             "item": "Choice Specs",            
             "nature": "Careful",
@@ -2321,7 +2475,7 @@ var SETDEX_DPP = {
     },
 
     "Electivire": {
-        "Mars 12v12": {
+        "Commander Mars 12v12": {
             "level": 57,
             "item": "Expert Belt",            
             "nature": "Brave",
@@ -2333,7 +2487,7 @@ var SETDEX_DPP = {
                 "Fire Punch"
             ]	
 		},
-        "Volkner": {
+        "Leader Volkner": {
             "level": 62,
             "item": "Life Orb",            
             "nature": "Jolly",
@@ -2344,11 +2498,22 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Earthquake"
             ]	
+		},
+        "Veteran Clayton": {
+            "level": 64,          
+            "nature": "Quirky",
+            "ability": "Motor Drive",
+            "moves": [
+                "Wild Charge",
+                "Fire Punch",
+                "Close Combat",
+                "Earthquake"
+            ]				
 		}		
     },
 
     "Tangrowth": {
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 57,
             "item": "Big Root",            
             "nature": "Bold",
@@ -2359,11 +2524,22 @@ var SETDEX_DPP = {
                 "Focus Blast",
                 "Sludge Bomb"
             ]
-		}
+		},
+        "Veteran Brian": {
+            "level": 43,            
+            "nature": "Gentle",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Giga Drain",
+                "Wake-Up Slap",
+                "Ancient Power",
+                ""
+            ]
+		}		
     },
 
     "Gastrodon": {
-        "Jupiter 12v12": {
+        "Commander Jupiter 12v12": {
             "level": 57,
             "item": "Wise Glasses",            
             "nature": "Calm",
@@ -2378,7 +2554,7 @@ var SETDEX_DPP = {
     },
 
     "Dialga": {
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 70,           
             "nature": "Hardy",
             "ability": "Pressure",
@@ -2393,7 +2569,7 @@ var SETDEX_DPP = {
     },
 
     "Palkia": {
-        "Cyrus 3": {
+        "Galactic Leader Cyrus 3": {
             "level": 70,           
             "nature": "Hardy",
             "ability": "Pressure",
@@ -2408,7 +2584,7 @@ var SETDEX_DPP = {
     },
 
     "Jolteon": {
-        "Volkner": {
+        "Leader Volkner": {
             "level": 61,
             "item": "Focus Sash",            
             "nature": "Naive",
@@ -2423,7 +2599,7 @@ var SETDEX_DPP = {
     },
 
     "Rotom-Wash": {
-        "Volkner": {
+        "Leader Volkner": {
             "level": 61,
             "item": "Sitrus Berry",            
             "nature": "Modest",
@@ -2438,7 +2614,7 @@ var SETDEX_DPP = {
     },
 
     "Rotom-Heat": {
-        "Volkner": {
+        "Leader Volkner": {
             "level": 61,
             "item": "White Herb",            
             "nature": "Modest",
@@ -2453,7 +2629,7 @@ var SETDEX_DPP = {
     },
 
     "Luxray": {
-        "Volkner": {
+        "Leader Volkner": {
             "level": 61,
             "item": "Choice Band",            
             "nature": "Naughty",
@@ -2479,7 +2655,29 @@ var SETDEX_DPP = {
                 "Thunder",
                 "Psychic"
             ]		
-		}
+		},
+        "Ace Trainer Alyssa": {
+            "level": 42,           
+            "nature": "Bashful",
+            "ability": "Illuminate",
+            "moves": [
+                "Scald",
+                "Power Gem",
+                "Grass Knot",
+                "Psychic"
+            ]
+		},
+        "Ace Trainer Sydney": {
+            "level": 63,           
+            "nature": "Sassy",
+            "ability": "Illuminate",
+            "moves": [
+                "Hydro Pump",
+                "Power Gem",
+                "Dazzling Gleam",
+                "Psychic"
+            ]				
+		}		
     },
 
     "Electrode": {
@@ -2508,6 +2706,270 @@ var SETDEX_DPP = {
                 "Dragon Pulse",
                 "Focus Blast",
                 "Endure"
+            ]	
+		}
+    },
+
+    "Gligar": {
+        "Ace Trainer Dennis": {
+            "level": 35,           
+            "nature": "Quiet",
+            "ability": "Immunity",
+            "moves": [
+                "Wing Attack",
+                "Protect",
+                "X-Scissor",
+                "Brick Break"
+            ]
+		}
+    },
+
+    "Lickitung": {
+        "Ace Trainer Maya": {
+            "level": 35,           
+            "nature": "Naughty",
+            "ability": "Own Tempo",
+            "moves": [
+                "Body Slam",
+                "Zen Headbutt",
+                "Knock Off",
+                "Aqua Tail"
+            ]	
+		}
+    },
+
+    "Gardevoir": {
+        "Ace Trainer Maya": {
+            "level": 35,           
+            "nature": "Impish",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Magical Leaf",
+                "Shadow Ball",
+                "Dazzling Gleam"
+            ]	
+		}
+    },
+
+    "Gliscor": {
+        "Ace Trainers Zac & Jen": {
+            "level": 42,           
+            "nature": "Impish",
+            "ability": "Poison Heal",
+            "moves": [
+                "Earthquake",
+                "X-Scissor",
+                "Sky Uppercut",
+                "Aerial Ace"
+            ]
+		}
+    },
+
+    "Victreebel": {
+        "Ace Trainers Zac & Jen": {
+            "level": 42,           
+            "nature": "Relaxed",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Leaf Blade",
+                "Sludge Bomb"
+            ]	
+		}
+    },
+
+    "Typhlosion": {
+        "Ace Trainers Zac & Jen": {
+            "level": 42,           
+            "nature": "Hardy",
+            "ability": "Adaptability",
+            "moves": [
+                "Lava Plume",
+                "Thunder Punch",
+				"Earth Power",
+				""
+            ]	
+		}
+    },
+
+    "Ampharos": {
+        "Ace Trainers Zac & Jen": {
+            "level": 42,           
+            "nature": "Quiet",
+            "ability": "Static",
+            "moves": [
+                "Thunderbolt",
+                "Dragon Pulse",
+				"Signal Beam",
+				"Power Gem"
+            ]	
+		}
+    },
+
+    "Ambipom": {
+        "Ace Trainer Alyssa": {
+            "level": 42,           
+            "nature": "Relaxed",
+            "ability": "Technician",
+            "moves": [
+                "Covet",
+                "Fake Out",
+				"Aerial Ace",
+				"U-turn"
+            ]	
+		}
+    },
+
+    "Rapidash": {
+        "Veteran Brian": {
+            "level": 43,           
+            "nature": "Careful",
+            "ability": "Flame Body",
+            "moves": [
+                "Flare Blitz",
+                "Double-Edge",
+				"Megahorn",
+				"Jump Kick"
+            ]	
+		}
+    },
+
+    "Feraligatr": {
+        "Veteran Brian": {
+            "level": 43,           
+            "nature": "Jolly",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Crunch",
+				"Ice Fang",
+				""
+            ]	
+		}
+    },
+
+    "Blissey": {
+        "Ace Trainer Mariah": {
+            "level": 63,           
+            "nature": "Calm",
+            "ability": "Serene Grace",
+            "moves": [
+                "Calm Mind",
+                "Hyper Voice",
+				"Soft-Boiled",
+				"Ice Beam"
+            ]
+		}
+    },
+
+    "Jumpluff": {
+        "Ace Trainer Mariah": {
+            "level": 63,           
+            "nature": "Sassy",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Energy Ball",
+                "Hurricane",
+				"Sleep Powder",
+				"Dazzling Gleam"
+            ]
+		}
+    },
+
+    "Clefable": {
+        "Ace Trainer Sydney": {
+            "level": 63,           
+            "nature": "Quirky",
+            "ability": "Cute Charm",
+            "moves": [
+                "Moonblast",
+                "Reflect",
+				"Light Screen",
+				"Fire Blast"
+            ]
+		}
+    },
+
+    "Magcargo": {
+        "Ace Trainer Sydney": {
+            "level": 63,           
+            "nature": "Bold",
+            "ability": "Solid Rock",
+            "moves": [
+                "Overheat",
+                "Power Gem",
+				"Earth Power",
+				"Recover"
+            ]		
+		}
+    },
+
+    "Tauros": {
+        "Ace Trainer Sydney": {
+            "level": 63,           
+            "nature": "Adamant",
+            "ability": "Intimidate",
+            "moves": [
+                "Body Slam",
+                "Earthquake",
+				"Megahorn",
+				"Wild Charge"
+            ]	
+		}
+    },
+
+    "Hippowdon": {
+        "Veteran Clayton": {
+            "level": 64,           
+            "nature": "Naughty",
+            "ability": "Intimidate",
+            "moves": [
+                "Earthquake",
+                "Crunch",
+				"Ice Fang",
+				"Slack Off"
+            ]
+		}
+    },
+
+    "Pinsir": {
+        "Veteran Clayton": {
+            "level": 64,           
+            "nature": "Serious",
+            "ability": "Hyper Cutter",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+				"Stone Edge",
+				"Earthquake"
+            ]	
+		}
+    },
+
+    "Hitmonchan": {
+        "Black Belt Miles": {
+            "level": 63,           
+            "nature": "Impish",
+            "ability": "Iron Fist",
+            "moves": [
+                "Thunder Punch",
+                "Close Combat",
+				"Ice Punch",
+				"Fire Punch"
+            ]
+		}
+    },
+
+    "Hitmonlee": {
+        "Black Belt Miles": {
+            "level": 63,           
+            "nature": "Relaxed",
+            "ability": "Reckless",
+            "moves": [
+                "High Jump Kick",
+                "Blaze Kick",
+		"Quick Attack",
+		"Mega Kick"
             ]			
         }
     }
