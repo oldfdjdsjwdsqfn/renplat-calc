@@ -185,8 +185,33 @@ var SETDEX_DPP = {
                 "Hypnosis",
                 "Facade",
                 "Feint Attack"
-            ]     
-        }
+            ] 
+			
+        },
+        "Mars 2": {
+            "level": 53,
+            "item": "Sitrus Berry",
+            "nature": "Lonely",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Play Rough",
+                "Hypnosis",
+                "Fake Out"
+            ]  
+        },
+        "Mars 12v12": {
+            "level": 58,
+            "item": "Sitrus Berry",
+            "nature": "Brave",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Play Rough",
+                "Hypnosis",
+                "Fake Out"
+            ]     			
+        }		
     },
 
     "Zubat": {
@@ -410,7 +435,19 @@ var SETDEX_DPP = {
                 "Force Palm",
                 "Spore",
                 "Stone Edge"
-            ] 			
+            ]
+        },
+        "Barry 5": {
+            "level": 70,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Technician",
+            "moves": [
+                "Bullet Seed",
+                "Force Palm",
+                "Spore",
+                "Stone Edge"
+            ] 	 			
         }
     },
 
@@ -455,7 +492,19 @@ var SETDEX_DPP = {
                 "Knock Off",
                 "Shadow Sneak"
             ]   
-        }
+        },
+        "Jupiter 12v12": {
+            "level": 57,
+            "item": "Muscle Band",            
+            "nature": "Gentle",
+            "ability": "Magic Guard",
+            "moves": [
+                "Fake Out",
+                "Shadow Claw",
+                "Zen Headbutt",
+                "Sucker Punch"
+            ]   
+        }		
     },
 
     "Skuntank": {
@@ -470,7 +519,19 @@ var SETDEX_DPP = {
                 "Focus Energy",
                 "Torment"
             ] 
-        }
+        },
+        "Jupiter 12v12": {
+            "level": 58,
+            "item": "Sitrus Berry",            
+            "nature": "Lax",
+            "ability": "Aftermath",
+            "moves": [
+                "Gunk Shot",
+                "Crunch",
+                "Play Rough",
+                "Toxic"
+            ] 
+        }		
     },
 
     "Togetic": {
@@ -636,7 +697,7 @@ var SETDEX_DPP = {
                 "Ice Fang"
             ]    
         },
-		        "Lucas 3": {
+		"Lucas 3": {
             "level": 44,
             "item": "Choice Band",            
             "nature": "Hasty",
@@ -646,7 +707,19 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Crunch",
                 "Earthquake"
-            ]    
+            ]  
+        },
+		"Lucas 4": {
+            "level": 69,
+            "item": "Muscle Band",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Play Rough",
+                "Close Combat",
+                "Crunch",
+                "Earthquake"
+            ]  			
         }
     },
 
@@ -673,7 +746,19 @@ var SETDEX_DPP = {
                 "Zen Headbutt",
                 "Earthquake",
                 "Amnesia"
-            ]    
+            ]  
+        },
+        "Lucas 4": {
+            "level": 69,
+            "item": "Leftovers",            
+            "nature": "Hasty",
+            "ability": "Own Tempo",
+            "moves": [
+                "Double-Edge",
+                "Hammer Arm",
+                "Earthquake",
+                "Swords Dance"
+            ] 			
         }
     },
 
@@ -807,7 +892,7 @@ var SETDEX_DPP = {
                 "Bullet Punch",
                 "Night Slash"
             ]  
-			        },	
+		 },	
         "Barry 4": {
             "level": 48,
             "item": "Muscle Band",            
@@ -819,6 +904,18 @@ var SETDEX_DPP = {
                 "Rock Slide",
                 "Night Slash"
             ] 
+		 },	
+        "Barry 5": {
+            "level": 70,
+            "item": "Toxic Orb",            
+            "nature": "Naive",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Stone Edge",
+                "Protect"
+            ] 			
 		}	
     },
 
@@ -857,6 +954,18 @@ var SETDEX_DPP = {
             "moves": [
                 "Body Slam",
                 "Crunch",
+                "Curse",
+                "Slack Off"
+            ] 	
+        },	
+        "Barry 5": {
+            "level": 70,
+            "item": "Leftovers",            
+            "nature": "Impish",
+            "ability": "Thick Fat",
+            "moves": [
+                "Body Slam",
+                "Earthquake",
                 "Curse",
                 "Slack Off"
             ] 			
@@ -902,6 +1011,66 @@ var SETDEX_DPP = {
                 "Reflect",
                 "Light Screen"
             ] 
+        },
+        "Saturn 2": {
+            "level": 52,
+            "item": "Bright Powder",            
+            "nature": "Relaxed",
+            "ability": "Levitate",
+            "moves": [
+                "Iron Head",
+                "Zen Headbutt",
+                "Shadow Ball",
+                "Explosion"
+            ]	
+        },
+        "Mars 2": {
+            "level": 52,
+            "item": "Leftovers",            
+            "nature": "Naughty",
+            "ability": "Levitate",
+            "moves": [
+                "Stealth Rock",
+                "Gyro Ball",
+                "Payback",
+                "Explosion"
+            ]
+        },
+        "Saturn 3": {
+            "level": 56,
+            "item": "Light Clay",            
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Gyro Ball",
+                "Zen Headbutt",
+                "Reflect",
+                "Light Screen"
+            ]	
+        },
+        "Mars 12v12": {
+            "level": 57,
+            "item": "Leftovers",            
+            "nature": "Bold",
+            "ability": "Levitate",
+            "moves": [
+                "Gyro Ball",
+                "Zen Headbutt",
+                "Stealth Rock",
+                "Earthquake"
+            ]
+        },
+        "Jupiter 12v12": {
+            "level": 57,
+            "item": "Leftovers",            
+            "nature": "Quiet",
+            "ability": "Levitate",
+            "moves": [
+                "Swagger",
+                "Psychic",
+                "Flash Cannon",
+                "Grass Knot"
+            ]			
         }		
     },
 
@@ -917,7 +1086,31 @@ var SETDEX_DPP = {
                 "Ice Beam",
                 "Flamethrower"
             ]     
-        }
+        },
+        "Saturn 2": {
+            "level": 52,
+            "item": "Expert Belt",            
+            "nature": "Bashful",
+            "ability": "Suction Cups",
+            "moves": [
+                "Hydro Pump",
+                "Seed Bomb",
+                "Flash Cannon",
+                "Flamethrower"
+            ]  
+        },
+        "Saturn 3": {
+            "level": 56,
+            "item": "Expert Belt",            
+            "nature": "Adamant",
+            "ability": "Suction Cups",
+            "moves": [
+                "Hydro Pump",
+                "Energy Ball",
+                "Fire Blast",
+                "Blizzard"
+            ]			
+        }		
     },
 
     "Toxicroak": {
@@ -944,7 +1137,31 @@ var SETDEX_DPP = {
                 "Poison Jab",
                 "Ice Punch",
                 "Sucker Punch"
-            ]               
+            ]  
+        },
+        "Saturn 2": {
+            "level": 53,
+            "item": "Life Orb",
+            "nature": "Brave",
+            "ability": "Dry Skin",
+            "moves": [
+                "Gunk Shot",
+                "Cross Chop",
+                "Fake Out",
+                "Sucker Punch"
+            ]	
+        },
+        "Saturn 3": {
+            "level": 57,
+            "item": "Focus Sash",
+            "nature": "Adamant",
+            "ability": "Dry Skin",
+            "moves": [
+                "Gunk Shot",
+                "Cross Chop",
+                "Fake Out",
+                "Ice Punch"
+            ]			
         }
     },
 
@@ -975,7 +1192,19 @@ var SETDEX_DPP = {
                 "Grass Knot",
                 "Teeter Dance"
             ]    
-        }
+        },
+        "Volkner": {
+            "level": 61,
+            "item": "Expert Belt",            
+            "nature": "Timid",
+            "ability": "Static",
+            "moves": [
+                "Grass Knot",
+                "Thunderbolt",
+                "Focus Blast",
+                "Surf"
+            ]    
+        }		
     },
 
     "Espeon": {
@@ -1127,7 +1356,19 @@ var SETDEX_DPP = {
                 "Brave Bird",
                 "Close Combat",
                 "U-turn"
-            ] 			
+            ] 	
+        },
+        "Barry 5": {
+            "level": 70,
+            "item": "Choice Scarf",            
+            "nature": "Serious",
+            "ability": "Reckless",
+            "moves": [
+                "Double-Edge",
+                "Brave Bird",
+                "Close Combat",
+                "U-turn"
+            ] 				
         }		
     },
 
@@ -1154,7 +1395,31 @@ var SETDEX_DPP = {
                 "Extreme Speed",
                 "Crunch",
                 "Close Combat"
-            ] 	
+            ]
+        },
+        "Marley": {
+            "level": 66,
+            "item": "Sitrus Berry",            
+            "nature": "Hardy",
+            "ability": "Intimidate",
+            "moves": [
+                "Flare Blitz",
+                "Extreme Speed",
+                "Crunch",
+                "Close Combat"
+            ]
+        },
+        "Barry 5": {
+            "level": 70,
+            "item": "Life Orb",            
+            "nature": "Brave",
+            "ability": "Intimidate",
+            "moves": [
+                "Flare Blitz",
+                "Wild Charge",
+                "Crunch",
+                "Close Combat"
+            ]			
         }		
     },
 
@@ -1193,6 +1458,18 @@ var SETDEX_DPP = {
                 "Flash Cannon",
                 "Grass Knot",
                 "Agility"
+            ] 	
+        },
+        "Barry 5": {
+            "level": 71,
+            "item": "Sitrus Berry",            
+            "nature": "Brave",
+            "ability": "Torrent",
+            "moves": [
+                "Hydro Pump",
+                "Flash Cannon",
+                "Grass Knot",
+                "Blizzard"
             ] 			
         }		
     },
@@ -1224,7 +1501,19 @@ var SETDEX_DPP = {
                 "Crunch",
                 "Dragon Dance"
             ]	
-        }
+        },
+        "Cyrus 3": {
+            "level": 59,
+            "item": "Muscle Band",            
+            "nature": "Jolly",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Ice Fang",
+                "Stone Edge",
+                "Dragon Dance"
+            ]	
+        }		
     },
 
     "Poliwrath": {
@@ -1310,7 +1599,43 @@ var SETDEX_DPP = {
                 "Focus Blast",
                 "Energy Ball",
                 "Dazzling Gleam"
+            ]
+        },
+        "Saturn 2": {
+            "level": 52,
+            "item": "Wise Glasses",            
+            "nature": "Quirky",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Focus Blast",
+                "Calm Mind",
+                "Recover"
             ]	
+        },
+        "Saturn 3": {
+            "level": 56,
+            "item": "Life Orb",            
+            "nature": "Hardy",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Focus Blast",
+                "Shadow Ball",
+                "Dazzling Gleam"
+            ]
+        },
+        "Lucas 4": {
+            "level": 69,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Aura Sphere",
+                "Shadow Ball",
+                "Dazzling Gleam"
+            ]				
         }		
     },
 
@@ -1326,6 +1651,30 @@ var SETDEX_DPP = {
                 "Stone Edge",
                 "Ice Shard"
             ]	
+        },
+        "Candice": {
+            "level": 55,
+            "item": "Passho Berry",            
+            "nature": "Naive",
+            "ability": "Thick Fat",
+            "moves": [
+                "Earthquake",
+                "Avalanche",
+                "Stone Edge",
+                "Ice Shard"
+            ]
+        },
+        "Lucas 4": {
+            "level": 69,
+            "item": "Choice Band",            
+            "nature": "Hasty",
+            "ability": "Thick Fat",
+            "moves": [
+                "Earthquake",
+                "Icicle Crash",
+                "Stone Edge",
+                "Superpower"
+            ]			
         }
     },
 
@@ -1341,7 +1690,19 @@ var SETDEX_DPP = {
                 "Extrasensory",
                 "Aqua Ring"
             ]	
-        }
+        },
+        "Lucas 4": {
+            "level": 69,
+            "item": "Wacan Berry",            
+            "nature": "Hasty",
+            "ability": "Water Absorb",
+            "moves": [
+                "Muddy Water",
+                "Ice Beam",
+                "Rest",
+                "Sleep Talk"
+            ]	
+        }		
     },
 
     "Torterra": {
@@ -1356,7 +1717,19 @@ var SETDEX_DPP = {
                 "Iron Head",
                 "Rock Slide"
             ]	
-        }
+        },
+        "Lucas 4": {
+            "level": 70,
+            "item": "Sitrus Berry",            
+            "nature": "Hasty",
+            "ability": "Overgrow",
+            "moves": [
+                "Frenzy Plant",
+                "Earthquake",
+                "Iron Head",
+                "Stone Edge"
+            ]	
+        }		
     },
 
     "Crobat": {
@@ -1371,7 +1744,79 @@ var SETDEX_DPP = {
                 "Giga Drain",
                 "Hypnosis"
             ]	
-        }
+        },
+        "Mars 2": {
+            "level": 52,
+            "item": "Bright Powder",            
+            "nature": "Modest",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "Hypnosis",
+                "Double Team",
+                "Giga Drain"
+            ]	
+        },
+        "Cyrus 2": {
+            "level": 57,
+            "item": "Choice Band",            
+            "nature": "Sassy",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "U-turn",
+                "Cross Poison",
+                "Zen Headbutt"
+            ]
+        },
+        "Mars 12v12": {
+            "level": 57,
+            "item": "Life Orb",            
+            "nature": "Hardy",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "Sludge Bomb",
+                "Confuse Ray",
+                "Torment"
+            ]	
+        },
+        "Jupiter 12v12": {
+            "level": 57,
+            "item": "Bright Powder",            
+            "nature": "Sassy",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "Sludge Bomb",
+                "Double Team",
+                "Hypnosis"
+            ]
+        },
+        "Cyrus 3": {
+            "level": 59,
+            "item": "Choice Band",            
+            "nature": "Jolly",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "U-turn",
+                "Cross Poison",
+                "Zen Headbutt"
+            ]		
+        },
+        "Marley": {
+            "level": 65,
+            "item": "Bright Powder",            
+            "nature": "Adamant",
+            "ability": "Inner Focus",
+            "moves": [
+                "Brave Bird",
+                "Hypnosis",
+                "Cross Poison",
+                "Roost"
+            ]				
+        }		
     },
 
     "Honchkrow": {
@@ -1386,7 +1831,31 @@ var SETDEX_DPP = {
                 "Swagger",
                 "Torment"
             ]	        
-		}
+		},
+        "Cyrus 2": {
+            "level": 57,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Super Luck",
+            "moves": [
+                "Brave Bird",
+                "Night Slash",
+                "Thunder Wave",
+                "Heat Wave"
+            ]	    
+		},
+        "Cyrus 3": {
+            "level": 59,
+            "item": "White Herb",            
+            "nature": "Naughty",
+            "ability": "Super Luck",
+            "moves": [
+                "Brave Bird",
+                "Sucker Punch",
+                "Thunder Wave",
+                "Superpower"
+            ]				
+		}		
     },
 
     "Magnezone": {
@@ -1413,6 +1882,30 @@ var SETDEX_DPP = {
                 "Signal Beam",
                 "Thunder Wave"
             ]	
+		},
+        "Cyrus 2": {
+            "level": 57,
+            "item": "Wise Glasses",            
+            "nature": "Timid",
+            "ability": "Magnet Pull",
+            "moves": [
+                "Thunderbolt",
+                "Flash Cannon",
+                "Signal Beam",
+                "Mirror Coat"
+            ]
+		},
+        "Cyrus 3": {
+            "level": 59,
+            "item": "Wise Glasses",            
+            "nature": "Modest",
+            "ability": "Magnet Pull",
+            "moves": [
+                "Thunderbolt",
+                "Flash Cannon",
+                "Signal Beam",
+                "Mirror Coat"
+            ]				
 		}		
     },
 
@@ -1428,7 +1921,55 @@ var SETDEX_DPP = {
                 "Ice Shard",
                 "Swords Dance"
             ]
-		}
+		},
+        "Candice": {
+            "level": 55,
+            "item": "Focus Sash",            
+            "nature": "Naughty",
+            "ability": "Technician",
+            "moves": [
+                "Crunch",
+                "Icicle Crash",
+                "Aerial Ace",
+                "Swords Dance"
+            ]
+		},
+        "Cyrus 2": {
+            "level": 58,
+            "item": "Expert Belt",            
+            "nature": "Timid",
+            "ability": "Technician",
+            "moves": [
+                "Crunch",
+                "Icicle Crash",
+                "Aerial Ace",
+                "X-Scissor"
+            ]	
+		},
+        "Cyrus 3": {
+            "level": 60,
+            "item": "Focus Sash",            
+            "nature": "Jolly",
+            "ability": "Technician",
+            "moves": [
+                "Feint Attack",
+                "Icicle Crash",
+                "Aerial Ace",
+                "Swords Dance"
+            ]	
+		},
+        "Marley": {
+            "level": 65,
+            "item": "Life Orb",            
+            "nature": "Bold",
+            "ability": "Technician",
+            "moves": [
+                "Crunch",
+                "Icicle Crash",
+                "Aerial Ace",
+                "Low Kick"
+            ]			
+		}		
     },
 
     "Metagross": {
@@ -1589,7 +2130,385 @@ var SETDEX_DPP = {
                 "Toxic",
                 "Protect",
                 "Metal Burst"
-            ]				
+            ]	
+		}
+    },
+
+    "Rhydon": {
+        "Saturn	2": {
+            "level": 52,
+            "item": "Muscle Band",            
+            "nature": "Timid",
+            "ability": "Rock Head",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Hammer Arm",
+                "Megahorn"
+            ]	
+		}
+    },
+
+    "Yanmega": {
+        "Mars 2": {
+            "level": 52,
+            "item": "Wise Glasses",            
+            "nature": "Rash",
+            "ability": "Speed Boost",
+            "moves": [
+                "Bug Buzz",
+                "Air Slash",
+                "Psychic",
+                "Detect"
+            ]
+		},
+        "Mars 12v12": {
+            "level": 57,
+            "item": "Wise Glasses",            
+            "nature": "Calm",
+            "ability": "Speed Boost",
+            "moves": [
+                "Bug Buzz",
+                "Hurricane",
+                "Shadow Ball",
+                "Detect"
+            ]
+		}		
+    },
+
+    "Kangaskhan": {
+        "Mars 2": {
+            "level": 52,
+            "item": "Muscle Band",            
+            "nature": "Impish",
+            "ability": "Scrappy",
+            "moves": [
+                "Double-Edge",
+                "Hammer Arm",
+                "Crunch",
+                "Fake Out"
+            ]		
+		},
+        "Mars 12v12": {
+            "level": 57,
+            "item": "Muscle Band",            
+            "nature": "Lax",
+            "ability": "Scrappy",
+            "moves": [
+                "Body Slam",
+                "Hammer Arm",
+                "Crunch",
+                "Fake Out"
+            ]		
+		}		
+    },
+
+    "Abomasnow": {
+        "Candice": {
+            "level": 55,
+            "item": "Expert Belt",            
+            "nature": "Brave",
+            "ability": "Snow Warning",
+            "moves": [
+                "Wood Hammer",
+                "Earthquake",
+                "Blizzard",
+                "Ice Shard"
+            ]	
+		}
+    },
+
+    "Glaceon": {
+        "Candice": {
+            "level": 55,
+            "item": "Bright Powder",            
+            "nature": "Bold",
+            "ability": "Snow Cloak",
+            "moves": [
+                "Blizzard",
+                "Shadow Ball",
+                "Earth Power",
+                "Double Team"
+            ]
+		}
+    },
+
+    "Walrein": {
+        "Candice": {
+            "level": 55,
+            "item": "Chople Berry",            
+            "nature": "Quiet",
+            "ability": "Thick Fat",
+            "moves": [
+                "Blizzard",
+                "Surf",
+                "Yawn",
+                "Aqua Ring"
+            ]	
+		}
+    },
+
+    "Froslass": {
+        "Candice": {
+            "level": 56,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Levitate",
+            "moves": [
+                "Blizzard",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Attract"
+            ]	
+		}
+    },
+
+    "Houndoom": {
+        "Cyrus 2": {
+            "level": 57,
+            "item": "Life Orb",            
+            "nature": "Bashful",
+            "ability": "Intimidate",
+            "moves": [
+                "Dark Pulse",
+                "Flamethrower",
+                "Sludge Bomb",
+                "Nasty Plot"
+            ]	
+		},
+        "Cyrus 3": {
+            "level": 59,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Dark Pulse",
+                "Flamethrower",
+                "Sludge Bomb",
+                "Nasty Plot"
+            ]	
+		}		
+    },
+
+    "Rhyperior": {
+        "Saturn 3": {
+            "level": 56,
+            "item": "Choice Band",            
+            "nature": "Gentle",
+            "ability": "Solid Rock",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Hammer Arm",
+                "Megahorn"
+            ]	
+		}
+    },
+
+    "Magmortar": {
+        "Saturn 3": {
+            "level": 56,
+            "item": "Choice Specs",            
+            "nature": "Careful",
+            "ability": "Flame Body",
+            "moves": [
+                "Fire Blast",
+                "Thunderbolt",
+                "Aura Sphere",
+                "Psychic"
+            ]
+		}
+    },
+
+    "Electivire": {
+        "Mars 12v12": {
+            "level": 57,
+            "item": "Expert Belt",            
+            "nature": "Brave",
+            "ability": "Motor Drive",
+            "moves": [
+                "Thunder Punch",
+                "Ice Punch",
+                "Cross Chop",
+                "Fire Punch"
+            ]	
+		},
+        "Volkner": {
+            "level": 62,
+            "item": "Life Orb",            
+            "nature": "Jolly",
+            "ability": "Motor Drive",
+            "moves": [
+                "Wild Charge",
+                "Ice Punch",
+                "Close Combat",
+                "Earthquake"
+            ]	
+		}		
+    },
+
+    "Tangrowth": {
+        "Jupiter 12v12": {
+            "level": 57,
+            "item": "Big Root",            
+            "nature": "Bold",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Giga Drain",
+                "Leech Seed",
+                "Focus Blast",
+                "Sludge Bomb"
+            ]
+		}
+    },
+
+    "Gastrodon": {
+        "Jupiter 12v12": {
+            "level": 57,
+            "item": "Wise Glasses",            
+            "nature": "Calm",
+            "ability": "Sticky Hold",
+            "moves": [
+                "Muddy Water",
+                "Earth Power",
+                "Ice Beam",
+                "Recover"
+            ]
+		}
+    },
+
+    "Dialga": {
+        "Cyrus 3": {
+            "level": 70,           
+            "nature": "Hardy",
+            "ability": "Pressure",
+            "ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},
+			"moves": [
+                "Earth Power",
+                "Aura Sphere",
+                "Roar of Time",
+                "Flash Cannon"
+			]
+		}
+    },
+
+    "Palkia": {
+        "Cyrus 3": {
+            "level": 70,           
+            "nature": "Hardy",
+            "ability": "Pressure",
+            "ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0},
+			"moves": [
+                "Earth Power",
+                "Aura Sphere",
+                "Spacial Rend",
+                "Hydro Pump"
+			]
+		}
+    },
+
+    "Jolteon": {
+        "Volkner": {
+            "level": 61,
+            "item": "Focus Sash",            
+            "nature": "Naive",
+            "ability": "Static",
+            "moves": [
+                "Thunderbolt",
+                "Shadow Ball",
+                "Grass Knot",
+                "Thunder Wave"
+            ]
+		}
+    },
+
+    "Rotom-Wash": {
+        "Volkner": {
+            "level": 61,
+            "item": "Sitrus Berry",            
+            "nature": "Modest",
+            "ability": "Levitate",
+            "moves": [
+                "Thunderbolt",
+                "Hydro Pump",
+                "Shadow Ball",
+                "Thunder Wave"
+            ]	
+		}
+    },
+
+    "Rotom-Heat": {
+        "Volkner": {
+            "level": 61,
+            "item": "White Herb",            
+            "nature": "Modest",
+            "ability": "Levitate",
+            "moves": [
+                "Thunderbolt",
+                "Overheat",
+                "Shadow Ball",
+                "Will-O-Wisp"
+            ]
+		}
+    },
+
+    "Luxray": {
+        "Volkner": {
+            "level": 61,
+            "item": "Choice Band",            
+            "nature": "Naughty",
+            "ability": "Intimidate",
+            "moves": [
+                "Wild Charge",
+                "Crunch",
+                "Ice Fang",
+                "Fire Fang"
+            ]	
+		}
+    },
+
+    "Starmie": {
+        "Marley": {
+            "level": 65,
+            "item": "Expert Belt",            
+            "nature": "Docile",
+            "ability": "Illuminate",
+            "moves": [
+                "Hydro Pump",
+                "Blizzard",
+                "Thunder",
+                "Psychic"
+            ]		
+		}
+    },
+
+    "Electrode": {
+        "Marley": {
+            "level": 65,
+            "item": "Light Clay",            
+            "nature": "Serious",
+            "ability": "Soundproof",
+            "moves": [
+                "Thunderbolt",
+                "Thunder Wave",
+                "Light Screen",
+                "Explosion"
+            ]	
+		}
+    },
+
+    "Sceptile": {
+        "Marley": {
+            "level": 65,
+            "item": "Petaya Berry",            
+            "nature": "Naive",
+            "ability": "Unburden",
+            "moves": [
+                "Energy Ball",
+                "Dragon Pulse",
+                "Focus Blast",
+                "Endure"
+            ]			
         }
     }
 }
