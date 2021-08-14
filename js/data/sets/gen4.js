@@ -474,7 +474,31 @@ var SETDEX_DPP = {
                 "Weather Ball",
                 "Stun Spore"
             ]   
-        }
+        },
+        "Champion Cynthia Team 1": {
+            "level": 26,
+            "item": "White Herb",
+            "nature": "Timid",
+            "ability": "Technician",
+            "moves": [
+                "Leaf Storm",
+                "Sludge Bomb",
+                "Dazzling Gleam",
+                "Sleep Powder"
+            ] 
+        },
+        "Champion Cynthia Team 4": {
+            "level": 26,
+            "item": "Choice Scarf",
+            "nature": "Modest",
+            "ability": "Technician",
+            "moves": [
+                "Energy Ball",
+                "Sludge Bomb",
+                "Dazzling Gleam",
+                "Shadow Ball"
+            ] 			
+		}	
     },
 
     "Golbat": {
@@ -914,7 +938,31 @@ var SETDEX_DPP = {
                 "Air Slash",
                 "Destiny Bond",
                 "Amnesia"
-            ]    
+            ] 
+		},	
+        "Elite Four Flint Team 2": {
+            "level": 73,
+            "item": "Wacan Berry",            
+            "nature": "Modest",
+            "ability": "Unburden",
+            "moves": [
+                "Shadow Ball",
+                "Hurricane",
+                "Flamethrower",
+                "Will-O-Wisp"
+            ] 
+		},	
+        "Elite Four Flint Team 4": {
+            "level": 73,
+            "item": "Wacan Berry",            
+            "nature": "Rash",
+            "ability": "Unburden",
+            "moves": [
+                "Shadow Ball",
+                "Hurricane",
+                "Flamethrower",
+                "Will-O-Wisp"
+            ]			
         }		
     },
 
@@ -960,7 +1008,43 @@ var SETDEX_DPP = {
                 "Dark Pulse",
                 "Disable"
             ]    
-        }
+        },
+        "Champion Cynthia Team 1": {
+            "level": 77,
+            "item": "Lum Berry",            
+            "nature": "Sassy",
+            "ability": "Pressure",
+            "moves": [
+                "Confuse Ray",
+                "Will-O-Wisp",
+                "Dark Pulse",
+                "Rest"
+            ] 
+        },
+        "Champion Cynthia Team 2": {
+            "level": 77,
+            "item": "Wise Glasses",            
+            "nature": "Relaxed",
+            "ability": "Pressure",
+            "moves": [
+                "Shadow Ball",
+                "Psychic",
+                "Dark Pulse",
+                "Hypnosis"
+            ]
+        },
+        "Champion Cynthia Team 3": {
+            "level": 77,
+            "item": "Sitrus Berry",            
+            "nature": "Relaxed",
+            "ability": "Pressure",
+            "moves": [
+                "Calm Mind",
+                "Rest",
+                "Dark Pulse",
+                "Sleep Talk"
+            ]   			
+        }		
     },
 
     "Gengar": {
@@ -1000,7 +1084,19 @@ var SETDEX_DPP = {
                 "Moonblast",
                 "Power Gem",
                 "Thunderbolt"
-            ]   
+            ]  
+        },
+        "Champion Cynthia Team 4": {
+            "level": 77,
+			"item": "Wise Glasses",
+            "nature": "Timid",
+            "ability": "Levitate",
+            "moves": [
+                "Shadow Ball",
+                "Moonblast",
+                "Thunder Wave",
+                "Thunderbolt"
+            ] 			
         }		
     },
 
@@ -1246,6 +1342,30 @@ var SETDEX_DPP = {
                 "Psychic",
                 "Flash Cannon",
                 "Grass Knot"
+            ]
+        },
+        "Elite Four Lucian Team 1": {
+            "level": 74,
+            "item": "Leftovers",            
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Zen Headbutt",
+                "Gyro Ball",
+                "Reflect",
+                "Light Screen"
+            ]	
+        },
+        "Elite Four Lucian Team 3": {
+            "level": 74,
+            "item": "Occa Berry",            
+            "nature": "Relaxed",
+            "ability": "Levitate",
+            "moves": [
+                "Psychic",
+                "Flash Cannon",
+                "Earthquake",
+                "Hypnosis"
             ]			
         }		
     },
@@ -1395,7 +1515,31 @@ var SETDEX_DPP = {
                 "Dazzling Gleam",
                 "Protect"
             ]  
-        }
+        },
+        "Elite Four Lucian Team 1": {
+            "level": 74,
+            "item": "Wise Glasses",            
+            "nature": "Naive",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Power Gem",
+                "Dazzling Gleam",
+                "Aura Sphere"
+            ]  
+        },
+        "Elite Four Lucian Team 2": {
+            "level": 74,
+            "item": "Light Clay",            
+            "nature": "Hasty",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Reflect",
+                "Light Screen",
+                "Aura Sphere"
+            ] 			
+        }		
     },
 
     "Medicham": {
@@ -1409,6 +1553,18 @@ var SETDEX_DPP = {
                 "Zen Headbutt",
                 "Ice Punch",
                 "Fake Out"
+            ]    
+        },
+        "Elite Four Lucian Team 2": {
+            "level": 74,
+            "item": "Choice Scarf",            
+            "nature": "Naive",
+            "ability": "Pure Power",
+            "moves": [
+                "High Jump Kick",
+                "Zen Headbutt",
+                "Ice Punch",
+                "Thunder Punch"
             ]    
         }
     },
@@ -1462,7 +1618,19 @@ var SETDEX_DPP = {
                 "Thunder Punch",
                 "Flare Blitz",
                 "Grass Knot"
-            ]   
+            ] 
+        },
+        "Elite Four Flint Team 2": {
+            "level": 73,
+            "item": "Expert Belt",            
+            "nature": "Adamant",
+            "ability": "Iron Fist",
+            "moves": [
+                "Close Combat",
+                "Thunder Punch",
+                "Flare Blitz",
+                "Gunk Shot"
+            ]			
         }		
     },
 
@@ -1490,6 +1658,54 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Leaf Blade"
             ]
+        },
+        "Elite Four Lucian Team 1": {
+            "level": 75,
+            "item": "Scope Lens",            
+            "nature": "Lonely",
+            "ability": "Steadfast",
+            "moves": [
+                "Psycho Cut",
+                "Night Slash",
+                "Close Combat",
+                "Leaf Blade"
+            ]	
+        },
+        "Elite Four Lucian Team 2": {
+            "level": 75,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Steadfast",
+            "moves": [
+                "Psycho Cut",
+                "Night Slash",
+                "Close Combat",
+                "Leaf Blade"
+            ]
+        },
+        "Elite Four Lucian Team 3": {
+            "level": 75,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Steadfast",
+            "moves": [
+                "Psycho Cut",
+                "Night Slash",
+                "Close Combat",
+                "Leaf Blade"
+            ]	
+        },
+        "Elite Four Lucian Team 4": {
+            "level": 75,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Steadfast",
+            "moves": [
+                "Psycho Cut",
+                "Night Slash",
+                "Close Combat",
+                "Leaf Blade"
+            ]				
         }		
     },
 
@@ -1517,6 +1733,42 @@ var SETDEX_DPP = {
                 "Blaze Kick",
                 "Bullet Punch"
             ] 
+        },
+        "Champion Cynthia Team 1": {
+            "level": 77,
+            "item": "Life Orb",            
+            "nature": "Jolly",
+            "ability": "Adaptability",
+            "moves": [
+                "High Jump Kick",
+                "Meteor Mash",
+                "Extreme Speed",
+                "Ice Punch"
+            ] 
+        },
+        "Champion Cynthia Team 2": {
+            "level": 77,
+            "item": "Life Orb",            
+            "nature": "Timid",
+            "ability": "Adaptability",
+            "moves": [
+                "Aura Sphere",
+                "Flash Cannon",
+                "Dark Pulse",
+                "Vacuum Wave"
+            ] 	
+        },
+        "Champion Cynthia Team 3": {
+            "level": 77,
+            "item": "Life Orb",            
+            "nature": "Hasty",
+            "ability": "Adaptability",
+            "moves": [
+                "High Jump Kick",
+                "Meteor Mash",
+                "Bullet Punch",
+                "Stone Edge"
+            ] 			
         }		
     },
 
@@ -1578,6 +1830,18 @@ var SETDEX_DPP = {
                 "Brave Bird",
                 "Close Combat",
                 "U-turn"
+            ] 	
+        },
+        "Champion Cynthia Team 2": {
+            "level": 77, 
+			"item": "Choice Scarf",
+            "nature": "Naughty",
+            "ability": "Reckless",
+            "moves": [
+                "Double-Edge",
+                "Brave Bird",
+                "Close Combat",
+                "U-turn"
             ] 			
         }		
     },
@@ -1629,7 +1893,31 @@ var SETDEX_DPP = {
                 "Wild Charge",
                 "Crunch",
                 "Close Combat"
-            ]			
+            ]
+        },
+        "Elite Four Flint Team 3": {
+            "level": 73,
+            "item": "Expert Belt",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Flare Blitz",
+                "Wild Charge",
+                "Crunch",
+                "Extreme Speed"
+            ]	
+        },
+        "Elite Four Flint Team 4": {
+            "level": 73,
+            "item": "Expert Belt",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Flare Blitz",
+                "Wild Charge",
+                "Crunch",
+                "Extreme Speed"
+            ]				
         }		
     },
 
@@ -1890,6 +2178,30 @@ var SETDEX_DPP = {
                 "Aura Sphere",
                 "Shadow Ball",
                 "Dazzling Gleam"
+            ]	
+        },
+        "Elite Four Lucian Team 1": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Timid",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Aura Sphere",
+                "Shadow Ball",
+                "Energy Ball"
+            ]
+        },
+        "Elite Four Lucian Team 4": {
+            "level": 74,
+            "item": "Focus Sash",            
+            "nature": "Timid",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Aura Sphere",
+                "Thunder Wave",
+                "Counter"
             ]				
         }		
     },
@@ -2320,6 +2632,30 @@ var SETDEX_DPP = {
                 "Earthquake",
                 "Zen Headbutt",
                 "Agility"
+            ]
+		},
+        "Elite Four Lucian Team 1": {
+            "level": 74,
+            "item": "Muscle Band",            
+            "nature": "Impish",
+            "ability": "Iron Fist",
+            "moves": [
+                "Meteor Mash",
+                "Earthquake",
+                "Zen Headbutt",
+                "Explosion"
+            ]	
+		},
+        "Elite Four Lucian Team 4": {
+            "level": 74,
+            "item": "Muscle Band",            
+            "nature": "Impish",
+            "ability": "Iron Fist",
+            "moves": [
+                "Meteor Mash",
+                "Earthquake",
+                "Zen Headbutt",
+                "Explosion"
             ]				
         }		
     },
@@ -2422,7 +2758,19 @@ var SETDEX_DPP = {
                 "Stone Edge",
                 "Explosion"
             ]	
-		}
+		},
+        "Elite Four Flint Team 2": {
+            "level": 73,
+            "item": "Muscle Band",            
+            "nature": "Sassy",
+            "ability": "Rock Head",
+            "moves": [
+                "Iron Tail",
+                "Earthquake",
+                "Fire Fang",
+                "Crunch"
+            ]	
+		}		
     },
 
     "Aggron": {
@@ -2613,7 +2961,19 @@ var SETDEX_DPP = {
                 "Earth Power",
                 "Double Team"
             ]
-		}
+		},
+        "Champion Cynthia Team 3": {
+            "level": 77,
+            "item": "Choice Specs",            
+            "nature": "Modest",
+            "ability": "Snow Cloak",
+            "moves": [
+                "Blizzard",
+                "Shadow Ball",
+                "Earth Power",
+                "Extrasensory"
+            ]
+		}		
     },
 
     "Walrein": {
@@ -2783,7 +3143,55 @@ var SETDEX_DPP = {
                 "Aura Sphere",
                 "Psychic"
             ]
-		}
+		},
+        "Elite Four Flint Team 1": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Timid",
+            "ability": "Flame Body",
+            "moves": [
+                "Fire Blast",
+                "Thunderbolt",
+                "Aura Sphere",
+                "Solar Beam"
+            ]
+		},
+        "Elite Four Flint Team 2": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Flame Body",
+            "moves": [
+                "Fire Blast",
+                "Thunderbolt",
+                "Aura Sphere",
+                "Solar Beam"
+            ]	
+		},
+        "Elite Four Flint Team 3": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Flame Body",
+            "moves": [
+                "Fire Blast",
+                "Thunderbolt",
+                "Aura Sphere",
+                "Solar Beam"
+            ]	
+		},
+        "Elite Four Flint Team 4": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Rash",
+            "ability": "Flame Body",
+            "moves": [
+                "Fire Blast",
+                "Thunderbolt",
+                "Aura Sphere",
+                "Solar Beam"
+            ]				
+		}		
     },
 
     "Electivire": {
@@ -2988,6 +3396,30 @@ var SETDEX_DPP = {
                 "Power Gem",
                 "Dazzling Gleam",
                 "Psychic"
+ 		    ]
+		},          
+        "Elite Four Lucian Team 2": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Illuminate",
+            "moves": [
+                "Hydro Pump",
+                "Ice Beam",
+                "Thunderbolt",
+                "Psychic"
+            ]
+		},          
+        "Elite Four Lucian Team 4": {
+            "level": 74,
+            "item": "Life Orb",            
+            "nature": "Modest",
+            "ability": "Illuminate",
+            "moves": [
+                "Hydro Pump",
+                "Ice Beam",
+                "Thunderbolt",
+                "Psychic"
             ]				
 		}		
     },
@@ -3061,7 +3493,31 @@ var SETDEX_DPP = {
                 "Shadow Ball",
                 "Dazzling Gleam"
             ]	
-		}
+		},
+        "Elite Four Lucian Team 3": {
+            "level": 74,   
+			"item": "Wise Glasses",
+            "nature": "Timid",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Moonblast",
+                "Thunderbolt",
+                "Aura Sphere"
+            ]	
+		},
+        "Elite Four Lucian Team 4": {
+            "level": 74,   
+			"item": "Wise Glasses",
+            "nature": "Timid",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Moonblast",
+                "Thunderbolt",
+                "Aura Sphere"
+            ]			
+		}		
     },
 
     "Gliscor": {
@@ -3125,7 +3581,19 @@ var SETDEX_DPP = {
 				"Earth Power",
 				""
             ]	
-		}
+		},
+        "Elite Four Flint Team 4": {
+            "level": 73,   
+			"item": "Choice Scarf",
+            "nature": "Timid",
+            "ability": "Adaptability",
+            "moves": [
+                "Eruption",
+                "Extrasensory",
+				"Earth Power",
+				"Solar Beam"
+            ]	
+		}		
     },
 
     "Ampharos": {
@@ -3139,7 +3607,19 @@ var SETDEX_DPP = {
 				"Signal Beam",
 				"Power Gem"
             ]	
-		}
+		},
+        "Champion Cynthia Team 2": {
+            "level": 77,     
+			"item": "Shuca Berry",
+            "nature": "Quiet",
+            "ability": "Static",
+            "moves": [
+                "Thunderbolt",
+                "Dragon Pulse",
+				"Focus Blast",
+				"Flash Cannon"
+            ]	
+		}		
     },
 
     "Ambipom": {
@@ -3179,6 +3659,18 @@ var SETDEX_DPP = {
 				"Megahorn",
 				"Drill Run"
             ]	
+		},
+        "Elite Four Flint Team 2": {
+            "level": 73, 
+			"item": "Heat Rock",
+            "nature": "Naive",
+            "ability": "Flame Body",
+            "moves": [
+                "Flare Blitz",
+                "Wild Charge",
+				"Megahorn",
+				"Sunny Day"
+            ]				
 		}		
     },
 
@@ -3235,7 +3727,19 @@ var SETDEX_DPP = {
 				"Light Screen",
 				"Fire Blast"
             ]
-		}
+		},
+        "Champion Cynthia Team 4": {
+            "level": 77,  
+   			"item": "Light Clay",
+            "nature": "Calm",
+            "ability": "Cute Charm",
+            "moves": [
+                "Moonblast",
+                "Reflect",
+				"Light Screen",
+				"Soft-Boiled"
+            ]
+		}		
     },
 
     "Magcargo": {
@@ -3249,7 +3753,19 @@ var SETDEX_DPP = {
 				"Earth Power",
 				"Recover"
             ]		
-		}
+		},
+        "Elite Four Flint Team 3": {
+            "level": 63, 
+			"item": "Focus Sash",
+            "nature": "Quiet",
+            "ability": "Solid Rock",
+            "moves": [
+                "Fire Blast",
+                "Power Gem",
+				"Earth Power",
+				"Solar Beam"
+            ]		
+		}		
     },
 
     "Tauros": {
@@ -3651,8 +4167,308 @@ var SETDEX_DPP = {
                 "Play Rough",
 				"Wild Charge",
 				"Close Combat"
+            ]	
+		}		
+    },
+
+    "Lopunny": {
+        "Elite Four Flint Team 2": {
+            "level": 73,      
+            "item": "Focus Sash", 			
+            "nature": "Hasty",
+            "ability": "Scrappy",
+            "moves": [
+                "High Jump Kick",
+                "Mega Kick",
+				"Blaze Kick",
+				"Sunny Day"
+            ]				
+        },
+        "Elite Four Flint Team 3": {
+            "level": 73,      
+            "item": "Muscle Band", 			
+            "nature": "Hasty",
+            "ability": "Scrappy",
+            "moves": [
+                "High Jump Kick",
+                "Mega Kick",
+				"Blaze Kick",
+				"Fake Out"
+            ]
+        },
+        "Champion Cynthia Team 4": {
+            "level": 77,      
+            "item": "Life Orb", 			
+            "nature": "Hasty",
+            "ability": "Scrappy",
+            "moves": [
+                "High Jump Kick",
+                "Mega Kick",
+				"Ice Punch",
+				"Fake Out"
+            ]
+		}		
+    },
+
+    "Charizard": {
+        "Elite Four Flint Team 3": {
+            "level": 73,      
+            "item": "Choice Specs", 			
+            "nature": "Modest",
+            "ability": "Levitate",
+            "moves": [
+                "Fire Blast",
+                "Dragon Pulse",
+				"Hurricane",
+				"Solar Beam"
+            ]
+		}		
+    },
+
+    "Torkoal": {
+        "Elite Four Flint Team 4": {
+            "level": 73,      
+            "item": "Focus Sash", 			
+            "nature": "Calm",
+            "ability": "Drought",
+            "moves": [
+                "Fire Blast",
+                "Earth Power",
+				"Stealth Rock",
+				"Solar Beam"
+            ]		
+		}		
+    },
+
+    "Mr. Mime": {
+        "Elite Four Lucian Team 1": {
+            "level": 74,      
+            "item": "Light Clay", 			
+            "nature": "Naive",
+            "ability": "Filter",
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+				"Reflect",
+				"Light Screen"
+            ]	
+		}		
+    },
+
+    "Girafarig": {
+        "Elite Four Lucian Team 2": {
+            "level": 74,      
+            "item": "Colbur Berry", 			
+            "nature": "Hasty",
+            "ability": "Inner Focus",
+            "moves": [
+                "Psychic",
+                "Thunderbolt",
+				"Shadow Ball",
+				"Earthquake"
+            ]	
+		}		
+    },
+
+    "Exeggutor": {
+        "Elite Four Lucian Team 2": {
+            "level": 74,      
+            "item": "Occa Berry", 			
+            "nature": "Quiet",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Psychic",
+                "Giga Drain",
+				"Sleep Powder",
+				"Leech Seed"
             ]			
-        }		
+        },
+        "Elite Four Lucian Team 4": {
+            "level": 74,      
+            "item": "Occa Berry", 			
+            "nature": "Rash",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Psychic",
+                "Giga Drain",
+				"Sleep Powder",
+				"Leech Seed"
+            ]	
+		}		
+    },
+
+    "Hypno": {
+        "Elite Four Lucian Team 3": {
+            "level": 74,      
+            "item": "Light Clay", 			
+            "nature": "Relaxed",
+            "ability": "Insomnia",
+            "moves": [
+                "Psychic",
+                "Hypnosis",
+				"Reflect",
+				"Light Screen"
+            ]	
+		}		
+    },
+
+    "Slowbro": {
+        "Elite Four Lucian Team 3": {
+            "level": 74,      
+            "item": "Leftovers", 			
+            "nature": "Bold",
+            "ability": "Oblivious",
+            "moves": [
+                "Psychic",
+                "Scald",
+				"Flamethrower",
+				"Slack Off"
+            ]
+		}		
+    },
+
+    "Jynx": {
+        "Elite Four Lucian Team 3": {
+            "level": 74,      
+            "item": "White Herb", 			
+            "nature": "Naive",
+            "ability": "Dry Skin",
+            "moves": [
+                "Psycho Boost",
+                "Blizzard",
+				"Petal Dance",
+				"Fake Out"
+            ]
+		}		
+    },
+
+    "Togekiss": {
+        "Champion Cynthia Team 1": {
+            "level": 77,      
+            "item": "Sitrus Berry", 			
+            "nature": "Bold",
+            "ability": "Serene Grace",
+            "moves": [
+                "Air Slash",
+                "Thunder Wave",
+				"Roost",
+				"Moonblast"
+            ]			
+        },	
+        "Champion Cynthia Team 3": {
+            "level": 77,      
+            "item": "Light Clay", 			
+            "nature": "Quiet",
+            "ability": "Serene Grace",
+            "moves": [
+                "Light Screen",
+                "Reflect",
+				"Tailwind",
+				"Moonblast"
+            ]
+		}		
+    },
+
+    "Milotic": {
+        "Champion Cynthia Team 1": {
+            "level": 77,      
+            "item": "Leftovers", 			
+            "nature": "Calm",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Surf",
+                "Ice Beam",
+				"Recover",
+				"Hypnosis"
+            ]
+		},	
+        "Champion Cynthia Team 2": {
+            "level": 77,      
+            "item": "Leftovers", 			
+            "nature": "Bold",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Scald",
+                "Ice Beam",
+				"Light Screen",
+				"Recover"
+            ]
+	    },		
+        "Champion Cynthia Team 3": {
+            "level": 77,      
+            "item": "Leftovers", 			
+            "nature": "Calm",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Scald",
+                "Ice Beam",
+				"Protect",
+				"Recover"
+            ]	
+		},	
+        "Champion Cynthia Team 4": {
+            "level": 77,      
+            "item": "Leftovers", 			
+            "nature": "Calm",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Hydro Pump",
+                "Ice Beam",
+				"Rest",
+				"Sleep Talk"
+            ]	
+		}		
+    },
+
+    "Garchomp": {
+        "Champion Cynthia Team 1": {
+            "level": 78,      
+            "item": "Yache Berry", 			
+            "nature": "Jolly",
+            "ability": "Rough Skin",
+            "moves": [
+                "Earthquake",
+                "Outrage",
+				"Stone Edge",
+				"Swords Dance"
+            ]
+		},	
+        "Champion Cynthia Team 2": {
+            "level": 78,      
+            "item": "Yache Berry", 			
+            "nature": "Hasty",
+            "ability": "Rough Skin",
+            "moves": [
+                "Earthquake",
+                "Outrage",
+				"Stone Edge",
+				"Swords Dance"
+            ]
+	    },		
+        "Champion Cynthia Team 3": {
+            "level": 78,      
+            "item": "Yache Berry", 			
+            "nature": "Hasty",
+            "ability": "Rough Skin",
+            "moves": [
+                "Earthquake",
+                "Outrage",
+				"Stone Edge",
+				"Swords Dance"
+            ]	
+		},	
+        "Champion Cynthia Team 4": {
+            "level": 78,      
+            "item": "Yache Berry", 			
+            "nature": "Hasty",
+            "ability": "Rough Skin",
+            "moves": [
+                "Earthquake",
+                "Outrage",
+				"Stone Edge",
+				"Swords Dance"
+            ]			
+        }			
     }
 }
 
