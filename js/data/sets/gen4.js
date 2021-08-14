@@ -617,7 +617,19 @@ var SETDEX_DPP = {
                 "Protect",
                 "Moonlight"
             ]     
-        }
+        },
+        "Elite Four Aaron Team 3": {
+            "level": 71,
+            "item": "Light Clay",            
+            "nature": "Bold",
+            "ability": "Shield Dust",
+            "moves": [
+                "Bug Buzz",
+                "Sludge Bomb",
+                "Light Screen",
+                "Moonlight"
+            ]     
+        }		
     },
 
     "Beautifly": {
@@ -632,7 +644,19 @@ var SETDEX_DPP = {
                 "Energy Ball",
                 "Psychic"
             ]   
-        }
+        },
+        "Elite Four Aaron Team 3": {
+            "level": 71,
+            "item": "Focus Sash",            
+            "nature": "Mild",
+            "ability": "Swarm",
+            "moves": [
+                "Bug Buzz",
+                "Hurricane",
+                "Energy Ball",
+                "Shadow Ball"
+            ]   
+        }		
     },
 
     "Venomoth": {
@@ -647,7 +671,19 @@ var SETDEX_DPP = {
                 "Sleep Powder",
                 "Psychic"
             ]  
-        }
+        },
+        "Elite Four Aaron Team 2": {
+            "level": 71,
+            "item": "Wise Glasses",            
+            "nature": "Timid",
+            "ability": "Tinted Lens",
+            "moves": [
+                "Bug Buzz",
+                "Sludge Bomb",
+                "Double Team",
+                "Psychic"
+            ]  
+        }		
     },
 
     "Scizor": {
@@ -662,7 +698,31 @@ var SETDEX_DPP = {
                 "Iron Head",
                 "Swords Dance"
             ]  
-        }
+        },
+        "Elite Four Aaron Team 1": {
+            "level": 71,
+            "item": "Life Orb",            
+            "nature": "Adamant",
+            "ability": "Technician",
+            "moves": [
+                "Bug Bite",
+                "Bullet Punch",
+                "Iron Head",
+                "U-turn"
+            ]  
+        },
+        "Elite Four Aaron Team 3": {
+            "level": 71,
+            "item": "Life Orb",            
+            "nature": "Adamant",
+            "ability": "Technician",
+            "moves": [
+                "Bug Bite",
+                "Bullet Punch",
+                "Iron Head",
+                "U-turn"
+            ] 			
+        }		
     },
 
     "Drapion": {
@@ -677,7 +737,55 @@ var SETDEX_DPP = {
                 "Night Slash",
                 "Swords Dance"
             ]   
-        }
+        },
+        "Elite Four Aaron Team 1": {
+            "level": 72,
+            "item": "Scope Lens",            
+            "nature": "Jolly",
+            "ability": "Sniper",
+            "moves": [
+                "X-Scissor",
+                "Cross Poison",
+                "Night Slash",
+                "Earthquake"
+            ]  
+        },
+        "Elite Four Aaron Team 2": {
+            "level": 72,
+            "item": "Scope Lens",            
+            "nature": "Naive",
+            "ability": "Sniper",
+            "moves": [
+                "Aqua Tail",
+                "Cross Poison",
+                "Night Slash",
+                "Earthquake"
+            ]
+        },
+        "Elite Four Aaron Team 3": {
+            "level": 72,
+            "item": "Scope Lens",            
+            "nature": "Naive",
+            "ability": "Sniper",
+            "moves": [
+                "X-Scissor",
+                "Cross Poison",
+                "Night Slash",
+                "Earthquake"
+            ]
+        },
+        "Elite Four Aaron Team 4": {
+            "level": 72,
+            "item": "Scope Lens",            
+            "nature": "Naive",
+            "ability": "Sniper",
+            "moves": [
+                "Aqua Tail",
+                "Cross Poison",
+                "Night Slash",
+                "Earthquake"
+            ]			
+        }		
     },
 
     "Piloswine": {
@@ -959,7 +1067,31 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Stone Edge",
                 "Protect"
-            ] 			
+            ] 	
+		 },	
+        "Elite Four Aaron Team 1": {
+            "level": 71,
+            "item": "Choice Scarf",            
+            "nature": "Adamant",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Protect",
+                "Stone Edge",
+            ] 
+		 },	
+        "Elite Four Aaron Team 3": {
+            "level": 71,
+            "item": "Toxic Orb",            
+            "nature": "Adamant",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Protect",
+                "Stone Edge",
+            ]			
 		}	
     },
 
@@ -1319,7 +1451,19 @@ var SETDEX_DPP = {
                 "Fire Punch",
                 "Mach Punch"
             ]   
-        }
+        },
+        "Elite Four Flint Team 1": {
+            "level": 73,
+            "item": "Expert Belt",            
+            "nature": "Hasty",
+            "ability": "Iron Fist",
+            "moves": [
+                "Close Combat",
+                "Thunder Punch",
+                "Flare Blitz",
+                "Grass Knot"
+            ]   
+        }		
     },
 
     "Gallade": {
@@ -1552,6 +1696,18 @@ var SETDEX_DPP = {
                 "Recover",
                 "Ice Punch"
             ]	
+        },
+        "Elite Four Bertha Team 4": {
+            "level": 72,
+            "item": "Rindo Berry",            
+            "nature": "Adamant",
+            "ability": "Water Absorb",
+            "moves": [
+                "Aqua Tail",
+                "Earthquake",
+                "Recover",
+                "Yawn"
+            ]	
         }
     },
 
@@ -1773,6 +1929,30 @@ var SETDEX_DPP = {
                 "Icicle Crash",
                 "Stone Edge",
                 "Superpower"
+            ]
+        },
+        "Elite Four Bertha Team 3": {
+            "level": 72,
+            "item": "Passho Berry",            
+            "nature": "Jolly",
+            "ability": "Thick Fat",
+            "moves": [
+                "Earthquake",
+                "Icicle Crash",
+                "Stone Edge",
+                "Superpower"
+            ]	
+        },
+        "Elite Four Bertha Team 4": {
+            "level": 72,
+            "item": "Passho Berry",            
+            "nature": "Jolly",
+            "ability": "Thick Fat",
+            "moves": [
+                "Earthquake",
+                "Icicle Crash",
+                "Stone Edge",
+                "Superpower"
             ]			
         }
     },
@@ -1849,7 +2029,31 @@ var SETDEX_DPP = {
                 "Earthquake",
                 "Iron Head",
                 "Crunch"
-            ]				
+            ]	
+        },
+        "Elite Four Bertha Team 2": {
+            "level": 72,  
+            "item": "Leftovers",   			
+            "nature": "Adamant",
+            "ability": "Overgrow",
+            "moves": [
+                "Wood Hammer",
+                "Earthquake",
+                "Stone Edge",
+                "Leech Seed"
+            ]
+        },
+        "Elite Four Bertha Team 4": {
+            "level": 72,  
+            "item": "Leftovers",   			
+            "nature": "Brave",
+            "ability": "Overgrow",
+            "moves": [
+                "Wood Hammer",
+                "Earthquake",
+                "Stone Edge",
+                "Leech Seed"
+            ]			
         }		
     },
 
@@ -2259,7 +2463,19 @@ var SETDEX_DPP = {
                 "Toxic Spikes",
                 "Explosion"
             ]		
-		}
+		},
+        "Elite Four Aaron Team 2": {
+            "level": 71,
+            "item": "Leftovers",            
+            "nature": "Adamant",
+            "ability": "Sturdy",
+            "moves": [
+                "Gyro Ball",
+                "Bug Bite",
+                "Toxic Spikes",
+                "Drill Run"
+            ]		
+		}		
     },
 
     "Bastiodon": {
@@ -2316,6 +2532,30 @@ var SETDEX_DPP = {
                 "Shadow Ball",
                 "Detect"
             ]
+		},
+        "Elite Four Aaron Team 1": {
+            "level": 71,
+            "item": "Wise Glasses",            
+            "nature": "Timid",
+            "ability": "Speed Boost",
+            "moves": [
+                "Bug Buzz",
+                "Hurricane",
+                "Giga Drain",
+                "Protect"
+            ]
+		},
+        "Elite Four Aaron Team 4": {
+            "level": 71,
+            "item": "Wise Glasses",            
+            "nature": "Timid",
+            "ability": "Speed Boost",
+            "moves": [
+                "Bug Buzz",
+                "Hurricane",
+                "Psychic",
+                "Detect"
+            ]			
 		}		
     },
 
@@ -2441,6 +2681,30 @@ var SETDEX_DPP = {
                 "Sludge Bomb",
                 "Nasty Plot"
             ]	
+		},
+        "Elite Four Flint Team 1": {
+            "level": 73,
+            "item": "Choice Scarf",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Dark Pulse",
+                "Fire Blast",
+                "Sludge Bomb",
+                "Solar Beam"
+            ]		
+		},
+        "Elite Four Flint Team 4": {
+            "level": 73,
+            "item": "Choice Specs",            
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Dark Pulse",
+                "Fire Blast",
+                "Sludge Bomb",
+                "Solar Beam"
+            ]			
 		}		
     },
 
@@ -2456,7 +2720,55 @@ var SETDEX_DPP = {
                 "Hammer Arm",
                 "Megahorn"
             ]	
-		}
+		},
+        "Elite Four Bertha Team 1": {
+            "level": 73,
+            "item": "Choice Band",            
+            "nature": "Brave",
+            "ability": "Solid Rock",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Ice Punch",
+                "Megahorn"
+            ]
+		},
+        "Elite Four Bertha Team 2": {
+            "level": 73,
+            "item": "Choice Band",            
+            "nature": "Naughty",
+            "ability": "Solid Rock",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Thunder Punch",
+                "Megahorn"
+            ]	
+		},
+        "Elite Four Bertha Team 3": {
+            "level": 73,
+            "item": "Choice Band",            
+            "nature": "Naughty",
+            "ability": "Solid Rock",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Fire Punch",
+                "Megahorn"
+            ]	
+		},
+        "Elite Four Bertha Team 4": {
+            "level": 73,
+            "item": "Choice Band",            
+            "nature": "Naughty",
+            "ability": "Solid Rock",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+                "Ice Punch",
+                "Megahorn"
+            ]			
+		}		
     },
 
     "Magmortar": {
@@ -2763,7 +3075,31 @@ var SETDEX_DPP = {
                 "Sky Uppercut",
                 "Aerial Ace"
             ]
-		}
+		},
+        "Elite Four Bertha Team 2": {
+            "level": 72,       
+			"item": "Toxic Orb",	
+            "nature": "Impish",
+            "ability": "Poison Heal",
+            "moves": [
+                "Earthquake",
+                "X-Scissor",
+                "Protect",
+                "Roost"
+            ]
+		},
+        "Elite Four Bertha Team 1": {
+            "level": 72,       
+			"item": "Toxic Orb",	
+            "nature": "Naive",
+            "ability": "Poison Heal",
+            "moves": [
+                "Earthquake",
+                "Wing Attack",
+                "Protect",
+                "Roost"
+            ]			
+		}		
     },
 
     "Victreebel": {
@@ -2831,7 +3167,19 @@ var SETDEX_DPP = {
 				"Megahorn",
 				"Jump Kick"
             ]	
-		}
+		},
+        "Elite Four Flint Team 1": {
+            "level": 73, 
+			"item": "Power Herb",
+            "nature": "Hasty",
+            "ability": "Flame Body",
+            "moves": [
+                "Flare Blitz",
+                "Wild Charge",
+				"Megahorn",
+				"Drill Run"
+            ]	
+		}		
     },
 
     "Feraligatr": {
@@ -2922,14 +3270,38 @@ var SETDEX_DPP = {
         "Veteran Clayton": {
             "level": 64,           
             "nature": "Naughty",
-            "ability": "Intimidate",
+            "ability": "Sand Stream",
             "moves": [
                 "Earthquake",
                 "Crunch",
 				"Ice Fang",
 				"Slack Off"
             ]
-		}
+		},
+        "Elite Four Bertha Team 2": {
+            "level": 72,           
+			"item": "Sitrus Berry",
+            "nature": "Naughty",
+            "ability": "Sand Stream",
+            "moves": [
+                "Earthquake",
+                "Crunch",
+				"Stealth Rock",
+				"Slack Off"
+            ]
+		},
+        "Elite Four Bertha Team 1": {
+            "level": 72,           
+			"item": "Leftovers",
+            "nature": "Adamant",
+            "ability": "Sand Stream",
+            "moves": [
+                "Earthquake",
+                "Crunch",
+				"Stealth Rock",
+				"Slack Off"
+            ]			
+		}		
     },
 
     "Pinsir": {
@@ -2943,7 +3315,31 @@ var SETDEX_DPP = {
 				"Stone Edge",
 				"Earthquake"
             ]	
-		}
+		},
+        "Elite Four Aaron Team 2": {
+            "level": 71,
+			"item" : "Expert Belt",
+            "nature": "Adamant",
+            "ability": "Hyper Cutter",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+				"Stone Edge",
+				"Earthquake"
+            ]
+		},
+        "Elite Four Aaron Team 4": {
+            "level": 71,
+			"item" : "Expert Belt",
+            "nature": "Adamant",
+            "ability": "Hyper Cutter",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+				"Stone Edge",
+				"Earthquake"
+            ]			
+		}		
     },
 
     "Hitmonchan": {
@@ -2968,10 +3364,295 @@ var SETDEX_DPP = {
             "moves": [
                 "High Jump Kick",
                 "Blaze Kick",
-		"Quick Attack",
-		"Mega Kick"
+				"Quick Attack",
+				"Mega Kick"
+            ]	
+		}
+    },
+
+    "Vespiquen": {
+        "Elite Four Aaron Team 1": {
+            "level": 71,      
+            "item": "Leftovers", 			
+            "nature": "Brave",
+            "ability": "Intimidate",
+            "moves": [
+                "Attack Order",
+                "Defend Order",
+				"Heal Order",
+				"Hurricane"
+            ]	
+		}
+    },
+
+    "Armaldo": {
+        "Elite Four Aaron Team 1": {
+            "level": 71,      
+            "item": "Choice Band", 			
+            "nature": "Naughty",
+            "ability": "Battle Armor",
+            "moves": [
+                "X-Scissor",
+                "Stone Edge",
+				"Earthquake",
+				"Aqua Tail"
+            ]	
+		},
+        "Elite Four Aaron Team 2": {
+            "level": 71,      
+            "item": "Choice Band", 			
+            "nature": "Adamant",
+            "ability": "Battle Armor",
+            "moves": [
+                "X-Scissor",
+                "Stone Edge",
+				"Earthquake",
+				"Aqua Tail"
+            ]	
+		}		
+    },
+
+    "Scyther": {
+        "Elite Four Aaron Team 2": {
+            "level": 71,      
+            "item": "Life Orb", 			
+            "nature": "Naive",
+            "ability": "Technician",
+            "moves": [
+                "Bug Bite",
+                "Aerial Ace",
+				"Quick Attack",
+				"U-turn"
+            ]
+		},	
+        "Elite Four Aaron Team 4": {
+            "level": 71,      
+            "item": "Life Orb", 			
+            "nature": "Naive",
+            "ability": "Technician",
+            "moves": [
+                "Bug Bite",
+                "Aerial Ace",
+				"Quick Attack",
+				"U-turn"
+            ]
+		}		
+    },
+
+    "Masquerain": {
+        "Elite Four Aaron Team 3": {
+            "level": 71,      
+            "item": "Wise Glasses", 			
+            "nature": "Hasty",
+            "ability": "Intimidate",
+            "moves": [
+                "Hydro Pump",
+                "Bug Buzz",
+				"Hurricane",
+				"Blizzard"
+            ]	
+		}		
+    },
+
+    "Sudowoodo": {
+        "Elite Four Bertha Team 2": {
+            "level": 72,      
+            "item": "Passho Berry", 			
+            "nature": "Relaxed",
+            "ability": "Rock Head",
+            "moves": [
+                "Head Smash",
+                "Wood Hammer",
+				"Sucker Punch",
+				"Hammer Arm"
+            ]	
+		}		
+    },
+
+    "Camerupt": {
+        "Elite Four Bertha Team 2": {
+            "level": 72,      
+            "item": "Focus Sash", 			
+            "nature": "Quiet",
+            "ability": "Solid Rock",
+            "moves": [
+                "Overheat",
+                "Earth Power",
+				"Yawn",
+				"Explosion"
+            ]	
+		}		
+    },
+
+    "Whiscash": {
+        "Elite Four Bertha Team 1": {
+            "level": 72,      
+            "item": "Life Orb", 			
+            "nature": "Careful",
+            "ability": "Oblivious",
+            "moves": [
+                "Aqua Tail",
+                "Earthquake",
+				"Bounce",
+				"Dragon Dance"
+            ]	
+		}		
+    },
+
+    "Golem": {
+        "Elite Four Bertha Team 1": {
+            "level": 72,      
+            "item": "Focus Sash", 			
+            "nature": "Naughty",
+            "ability": "Rock Head",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+				"Thunder Punch",
+				"Explosion"
+            ]
+		}		
+    },
+
+    "Donphan": {
+        "Elite Four Bertha Team 1": {
+            "level": 72,      
+            "item": "Rindo Berry", 			
+            "nature": "Impish",
+            "ability": "Sand Veil",
+            "moves": [
+                "Play Rough",
+                "Earthquake",
+				"Head Smash",
+				"Superpower"
+            ]
+		}		
+    },
+
+    "Tyranitar": {
+        "Elite Four Bertha Team 3": {
+            "level": 72,      
+            "item": "Choice Scarf", 			
+            "nature": "Naughty",
+            "ability": "Sand Stream",
+            "moves": [
+                "Stone Edge",
+                "Crunch",
+				"Earthquake",
+				"Thunder Punch"
+            ]
+		},	
+        "Elite Four Bertha Team 4": {
+            "level": 72,      
+            "item": "Choice Scarf", 			
+            "nature": "Naughty",
+            "ability": "Sand Stream",
+            "moves": [
+                "Stone Edge",
+                "Crunch",
+				"Earthquake",
+				"Fire Punch"
+            ]
+		}			
+    },
+
+    "Swampert": {
+        "Elite Four Bertha Team 3": {
+            "level": 72,      
+            "item": "Lum Berry", 			
+            "nature": "Adamant",
+            "ability": "Torrent",
+            "moves": [
+                "Aqua Tail",
+                "Rest",
+				"Earthquake",
+				"Sleep Talk"
+            ]
+		}		
+    },
+
+    "Dugtrio": {
+        "Elite Four Bertha Team 3": {
+            "level": 72,      
+            "item": "Choice Band", 			
+            "nature": "Naughty",
+            "ability": "Arena Trap",
+            "moves": [
+                "Stone Edge",
+                "Night Slash",
+				"Earthquake",
+				"Aerial Ace"
+            ]	
+		},
+        "Elite Four Bertha Team 4": {
+            "level": 72,      
+            "item": "Choice Band", 			
+            "nature": "Naughty",
+            "ability": "Arena Trap",
+            "moves": [
+                "Stone Edge",
+                "Night Slash",
+				"Earthquake",
+				"Aerial Ace"
+            ]	
+		}		
+    },
+
+    "Claydol": {
+        "Elite Four Bertha Team 3": {
+            "level": 72,      
+            "item": "Light Clay", 			
+            "nature": "Sassy",
+            "ability": "Levitate",
+            "moves": [
+                "Psychic",
+                "Reflect",
+				"Earthquake",
+				"Light Screen"
+            ]	
+		}		
+    },
+
+    "Ninetales": {
+        "Elite Four Flint Team 1": {
+            "level": 73,      
+            "item": "White Herb", 			
+            "nature": "Timid",
+            "ability": "Drought",
+            "moves": [
+                "Overheat",
+                "Solar Beam",
+				"Moonblast",
+				"Confuse Ray"
+            ]				
+        },
+        "Elite Four Flint Team 3": {
+            "level": 73,      
+            "item": "White Herb", 			
+            "nature": "Modest",
+            "ability": "Drought",
+            "moves": [
+                "Overheat",
+                "Solar Beam",
+				"Moonblast",
+				"Hypnosis"
+            ]
+		}		
+    },
+
+    "Flareon": {
+        "Elite Four Bertha Team 1": {
+            "level": 73,      
+            "item": "Choice Band", 			
+            "nature": "Lonely",
+            "ability": "Flash Fire",
+            "moves": [
+                "Flare Blitz",
+                "Play Rough",
+				"Wild Charge",
+				"Close Combat"
             ]			
-        }
+        }		
     }
 }
 
