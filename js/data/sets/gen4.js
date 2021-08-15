@@ -447,7 +447,18 @@ var SETDEX_DPP = {
                 "Force Palm",
                 "Spore",
                 "Stone Edge"
-            ] 	 			
+            ] 
+        },
+        "Black Belt Eddie": {
+            "level": 64,         
+            "nature": "Rash",
+            "ability": "Technician",
+            "moves": [
+                "Seed Bomb",
+                "Sky Uppercut",
+                "Rock Slide",
+                "Thunder Punch"
+            ] 			
         }
     },
 
@@ -538,7 +549,18 @@ var SETDEX_DPP = {
                 "Shadow Claw",
                 "Zen Headbutt",
                 "Sucker Punch"
-            ]   
+            ]  
+        },
+        "Psychic Deandre": {
+            "level": 64,          
+            "nature": "Lonely",
+            "ability": "Magic Guard",
+            "moves": [
+                "Recover",
+                "Shadow Claw",
+                "Knock Off",
+                "Sucker Punch"
+            ]  			
         }		
     },
 
@@ -962,6 +984,17 @@ var SETDEX_DPP = {
                 "Hurricane",
                 "Flamethrower",
                 "Will-O-Wisp"
+            ]	
+		},	
+        "Psychic Desiree": {
+            "level": 64,          
+            "nature": "Gentle",
+            "ability": "Unburden",
+            "moves": [
+                "Shadow Ball",
+                "Hurricane",
+                "Thunderbolt",
+                "Destiny Bond"
             ]			
         }		
     },
@@ -971,14 +1004,25 @@ var SETDEX_DPP = {
             "level": 32,
             "item": "Leftovers",            
             "nature": "Impish",
-            "ability": "Pressure",
+            "ability": "Frisk",
             "moves": [
                 "Shadow Punch",
                 "Will-O-Wisp",
                 "Protect",
                 "Pain Split"
             ]   
-        }
+        },
+        "Psychic Deandre": {
+            "level": 64,          
+            "nature": "Naive",
+            "ability": "Frisk",
+            "moves": [
+                "Shadow Punch",
+                "Toxic",
+                "Ice Beam",
+                "Rock Slide"
+            ]   
+        }		
     },
 
     "Banette": {
@@ -993,7 +1037,18 @@ var SETDEX_DPP = {
                 "Sucker Punch",
                 "Disable"
             ] 
-        }
+        },
+        "Psychic Landon": {
+            "level": 64,          
+            "nature": "Hardy",
+            "ability": "Insomnia",
+            "moves": [
+                "Shadow Claw",
+                "Gunk Shot",
+                "Thunderbolt",
+                "Shadow Sneak"
+            ] 
+        }		
     },
 
     "Spiritomb": {
@@ -1630,7 +1685,18 @@ var SETDEX_DPP = {
                 "Thunder Punch",
                 "Flare Blitz",
                 "Gunk Shot"
-            ]			
+            ]	
+        },
+        "Black Belt Eddie": {
+            "level": 64,          
+            "nature": "Brave",
+            "ability": "Iron Fist",
+            "moves": [
+                "Flare Blitz",
+                "Close Combat",
+                "Grass Knot",
+                "Fake Out"
+            ]				
         }		
     },
 
@@ -1968,7 +2034,18 @@ var SETDEX_DPP = {
                 "Flash Cannon",
                 "Grass Knot",
                 "Blizzard"
-            ] 			
+            ] 
+        },
+        "Veteran Edgar": {
+            "level": 64,        
+            "nature": "Timid",
+            "ability": "Torrent",
+            "moves": [
+                "Hydro Pump",
+                "Flash Cannon",
+                "Drill Peck",
+                "Ice Beam"
+            ] 				
         }		
     },
 
@@ -1996,6 +2073,17 @@ var SETDEX_DPP = {
                 "Recover",
                 "Yawn"
             ]	
+        },
+        "Veteran Terrell": {
+            "level": 66,        
+            "nature": "Hasty",
+            "ability": "Water Absorb",
+            "moves": [
+                "Muddy Water",
+                "Earth Power",
+                "Recover",
+                "Ice Punch"
+            ]			
         }
     },
 
@@ -2044,6 +2132,17 @@ var SETDEX_DPP = {
                 "Ice Fang",
                 "Crunch",
                 "Bounce"
+            ]	
+        },
+        "Dragon Tamer Clinton": {
+            "level": 64,          
+            "nature": "Gentle",
+            "ability": "Intimidate",
+            "moves": [
+                "Aqua Tail",
+                "Ice Fang",
+                "Outrage",
+                "Earthquake"
             ]			
         }		
     },
@@ -2086,7 +2185,18 @@ var SETDEX_DPP = {
                 "Energy Ball",
                 "Fake Out"
             ]	
-        }
+        },
+        "Ace Trainer Micah": {
+            "level": 65,          
+            "nature": "Calm",
+            "ability": "Swift Swim",
+            "moves": [
+                "Hydro Pump",
+                "Zen Headbutt",
+                "Energy Ball",
+                "Fake Out"
+            ]	
+        }		
     },
 
     "Sharpedo": {
@@ -2202,7 +2312,18 @@ var SETDEX_DPP = {
                 "Aura Sphere",
                 "Thunder Wave",
                 "Counter"
-            ]				
+            ]	
+        },
+        "Psychic Landon": {
+            "level": 64,        
+            "nature": "Mild",
+            "ability": "Magic Gaurd",
+            "moves": [
+                "Psychic",
+                "Energy Ball",
+                "Shadow Ball",
+                "Dazzling Gleam"
+            ]			
         }		
     },
 
@@ -2656,7 +2777,18 @@ var SETDEX_DPP = {
                 "Earthquake",
                 "Zen Headbutt",
                 "Explosion"
-            ]				
+            ]		
+		},
+        "Ace Trainer Micah": {
+            "level": 65,          
+            "nature": "Bashful",
+            "ability": "Iron Fist",
+            "moves": [
+                "Meteor Mash",
+                "Bullet Punch",
+                "Zen Headbutt",
+                "Hammer Arm"
+            ]			
         }		
     },
 
@@ -2687,7 +2819,18 @@ var SETDEX_DPP = {
                 "Megahorn",
                 "Play Rough"
             ]
-		}
+		},
+        "Psychic Valencia": {
+            "level": 63,          
+            "nature": "Relaxed",
+            "ability": "Super Luck",
+            "moves": [
+                "Sucker Punch",
+                "Psycho Cut",
+                "Megahorn",
+                "Play Rough"
+            ]
+		}		
     },
 
     "Ursaring": {
@@ -2728,7 +2871,29 @@ var SETDEX_DPP = {
                 "Crunch",
                 "Dragon Dance"
             ]	
-		}
+		},
+        "Dragon Tamer Ondrej": {
+            "level": 64,           
+            "nature": "Modest",
+            "ability": "Intimidate",
+            "moves": [
+                "Dragon Claw",
+                "Zen Headbutt",
+                "Fire Fang",
+                "Thunder Fang"
+            ]	
+		},
+        "Dragon Tamer Joe": {
+            "level": 65,           
+            "nature": "Lonely",
+            "ability": "Intimidate",
+            "moves": [
+                "Outrage",
+                "Fly",
+                "Hydro Pump",
+                "Flamethrower"
+            ]			
+		}		
     },
 
     "Slaking": {
@@ -2930,7 +3095,18 @@ var SETDEX_DPP = {
                 "Hammer Arm",
                 "Crunch",
                 "Fake Out"
-            ]		
+            ]	
+		},
+        "Ace Trainer Brandi": {
+            "level": 65,         
+            "nature": "Quiet",
+            "ability": "Scrappy",
+            "moves": [
+                "Body Slam",
+                "Hammer Arm",
+                "Crunch",
+                "Outrage"
+            ]				
 		}		
     },
 
@@ -3064,7 +3240,18 @@ var SETDEX_DPP = {
                 "Fire Blast",
                 "Sludge Bomb",
                 "Solar Beam"
-            ]			
+            ]	
+		},
+        "Veteran Terrell": {
+            "level": 66,          
+            "nature": "Serious",
+            "ability": "Intimidate",
+            "moves": [
+                "Dark Pulse",
+                "Fire Blast",
+                "Sludge Bomb",
+                "Will-O-Wisp"
+            ]				
 		}		
     },
 
@@ -3255,6 +3442,17 @@ var SETDEX_DPP = {
                 "Ancient Power",
                 ""
             ]
+		},
+        "Veteran Edgar": {
+            "level": 64,            
+            "nature": "Naughty",
+            "ability": "Chlorophyll",
+            "moves": [
+                "Power Whip",
+                "Earthquake",
+                "Rock Slide",
+                "Stun Spore"
+            ]			
 		}		
     },
 
@@ -3593,6 +3791,17 @@ var SETDEX_DPP = {
 				"Earth Power",
 				"Solar Beam"
             ]	
+		},
+        "Veteran Edgar": {
+            "level": 64,   
+            "nature": "Gentle",
+            "ability": "Adaptability",
+            "moves": [
+                "Eruption",
+                "Focus Blast",
+				"Earth Power",
+				"Thunder Punch"
+            ]			
 		}		
     },
 
@@ -4027,6 +4236,17 @@ var SETDEX_DPP = {
 				"Thunder Punch",
 				"Explosion"
             ]
+		},	
+        "Veteran Edgar": {
+            "level": 64,      			
+            "nature": "Hardy",
+            "ability": "Rock Head",
+            "moves": [
+                "Stone Edge",
+                "Earthquake",
+				"Hammer Arm",
+				"Explosion"
+            ]
 		}		
     },
 
@@ -4222,7 +4442,18 @@ var SETDEX_DPP = {
 				"Hurricane",
 				"Solar Beam"
             ]
-		}		
+		},	
+        "Dragon Tamer Ondrej": {
+            "level": 64,      			
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Flamethrower",
+                "Dragon Pulse",
+				"Hurricane",
+				"Crunch"
+            ]
+		}			
     },
 
     "Torkoal": {
@@ -4252,6 +4483,17 @@ var SETDEX_DPP = {
 				"Reflect",
 				"Light Screen"
             ]	
+		},
+        "Psychic Desiree": {
+            "level": 64,      			
+            "nature": "Impish",
+            "ability": "Filter",
+            "moves": [
+                "Psychic",
+                "Dazzling Gleam",
+				"Reflect",
+				"Light Screen"
+            ]	
 		}		
     },
 
@@ -4266,6 +4508,17 @@ var SETDEX_DPP = {
                 "Thunderbolt",
 				"Shadow Ball",
 				"Earthquake"
+            ]	
+		},
+        "Psychic Landon": {
+            "level": 64,      			
+            "nature": "Brave",
+            "ability": "Inner Focus",
+            "moves": [
+                "Psychic",
+                "Thunderbolt",
+				"Hyper Beam",
+				"Dazzling Gleam"
             ]	
 		}		
     },
@@ -4309,7 +4562,18 @@ var SETDEX_DPP = {
 				"Reflect",
 				"Light Screen"
             ]	
-		}		
+		},
+        "Psychic Desiree": {
+            "level": 64,      		
+            "nature": "Naughty",
+            "ability": "Insomnia",
+            "moves": [
+                "Protect",
+                "Drain Punch",
+				"Zen Headbutt",
+				"Swagger"
+            ]	
+		}			
     },
 
     "Slowbro": {
@@ -4339,7 +4603,18 @@ var SETDEX_DPP = {
 				"Petal Dance",
 				"Fake Out"
             ]
-		}		
+		},
+        "Ace Trainer Brandi": {
+            "level": 65,      		
+            "nature": "Adamant",
+            "ability": "Dry Skin",
+            "moves": [
+                "Psychic",
+                "Ice Beam",
+				"Lovely Kiss",
+				"Focus Blast"
+            ]
+		}			
     },
 
     "Togekiss": {
@@ -4467,6 +4742,266 @@ var SETDEX_DPP = {
                 "Outrage",
 				"Stone Edge",
 				"Swords Dance"
+            ]	
+		}		
+    },
+
+    "Chimecho": {
+        "Psychic Valencia": {
+            "level": 63,      		
+            "nature": "Bashful",
+            "ability": "Levitate",
+            "moves": [
+                "Psychic",
+                "Hypnosis",
+				"Double Team",
+				"Energy Ball"
+            ]	
+		}		
+    },
+
+    "Dusknoir": {
+        "Psychic Valencia": {
+            "level": 63,      		
+            "nature": "Lax",
+            "ability": "Iron Fist",
+            "moves": [
+                "Shadow Punch",
+                "Earthquake",
+				"Shadow Sneak",
+				"Payback"
+            ]	
+		},
+        "Psychic Deandre": {
+            "level": 64,      		
+            "nature": "Brave",
+            "ability": "Iron Fist",
+            "moves": [
+                "Shadow Force",
+                "Rock Slide",
+				"Fire Punch",
+				"Thunder Punch"
+            ]	
+		}		
+    },
+
+    "Grumpig": {
+        "Psychic Valencia": {
+            "level": 63,      		
+            "nature": "Bold",
+            "ability": "Thick Fat",
+            "moves": [
+                "Psychic",
+                "Power Gem",
+				"Shadow Ball",
+				"Confuse Ray"
+            ]
+		}		
+    },
+
+    "Kingdra": {
+        "Dragon Tamer Ondrej": {
+            "level": 64,      		
+            "nature": "Careful",
+            "ability": "Swift Swim",
+            "moves": [
+                "Muddy Water",
+                "Dragon Pulse",
+				"Ice Beam",
+				"Signal Beam"
+            ]
+		},
+        "Dragon Tamer Joe": {
+            "level": 65,      		
+            "nature": "Hardy",
+            "ability": "Swift Swim",
+            "moves": [
+                "Waterfall",
+                "Outrage",
+				"Ice Beam",
+				"Dragon Dance"
+            ]
+		}		
+    },
+
+    "Altaria": {
+        "Dragon Tamer Ondrej": {
+            "level": 64,      		
+            "nature": "Rash",
+            "ability": "Cloud Nine",
+            "moves": [
+                "Flamethrower",
+                "Dragon Pulse",
+				"Ice Beam",
+				"Hurricane"
+            ]
+		}		
+    },
+
+    "Porygon-Z": {
+        "Veteran Edgar": {
+            "level": 64,      		
+            "nature": "Modest",
+            "ability": "Adaptability",
+            "moves": [
+                "Hyper Beam",
+                "Psychic",
+				"Ice Beam",
+				"Thunderbolt"
+            ]	
+		}		
+    },
+
+    "Flygon": {
+        "Dragon Tamer Clinton": {
+            "level": 64,      		
+            "nature": "Sassy",
+            "ability": "Compound Eyes",
+            "moves": [
+                "Bug Buzz",
+                "Dragon Pulse",
+				"Earth Power",
+				"Hurricane"
+            ]	
+		}		
+    },
+
+    "Dragonite": {
+        "Dragon Tamer Clinton": {
+            "level": 64,      		
+            "nature": "Sassy",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Dragon Rush",
+                "Fire Blast",
+				"Blizzard",
+				"Hurricane"
+            ]
+		}		
+    },
+
+    "Aerodactyl": {
+        "Dragon Tamer Clinton": {
+            "level": 64,      		
+            "nature": "Lax",
+            "ability": "Rock Head",
+            "moves": [
+                "Stone Edge",
+                "Iron Head",
+				"Brave Bird",
+				"Fire Fang"
+            ]	
+		}		
+    },
+
+    "Blaziken": {
+        "Ace Trainer Micah": {
+            "level": 65,      		
+            "nature": "Hasty",
+            "ability": "Speed Boost",
+            "moves": [
+                "Fire Blast",
+                "High Jump Kick",
+				"Brave Bird",
+				"Quick Attack"
+            ]
+		}		
+    },
+
+    "Nidoqueen": {
+        "Ace Trainer Brandi": {
+            "level": 65,      		
+            "nature": "Naive",
+            "ability": "Poison Point",
+            "moves": [
+                "Sludge Bomb",
+                "Earth Power",
+				"Ice Beam",
+				"Thunderbolt"
+            ]	
+		}		
+    },
+
+    "Primeape": {
+        "Black Belt Eddie": {
+            "level": 64,      		
+            "nature": "Gentle",
+            "ability": "Vital Spirit",
+            "moves": [
+                "Close Combat",
+                "Rock Slide",
+				"Night Slash",
+				"Outrage"
+            ]	
+		}		
+    },
+
+    "Parasect": {
+        "Veteran Terrell": {
+            "level": 66,      		
+            "nature": "Calm",
+            "ability": "Effect Spore",
+            "moves": [
+                "Leech Life",
+                "Seed Bomb",
+				"Spore",
+				"Cross Poison"
+            ]	
+		}		
+    },
+
+    "Dragonair": {
+        "Veteran Terrell": {
+            "level": 65,      		
+            "nature": "Impish",
+            "ability": "Marvel Scale",
+            "moves": [
+                "Flamethrower",
+                "Ice Beam",
+				"Thunderbolt",
+				"Dragon Pulse"
+            ]	
+		}		
+    },
+
+    "Xatu": {
+        "Bird Keeper Autumn": {
+            "level": 64,      		
+            "nature": "Mild",
+            "ability": "Synchronize",
+            "moves": [
+                "Psychic",
+                "Air Slash",
+				"Giga Drain",
+				"Tailwind"
+            ]
+		}		
+    },
+
+    "Pelipper": {
+        "Bird Keeper Autumn": {
+            "level": 64,      		
+            "nature": "Gentle",
+            "ability": "Drizzle",
+            "moves": [
+                "Hydro Pump",
+                "Hurricane",
+				"Ice Beam",
+				"Shock Wave"
+            ]	
+		}		
+    },
+
+    "Delibird": {
+        "Bird Keeper Autumn": {
+            "level": 64,      		
+            "nature": "Quiet",
+            "ability": "Technician",
+            "moves": [
+                "Present",
+                "Hurricane",
+				"Ice Beam",
+				"Fake Out"
             ]			
         }			
     }
