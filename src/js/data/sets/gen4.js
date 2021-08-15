@@ -1643,7 +1643,7 @@ var SETDEX_DPP = {
 		    "Fire Punch",
 		    "Ice Punch"
 				]
-		 },
+		},
         "Elite Four Lucian Team 2": {
             "level": 74,
             "item": "Choice Scarf",            
@@ -2241,7 +2241,8 @@ var SETDEX_DPP = {
                 "Energy Ball",
                 "Fake Out"
             ]	
-        },
+		  }
+      },
 		 "Arcade Star Dahlia": {
 			 "level": 63,
 			 "item": "Life Orb",
@@ -4907,6 +4908,7 @@ var SETDEX_DPP = {
 			     "Ice Punch",
 			     "Drain Punch"
 				 ]
+		 }
     },
 
     "Grumpig": {
@@ -5029,6 +5031,7 @@ var SETDEX_DPP = {
 				"Brave Bird",
 				"Quick Attack"
             ]
+		  }
 		},		
 		 "Arcade Star Dahlia": {
 			   "level": 63,
