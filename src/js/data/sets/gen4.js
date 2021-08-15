@@ -5180,6 +5180,9 @@ var SETDEX_DPP = {
 				  "Heat Wave",
 			     "Drill Peck",
 			     "Light Screen"
+				 ]
+		 }
+}
 			 
 			
 			
