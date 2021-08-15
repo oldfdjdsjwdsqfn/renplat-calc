@@ -1242,6 +1242,17 @@ var SETDEX_DPP = {
                 "Close Combat",
                 "Protect",
                 "Stone Edge",
+            ]	
+		 },	
+        "Black Belt Willie": {
+            "level": 64,          
+            "nature": "Quirky",
+            "ability": "Guts",
+            "moves": [
+                "Megahorn",
+                "Close Combat",
+                "Rock Slide",
+                "Bullet Seed",
             ]			
 		}	
     },
@@ -1512,7 +1523,18 @@ var SETDEX_DPP = {
                 "Cross Chop",
                 "Fake Out",
                 "Ice Punch"
-            ]			
+            ]	
+        },
+        "Black Belt Willie": {
+            "level": 64,
+            "nature": "Bold",
+            "ability": "Dry Skin",
+            "moves": [
+                "Gunk Shot",
+                "Drain Punch",
+                "Fake Out",
+                "Sucker Punch"
+            ]				
         }
     },
 
@@ -1646,7 +1668,18 @@ var SETDEX_DPP = {
                 "Payback",
                 "Counter",
                 "Stone Edge"
-            ]     
+            ]  
+        },
+        "Black Belt Willie": {
+            "level": 64,            
+            "nature": "Quiet",
+            "ability": "Guts",
+            "moves": [
+                "Close Combat",
+                "Payback",
+                "Thunder Punch",
+                "Ice Punch"
+            ]			
         }		
     },
 
@@ -2987,7 +3020,18 @@ var SETDEX_DPP = {
                 "Bug Bite",
                 "Toxic Spikes",
                 "Drill Run"
-            ]		
+            ]	
+		},
+        "Veteran Brenden": {
+            "level": 66,          
+            "nature": "Lonely",
+            "ability": "Sturdy",
+            "moves": [
+                "Gyro Ball",
+                "Bug Bite",
+                "Payback",
+                "Protect"
+            ]				
 		}		
     },
 
@@ -3190,7 +3234,18 @@ var SETDEX_DPP = {
                 "Thunderbolt",
                 "Attract"
             ]	
-		}
+		},
+        "Psychic Kendra": {
+            "level": 64,          
+            "nature": "Impish",
+            "ability": "Levitate",
+            "moves": [
+                "Blizzard",
+                "Shadow Ball",
+                "Thunderbolt",
+                "Captivate"
+            ]	
+		}		
     },
 
     "Houndoom": {
@@ -4262,7 +4317,18 @@ var SETDEX_DPP = {
 				"Head Smash",
 				"Superpower"
             ]
-		}		
+		},	
+        "Veteran Brenden": {
+            "level": 66,      			
+            "nature": "Bold",
+            "ability": "Sand Veil",
+            "moves": [
+                "Play Rough",
+                "Earthquake",
+				"Head Smash",
+				"Ice Shard"
+            ]
+		}			
     },
 
     "Tyranitar": {
@@ -4757,6 +4823,17 @@ var SETDEX_DPP = {
 				"Double Team",
 				"Energy Ball"
             ]	
+		},
+        "Psychic Kendra": {
+            "level": 64,      		
+            "nature": "Timid",
+            "ability": "Levitate",
+            "moves": [
+                "Psychic",
+                "Shadow Ball",
+				"Charge Beam",
+				"Energy Ball"
+            ]	
 		}		
     },
 
@@ -5002,7 +5079,35 @@ var SETDEX_DPP = {
                 "Hurricane",
 				"Ice Beam",
 				"Fake Out"
-            ]			
+            ]		
+		}		
+    },
+
+    "Wobbuffet": {
+        "Psychic Kendra": {
+            "level": 64,      		
+            "nature": "Lax",
+            "ability": "Shadow Tag",
+            "moves": [
+                "Counter",
+                "Mirror Coat",
+				"Encore",
+				"Destiny Bond"
+            ]	
+		}		
+    },
+
+    "Kabutops": {
+        "Veteran Brenden": {
+            "level": 66,      		
+            "nature": "Naive",
+            "ability": "Swift Swim",
+            "moves": [
+                "Stone Edge",
+                "Aqua Tail",
+				"Night Slash",
+				"Aqua Jet"
+            ]				
         }			
     }
 }
