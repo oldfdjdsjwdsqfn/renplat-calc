@@ -5113,16 +5113,16 @@ var SETDEX_DPP = {
 	
 	 "Blaziken": {
 		 "Arcade Star Dahlia": {
-			 "level": 63,
-			 "item": "Focus Sash",
-			 "nature": "Gentle",
-			 "ability": "Speed Boost",
-			 "moves": [
-				  "Swords Dance",
-				  "Baton Pass",
-			 "High Jump Kick",
-			 "Blaze Kick"
-			 ]
+			   "level": 63,
+			   "item": "Focus Sash",
+			   "nature": "Gentle",
+			   "ability": "Speed Boost",
+			   "moves": [
+				    "Swords Dance",
+				    "Baton Pass",
+			   "High Jump Kick",
+			   "Blaze Kick"
+			   ]
 		 }
 	},
 	
@@ -5133,8 +5133,8 @@ var SETDEX_DPP = {
 			 "nature": "Lonely",
 			 "ability": "Iron Fist",
 			 "moves": [
-				 "Shadow Punch",
-				 "Thunder Punch",
+				   "Shadow Punch",
+				   "Thunder Punch",
 			 "Ice Punch",
 			 "Drain Punch"
 			 ]
@@ -5148,8 +5148,8 @@ var SETDEX_DPP = {
 		   "nature": "Adamant",
 		   "ability": "Pure Power",
 		   "moves": [
-			   "High Jump Kick",
-			   "Zen Headbutt",
+			     "High Jump Kick",
+			     "Zen Headbutt",
 		    "Fire Punch",
 		    "Ice Punch"
 		    ]
@@ -5163,8 +5163,8 @@ var SETDEX_DPP = {
 			 "nature": "Rash",
 			 "ability": "Serene Grace",
 			 "moves": [
-				 "Hurricane",
-				 "Moonblast",
+				   "Hurricane",
+				   "Moonblast",
 			 "Aura Sphere",
 			 "Flamethrower"
 			 ]
@@ -5178,8 +5178,8 @@ var SETDEX_DPP = {
 			 "nature": "Mild",
 			 "ability": "Swift Swim",
 			 "moves": [
-				 "Hydro Pump",
-				 "Giga Drain",
+			  	   "Hydro Pump",
+				   "Giga Drain",
 			 "Ice Beam",
 			 "Fake Out"
 			 ]
@@ -5193,8 +5193,8 @@ var SETDEX_DPP = {
 			 "nature": "Gentle",
 			 "ability": "Pressure",
 			 "moves": [
-				  "Thunderbolt",
-				  "Heat Wave",
+				   "Thunderbolt",
+				   "Heat Wave",
 			 "Drill Peck",
 			 "Light Screen"
 			 ]
