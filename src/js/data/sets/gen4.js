@@ -1630,8 +1630,20 @@ var SETDEX_DPP = {
                 "Zen Headbutt",
                 "Ice Punch",
                 "Fake Out"
-            ]    
+            ]    			 
         },
+		 "Arcade Star Dahlia": {
+		   "level": 63,
+		   "item": "Choice Scarf",
+		   "nature": "Adamant",
+		   "ability": "Pure Power",
+		   "moves": [
+			     "High Jump Kick",
+			     "Zen Headbutt",
+		    "Fire Punch",
+		    "Ice Punch"
+				]
+		 },
         "Elite Four Lucian Team 2": {
             "level": 74,
             "item": "Choice Scarf",            
@@ -2217,8 +2229,8 @@ var SETDEX_DPP = {
                 "Ice Beam",
                 "Energy Ball",
                 "Fake Out"
-            ]	
-        },
+            ]				 
+		  },
         "Ace Trainer Micah": {
             "level": 65,          
             "nature": "Calm",
@@ -2229,7 +2241,19 @@ var SETDEX_DPP = {
                 "Energy Ball",
                 "Fake Out"
             ]	
-        }		
+        },
+		 "Arcade Star Dahlia": {
+			 "level": 63,
+			 "item": "Life Orb",
+			 "nature": "Mild",
+			 "ability": "Swift Swim",
+			 "moves": [
+			  	  "Hydro Pump",
+				  "Giga Drain",
+			     "Ice Beam",
+			     "Fake Out"
+				 ]
+		 }
     },
 
     "Sharpedo": {
@@ -4684,6 +4708,18 @@ var SETDEX_DPP = {
     },
 
     "Togekiss": {
+		 "Arcade Star Dahlia": {
+			 "level": 63,
+			 "item": "Wise Glasses",
+			 "nature": "Rash",
+			 "ability": "Serene Grace",
+			 "moves": [
+				   "Hurricane",
+				   "Moonblast",
+			 "Aura Sphere",
+			 "Flamethrower"
+				 ]
+		 },
         "Champion Cynthia Team 1": {
             "level": 77,      
             "item": "Sitrus Berry", 			
@@ -4859,7 +4895,18 @@ var SETDEX_DPP = {
 				"Fire Punch",
 				"Thunder Punch"
             ]	
-		}		
+		},
+	 	 "Arcade Star Dahlia": {
+			 "level": 63,
+			 "item": "Lum Berry",
+			 "nature": "Lonely",
+			 "ability": "Iron Fist",
+			 "moves": [
+				  "Shadow Punch",
+				  "Thunder Punch",
+			     "Ice Punch",
+			     "Drain Punch"
+				 ]
     },
 
     "Grumpig": {
@@ -4982,7 +5029,19 @@ var SETDEX_DPP = {
 				"Brave Bird",
 				"Quick Attack"
             ]
-		}		
+		},		
+		 "Arcade Star Dahlia": {
+			   "level": 63,
+			   "item": "Focus Sash",
+			   "nature": "Gentle",
+			   "ability": "Speed Boost",
+			   "moves": [
+				    "Swords Dance",
+				    "Baton Pass",
+			       "High Jump Kick",
+			       "Blaze Kick"
+	             ]
+         }
     },
 
     "Nidoqueen": {
@@ -5110,97 +5169,18 @@ var SETDEX_DPP = {
             ]				
         }			
     },
-	
-	 "Blaziken": {
-		 "Arcade Star Dahlia": {
-			   "level": 63,
-			   "item": "Focus Sash",
-			   "nature": "Gentle",
-			   "ability": "Speed Boost",
-			   "moves": [
-				    "Swords Dance",
-				    "Baton Pass",
-			   "High Jump Kick",
-			   "Blaze Kick"
-			   ]
-		 }
-	},
-	
- 	 "Dusknoir": {
-	 	 "Arcade Star Dahlia": {
-			 "level": 63,
-			 "item": "Lum Berry",
-			 "nature": "Lonely",
-			 "ability": "Iron Fist",
-			 "moves": [
-				   "Shadow Punch",
-				   "Thunder Punch",
-			 "Ice Punch",
-			 "Drain Punch"
-			 ]
-		 }
-	},
-	
-	 "Medicham": {
-		 "Arcade Star Dahlia": {
-		   "level": 63,
-		   "item": "Choice Scarf",
-		   "nature": "Adamant",
-		   "ability": "Pure Power",
-		   "moves": [
-			     "High Jump Kick",
-			     "Zen Headbutt",
-		    "Fire Punch",
-		    "Ice Punch"
-		    ]
-	    }
-	},
-	
-	 "Togekiss": {
-		 "Arcade Star Dahlia": {
-			 "level": 63,
-			 "item": "Wise Glasses",
-			 "nature": "Rash",
-			 "ability": "Serene Grace",
-			 "moves": [
-				   "Hurricane",
-				   "Moonblast",
-			 "Aura Sphere",
-			 "Flamethrower"
-			 ]
-		 }
-	},
-	
-	 "Ludicolo": {
-		 "Arcade Star Dahlia": {
-			 "level": 63,
-			 "item": "Life Orb",
-			 "nature": "Mild",
-			 "ability": "Swift Swim",
-			 "moves": [
-			  	   "Hydro Pump",
-				   "Giga Drain",
-			 "Ice Beam",
-			 "Fake Out"
-			 ]
-		 }
-	},
-	
-	 "Zapdos": {
+	"Zapdos": {
 		 "Arcade Star Dahlia": {
 			 "level": 63,
 			 "item": "Sitrus Berry",
 			 "nature": "Gentle",
 			 "ability": "Pressure",
 			 "moves": [
-				   "Thunderbolt",
-				   "Heat Wave",
-			 "Drill Peck",
-			 "Light Screen"
-			 ]
-		 }
-	 }
-}
+				  "Thunderbolt",
+				  "Heat Wave",
+			     "Drill Peck",
+			     "Light Screen"
+			 
 			
 			
 	
